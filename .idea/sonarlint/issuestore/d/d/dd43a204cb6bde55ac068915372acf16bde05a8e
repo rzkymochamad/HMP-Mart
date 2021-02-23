@@ -1,0 +1,24 @@
+
+?
+java:S1185ò"(Remove this method to simply inherit it.(Ù«µ§
+W	java:S125ù"<This block of commented-out lines of code should be removed.(•”›âúÿÿÿÿ
+|
+java:S1450-"aRemove the "recyclerViewRating" field and declare it as a local variable in the relevant methods.(Ì´ÊÙÿÿÿÿÿ
+l
+java:S1450+"VRemove the "txtMenu" field and declare it as a local variable in the relevant methods.(êÄÞÖ
+^
+java:S1128"CRemove this unused import 'com.haris.shopping.CustomUtil.GlideApp'.(‹ˆÁ‰ÿÿÿÿÿ
+e
+java:S1192œ"NDefine a constant instead of duplicating this literal "functionality" 3 times.(ÿÜŠå
+M
+java:S1874Œ"6Remove this use of "BitmapDrawable"; it is deprecated.(ÆŸîÚ
+b
+java:S1128"LRemove this unused import 'com.makeramen.roundedimageview.RoundedImageView'.(Üèƒõ
+X	java:S110)"<This class has 9 parents which is greater than 5 authorized.(‚ˆÒ‹8­™Ðè.
+r
+java:S1450,"\Remove the "layoutManager" field and declare it as a local variable in the relevant methods.(áÓøÒ
+˜
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ªÉã˜
+r
+java:S1128"WRemove this unused import 'com.haris.shopping.AdapterUtil.SimpleDividerItemDecoration'.(àþÜ÷ÿÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ßƒá»ÿÿÿÿÿ

@@ -1,0 +1,7 @@
+
+{	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(ÌñÚ÷úÿÿÿÿ8×ò¢½í.
+N
+java:S1874Œ"0Remove this use of "fromHtml"; it is deprecated.(™®¤´8×ò¢½í.
+w
+java:S2293Â"YReplace the type specification in this constructor call with the diamond operator ("<>").(î›êÜ8×ò¢½í.
+X	java:S110F"<This class has 9 parents which is greater than 5 authorized.(Åç•…8µ¾½í.

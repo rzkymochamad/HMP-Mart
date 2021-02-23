@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:backgroundTint="?attr/colorBackgroundSecondary"
+        android:orientation="vertical">
+
+
+        <include
+            layout="@layout/menu_dark_layout"
+            android:layout_width="match_parent"
+            android:layout_height="55dp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view_cart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            ></androidx.recyclerview.widget.RecyclerView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardUseCompatPadding="false"
+            app:cardElevation="2dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="?attr/colorBackgroundTertiary"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+
+                <LinearLayout
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:visibility="invisible"
+                    android:gravity="center">
+
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:padding="1dp"
+                        android:src="@drawable/ic_wish_list_cart"
+                        android:tint="?attr/colorBackgroundQuinary"></ImageView>
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:paddingStart="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingEnd="5dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical|end">
+
+                    <com.mg.shopping.textviewutil.LabelTextview
+                        android:id="@+id/txt_currency_symbol"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="?attr/colorTextQuinary"
+                        android:textSize="@dimen/lb_txt_size"
+                        android:layout_marginEnd="5dp"></com.mg.shopping.textviewutil.LabelTextview>
+
+
+                    <com.mg.shopping.textviewutil.LabelTextview
+                        android:id="@+id/txt_price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="?attr/colorTextQuinary"
+                        android:textSize="@dimen/lb_txt_size"
+                        android:layout_marginEnd="15dp"></com.mg.shopping.textviewutil.LabelTextview>
+
+                    <com.jcminarro.roundkornerlayout.RoundKornerLinearLayout
+                        android:id="@+id/layout_add_to_cart"
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:gravity="center"
+                        app:corner_radius="10dp"
+                        android:background="?attr/colorBackgroundSenary">
+
+
+                        <com.mg.shopping.textviewutil.NormalTextview
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/nm_txt_size"
+                            android:textColor="?attr/colorTextTertiary"
+                            android:text="@string/checkout"></com.mg.shopping.textviewutil.NormalTextview>
+
+
+                    </com.jcminarro.roundkornerlayout.RoundKornerLinearLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+    
+
+</RelativeLayout>

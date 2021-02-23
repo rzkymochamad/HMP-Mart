@@ -1,0 +1,66 @@
+
+u
+java:S1192¸"WDefine a constant instead of duplicating this literal "retrieve_store_product" 4 times.(ù¡½Ñ8ê×ŸÍè.
+U
+java:S1117¥"?Rename "dataAdapter" which hides the field declared at line 53.(“ÊŠn
+J
+java:S1128"4Remove this unused import 'android.widget.EditText'.(†Å›Ú
+?
+java:S1185í"(Remove this method to simply inherit it.(Ù«µ§
+i
+java:S1871ø"MThis branch's code block is the same as the block for the branch on line 374.(àïÁšûÿÿÿÿ
+?
+java:S1125ì"(Remove the literal "true" boolean value.(¾Ëøü
+?
+java:S1125Ô"(Remove the literal "true" boolean value.(Á„·±
+g	java:S117–"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İ¨÷Ø
+f
+java:S1128"QRemove this unused import 'com.haris.shopping.JsonUtil.SpecificProductUtil.Item'.(ùÜ…!
+w
+java:S2293“"YReplace the type specification in this constructor call with the diamond operator ("<>").(—›Øì8ê×ŸÍè.
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ßƒá»ÿÿÿÿÿ
+^
+java:S1128"CRemove this unused import 'com.haris.shopping.CustomUtil.GlideApp'.(‹ˆÁ‰ÿÿÿÿÿ
+W	java:S125ÿ"<This block of commented-out lines of code should be removed.(ò‘ºÕûÿÿÿÿ
+D
+java:S1125Ú"(Remove the literal "true" boolean value.(æÎÌöüÿÿÿÿ
+?
+java:S1125à"(Remove the literal "true" boolean value.(‚€×ß
+v
+java:S14502"[Remove the "layoutFilter" field and declare it as a local variable in the relevant methods.(ÕÔşŠÿÿÿÿÿ
+Z
+java:S1117ª">Rename "dataObject" which hides the field declared at line 55.(‰±´Òøÿÿÿÿ
+Z
+java:S1117Æ"CRename "objectArrayList" which hides the field declared at line 54.( §Í³
+?
+java:S1125œ"(Remove the literal "true" boolean value.(¸Õ²
+p
+java:S3776‘"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(¡é††8ê×ŸÍè.
+I
+java:S10687".Remove this unused "dataObject" private field.(ÖÓÙæşÿÿÿÿ
+Q	java:S110-"<This class has 9 parents which is greater than 5 authorized.(¤ó¥š
+k	java:S116D"QRename this field "ctg_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»µ¢ûøÿÿÿÿ
+s
+java:S1450."XRemove the "imageBack" field and declare it as a local variable in the relevant methods.(äš›ùÿÿÿÿ
+l
+java:S1128"VRemove this unused import 'com.haris.shopping.JsonUtil.SpecificProductUtil.Attribute'.(ÎİúÄ
+U
+java:S1117ô"?Rename "dataAdapter" which hides the field declared at line 53.(“ÊŠn
+D
+java:S1125æ"(Remove the literal "true" boolean value.(ˆò¢Şüÿÿÿÿ
+?
+java:S1125›"(Remove the literal "true" boolean value.(õ‹Ğ
+e
+java:S1128"ORemove this unused import 'com.haris.shopping.JsonUtil.AllCategoryUtil.Datum_'.(ºÚı¼
+j
+java:S1128 "TRemove this unused import 'com.jcminarro.roundkornerlayout.RoundKornerLinearLayout'.(ÄÁ“˜
+U
+java:S1135Ş"2Complete the task associated to this TODO comment.(±¢ÅÖıÿÿÿÿ8ê×ŸÍè.
+Z
+java:S1117"CRename "objectArrayList" which hides the field declared at line 54.( §Í³
+K
+java:S10682"0Remove this unused "layoutFilter" private field.(ÕÔşŠÿÿÿÿÿ
+s
+java:S14508"XRemove the "txtSearch" field and declare it as a local variable in the relevant methods.(¾‹Š†üÿÿÿÿ
+?
+java:S1125"(Remove the literal "true" boolean value.(Ê×ÂÔ

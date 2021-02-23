@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:id="@+id/layout_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="190dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/image_category"
+            android:layout_width="110dp"
+            android:layout_height="110dp"></androidx.appcompat.widget.AppCompatImageView>
+
+        <com.mg.shopping.textviewutil.NormalTextview
+            android:id="@+id/txt_category_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/sm_txt_size"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="?attr/colorTextQuinary"
+            android:text="Creative Watches"></com.mg.shopping.textviewutil.NormalTextview>
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

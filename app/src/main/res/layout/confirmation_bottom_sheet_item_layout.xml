@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="0dp"
+        android:orientation="vertical">
+
+
+        <com.mg.shopping.textviewutil.LabelTextview
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/lb_txt_size"
+            android:textColor="?attr/colorTextQuinary"
+            android:text="@string/confirmation_message"></com.mg.shopping.textviewutil.LabelTextview>
+
+
+        <com.mg.shopping.textviewutil.NormalTextview
+            android:id="@+id/txt_tagline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="?attr/colorTextQuinary"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:textSize="@dimen/nm_txt_size"
+            android:text="@string/want_to_create_dispute"></com.mg.shopping.textviewutil.NormalTextview>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="150dp"
+            android:layout_marginBottom="0dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="right|end"
+            android:gravity="center">
+
+
+            <com.mg.shopping.textviewutil.NormalTextview
+                android:id="@+id/txt_cancel"
+                android:layout_width="80dp"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:textSize="@dimen/nm_txt_size"
+                android:textColor="?attr/colorTextQuinary"
+                android:layout_marginEnd="0dp"
+                android:text="@string/cancel"></com.mg.shopping.textviewutil.NormalTextview>
+
+
+            <com.mg.shopping.textviewutil.NormalTextview
+                android:id="@+id/txt_done"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:textSize="@dimen/nm_txt_size"
+                android:textColor="?attr/colorBackgroundSenary"
+                android:text="@string/done"></com.mg.shopping.textviewutil.NormalTextview>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

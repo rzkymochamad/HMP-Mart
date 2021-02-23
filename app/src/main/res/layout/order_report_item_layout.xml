@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_gravity="end"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="?attr/colorBackgroundPrimary"
+        android:background="@drawable/shape_traingle"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:background="@drawable/bg_popup_menu"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:id="@+id/layout_refund"
+            android:layout_width="90dp"
+            android:layout_height="30dp"
+            android:gravity="center_vertical"
+            android:minWidth="80dp"
+            android:minHeight="30dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:padding="1dp"
+                    android:src="@drawable/ic_home_menu"
+                    android:tint="?attr/colorTextQuinary"></ImageView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginStart="5dp"
+                android:layout_weight="1">
+
+
+                <com.mg.shopping.textviewutil.TaglineTextview
+                    android:id="@+id/txt_message"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/refund"
+                    android:textColor="?attr/colorBackgroundSenary"
+                    android:textSize="@dimen/sm_txt_size"></com.mg.shopping.textviewutil.TaglineTextview>
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <!--<View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginEnd="0dp"
+            android:background="?attr/colorBackgroundQuaternary"></View>
+
+        <LinearLayout
+            android:id="@+id/layout_wishlist"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:minHeight="30dp"
+            android:minWidth="80dp"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:padding="1dp"
+                    android:src="@drawable/ic_favourite"
+                    android:tint="?attr/colorTextQuinary"></ImageView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginStart="5dp"
+                android:layout_weight="1">
+
+                <com.haris.shopping.TextviewUtil.TaglineTextview
+                    android:id="@+id/txt_wishlist"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/wishlist"
+                    android:textColor="?attr/colorTextQuinary"
+                    android:textSize="@dimen/sm_txt_size"></com.haris.shopping.TextviewUtil.TaglineTextview>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:visibility="gone"
+            android:background="?attr/colorBackgroundQuaternary"></TextView>-->
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+

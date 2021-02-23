@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <com.jcminarro.roundkornerlayout.RoundKornerLinearLayout
+        android:id="@+id/layout_search"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        app:corner_radius="15dp"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:gravity="center"
+        android:background="?attr/colorBackgroundSecondary">
+
+
+
+        <com.mg.shopping.textviewutil.TaglineTextview
+            android:id="@+id/txt_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/sm_txt_size"
+            android:textColor="?attr/colorTextQuinary"
+            android:text="Hot Searches"></com.mg.shopping.textviewutil.TaglineTextview>
+
+
+
+    </com.jcminarro.roundkornerlayout.RoundKornerLinearLayout>
+
+
+</RelativeLayout>

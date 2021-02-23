@@ -1,0 +1,21 @@
+
+S
+java:S1144¢"7Remove this unused private "getLastVisibleItem" method.(³£°œúÿÿÿÿ
+I
+java:S1481‹"-Remove this unused "dtObject" local variable.(ÑºÕ±ýÿÿÿÿ
+˜
+java:S1186œ"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¡é††
+X
+java:S1854‹"<Remove this useless assignment to local variable "dtObject".(ÑºÕ±ýÿÿÿÿ
+?	java:S108Œ")Either remove or fill this block of code.(·ûÌ
+i
+java:S1871§"MThis branch's code block is the same as the block for the branch on line 165.(àïÁšûÿÿÿÿ
+U
+java:S1854H"@Remove this useless assignment to local variable "pathSegments".(†Õø.
+Q	java:S125D"<This block of commented-out lines of code should be removed.(™Ñ…Õ
+F
+java:S1481H"1Remove this unused "pathSegments" local variable.(†Õø.
+—
+java:S1186["€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÙÝ®ï
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ßƒá»ÿÿÿÿÿ
+Q	java:S110"<This class has 9 parents which is greater than 5 authorized.(½Úå¬

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ExtensiblePageIndicator">
+        <attr name="indicatorRadius" format="dimension" />
+        <attr name="indicatorPadding" format="dimension" />
+        <attr name="indicatorInactiveColor" format="color" />
+        <attr name="indicatorActiveColor" format="color" />
+        <attr name="android:gravity" />
+    </declare-styleable>
+
+    <declare-styleable name="ListOfColour">
+
+        <attr name="colorTextPrimary" format="color" />
+        <attr name="colorTextSecondary" format="color" />
+        <attr name="colorTextTertiary" format="color" />
+        <attr name="colorTextQuaternary" format="color" />
+        <attr name="colorTextQuinary" format="color" />
+
+        <attr name="colorButtonPrimary" format="color" />
+        <attr name="colorButtonSecondary" format="color" />
+        <attr name="colorButtonTertiary" format="color" />
+
+        <attr name="colorBackgroundPrimary" format="color" />
+        <attr name="colorBackgroundSecondary" format="color" />
+        <attr name="colorBackgroundTertiary" format="color" />
+        <attr name="colorBackgroundQuaternary" format="color" />
+        <attr name="colorBackgroundQuinary" format="color" />
+        <attr name="colorBackgroundSenary" format="color" />
+        <attr name="colorBackgroundSeptenary" format="color" />
+
+        <attr name="colorDialogPrimary" format="color" />
+        <attr name="colorDialogSecondary" format="color" />
+        <attr name="colorDialogTertiary" format="color" />
+
+        <attr name="colorPagerSelected" format="color" />
+        <attr name="colorPagerUnSelected" format="color" />
+
+    </declare-styleable>
+
+    <declare-styleable name="CircleSeekBar">
+        <attr name="csb_progress" format="integer"/>
+        <attr name="csb_min" format="integer"/>
+        <attr name="csb_max" format="integer"/>
+        <attr name="csb_step" format="integer"/>
+
+        <attr name="csb_thumbDrawable" format="reference"/>
+        <attr name="csb_thumbSize" format="dimension" />
+
+        <attr name="csb_progressColor" format="color"/>
+        <attr name="csb_progressWidth" format="dimension"/>
+
+        <attr name="csb_arcColor" format="color"/>
+        <attr name="csb_arcWidth" format="dimension"/>
+
+        <attr name="csb_textSize" format="dimension"/>
+        <attr name="csb_textColor" format="color"/>
+        <attr name="csb_minTextSize" format="dimension"/>
+        <attr name="csb_secondaryText" format="string"/>
+
+        <attr name="csb_isShowText" format="boolean" />
+
+    </declare-styleable>
+
+
+</resources>

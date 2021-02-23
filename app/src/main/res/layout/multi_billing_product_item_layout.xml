@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.jcminarro.roundkornerlayout.RoundKornerLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="200dp"
+        app:corner_radius="15dp"
+        android:background="?attr/colorBackgroundTertiary"
+        android:paddingTop="15dp"
+        android:paddingStart="15dp"
+        android:paddingLeft="15dp"
+        android:orientation="vertical">
+
+
+        <com.mg.shopping.textviewutil.LabelTextview
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="?attr/colorTextQuinary"
+            android:layout_gravity="top"
+            android:textSize="@dimen/lb_txt_size"
+            android:text="Order 1"></com.mg.shopping.textviewutil.LabelTextview>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp"
+            android:gravity="center_vertical">
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:minHeight="80dp">
+
+                <LinearLayout
+                    android:id="@+id/layout_add_scroller"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"></LinearLayout>
+
+            </HorizontalScrollView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical|right">
+
+
+                <com.mg.shopping.textviewutil.NormalTextview
+                    android:id="@+id/txt_total_products"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="?attr/colorTextQuinary"
+                    android:text="23"
+                    android:textSize="@dimen/tagline_text_size"></com.mg.shopping.textviewutil.NormalTextview>
+
+                <ImageView
+                    android:id="@+id/image_next"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:padding="18dp"
+                    android:layout_marginStart="0dp"
+                    android:tint="?attr/colorButtonPrimary"
+                    android:src="@drawable/ic_right_arrow"></ImageView>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp"
+            android:gravity="center_vertical">
+
+
+            <com.mg.shopping.textviewutil.NormalTextview
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/nm_txt_size"
+                android:layout_weight="1"
+                android:textColor="?attr/colorTextQuinary"
+                android:text="@string/shipping_charges"></com.mg.shopping.textviewutil.NormalTextview>
+
+
+            <LinearLayout
+                android:id="@+id/layout_shipping"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginEnd="0dp"
+                android:layout_marginRight="0dp"
+                android:gravity="center_vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center_vertical">
+
+
+                    <com.mg.shopping.textviewutil.NormalTextview
+                        android:id="@+id/txt_shipping_company"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:gravity="end"
+                        android:maxWidth="170dp"
+                        android:maxLines="1"
+                        android:textColor="?attr/colorTextQuinary"
+                        android:textSize="@dimen/nm_txt_size"
+                        android:text="@string/select_shipping"></com.mg.shopping.textviewutil.NormalTextview>
+
+                    <com.mg.shopping.textviewutil.TaglineTextview
+                        android:id="@+id/txt_shipping_tagline"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="?attr/colorTextSecondary"
+                        android:layout_gravity="center_vertical|end"
+                        android:visibility="visible"
+                        android:layout_marginTop="2dp"
+                        android:textSize="@dimen/sm_txt_size"
+                        android:text="US 9.81$ &amp; 25-35 Business Days"></com.mg.shopping.textviewutil.TaglineTextview>
+
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_next"
+                    android:tint="?attr/colorBackgroundQuaternary"></ImageView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_shipping_fee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp"
+                android:gravity="center_vertical">
+
+
+                <com.mg.shopping.textviewutil.NormalTextview
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/nm_txt_size"
+                    android:layout_weight="1"
+                    android:textColor="?attr/colorTextQuinary"
+                    android:text="@string/shipping_insurance"></com.mg.shopping.textviewutil.NormalTextview>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginRight="5dp"
+                    android:gravity="center_vertical">
+
+
+                    <com.mg.shopping.textviewutil.TaglineTextview
+                        android:id="@+id/txt_shipping_insurance"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/sm_txt_size"
+                        android:textColor="?attr/colorTextQuinary"
+                        android:text="US $45"></com.mg.shopping.textviewutil.TaglineTextview>
+
+                    <Switch
+                        android:id="@+id/switch_shipping"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginStart="5dp"
+                        android:checked="true"
+                        android:padding="3dp"
+                        android:rotation="0"
+                        android:thumb="@drawable/custom_thumb"
+                        android:track="@drawable/custom_track" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp"
+                android:gravity="center_vertical">
+
+
+                <com.mg.shopping.textviewutil.NormalTextview
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/nm_txt_size"
+                    android:layout_weight="1"
+                    android:textColor="?attr/colorTextQuinary"
+                    android:text="@string/traffic_insurance"></com.mg.shopping.textviewutil.NormalTextview>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginRight="5dp"
+                    android:gravity="center_vertical">
+
+
+                    <com.mg.shopping.textviewutil.TaglineTextview
+                        android:id="@+id/txt_traffic_insurance"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/sm_txt_size"
+                        android:textColor="?attr/colorTextQuinary"
+                        android:text="US $45"></com.mg.shopping.textviewutil.TaglineTextview>
+
+                    <Switch
+                        android:id="@+id/switch_traffic"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginStart="5dp"
+                        android:checked="true"
+                        android:padding="3dp"
+                        android:rotation="0"
+                        android:thumb="@drawable/custom_thumb"
+                        android:track="@drawable/custom_track" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="17dp"
+                android:gravity="center_vertical">
+
+
+                <com.mg.shopping.textviewutil.NormalTextview
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/nm_txt_size"
+                    android:layout_weight="1"
+                    android:textColor="?attr/colorTextQuinary"
+                    android:text="@string/shipping_fee"></com.mg.shopping.textviewutil.NormalTextview>
+
+
+                <com.mg.shopping.textviewutil.TaglineTextview
+                    android:id="@+id/txt_shipping_currency_symbol"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/sm_txt_size"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginRight="15dp"
+                    android:textColor="?attr/colorTextQuinary"></com.mg.shopping.textviewutil.TaglineTextview>
+
+
+                <com.mg.shopping.textviewutil.TaglineTextview
+                    android:id="@+id/txt_shipping_fee"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/sm_txt_size"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginRight="15dp"
+                    android:textColor="?attr/colorTextQuinary"
+                    android:text="US $45"></com.mg.shopping.textviewutil.TaglineTextview>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_discount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="22dp"
+            android:layout_marginBottom="-15dp"
+            android:visibility="gone"
+            android:gravity="center_vertical|end">
+
+            <com.mg.shopping.textviewutil.LabelTextview
+                android:id="@+id/txt_discount_tagline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="15dp"
+                android:layout_marginRight="15dp"
+                android:textColor="?attr/colorBackgroundSenary"
+                android:text="Shipping Discount applied (15%)"></com.mg.shopping.textviewutil.LabelTextview>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="22dp"
+            android:layout_marginBottom="15dp"
+            android:gravity="center_vertical">
+
+
+            <com.mg.shopping.textviewutil.NormalTextview
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/nm_txt_size"
+                android:layout_weight="1"
+                android:textColor="?attr/colorTextQuinary"
+                android:text="@string/total"></com.mg.shopping.textviewutil.NormalTextview>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginEnd="15dp"
+                android:layout_marginRight="15dp"
+                android:gravity="center">
+
+
+                <com.mg.shopping.textviewutil.LabelTextview
+                    android:id="@+id/txt_currency_symbol"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="?attr/colorTextQuinary"
+                    android:textSize="@dimen/sm_txt_size"
+                    android:text="USD $"
+                    android:layout_marginEnd="5dp"></com.mg.shopping.textviewutil.LabelTextview>
+
+
+                <com.mg.shopping.textviewutil.TaglineTextview
+                    android:id="@+id/txt_total_bill"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/sm_txt_size"
+                    android:textColor="?attr/colorTextQuinary"
+                    android:text="45"></com.mg.shopping.textviewutil.TaglineTextview>
+
+
+
+            </LinearLayout>
+
+
+
+            <com.mg.shopping.textviewutil.LabelTextview
+                android:id="@+id/txt_discount_currency_symbol"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="?attr/colorBackgroundSenary"
+                android:textSize="@dimen/sm_txt_size"
+                android:visibility="gone"
+                android:text="USD $"
+                android:layout_marginEnd="5dp"></com.mg.shopping.textviewutil.LabelTextview>
+
+
+            <com.mg.shopping.textviewutil.TaglineTextview
+                android:id="@+id/txt_discount_bill"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/sm_txt_size"
+                android:layout_marginEnd="15dp"
+                android:layout_marginRight="15dp"
+                android:visibility="gone"
+                android:textColor="?attr/colorBackgroundSenary"></com.mg.shopping.textviewutil.TaglineTextview>
+
+
+        </LinearLayout>
+
+
+    </com.jcminarro.roundkornerlayout.RoundKornerLinearLayout>
+
+
+</RelativeLayout>

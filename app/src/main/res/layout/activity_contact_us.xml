@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorBackgroundTertiary"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/menu_dark_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingStart="30dp"
+        android:gravity="center"
+        android:paddingEnd="30dp"
+        android:minHeight="260dp"
+        android:orientation="vertical">
+
+        <com.mg.shopping.edittextutil.NormalEditText
+            android:id="@+id/edit_subject"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="@dimen/nm_txt_size"
+            android:textColor="?attr/colorTextSecondary"
+            android:textColorHint="?attr/colorTextSecondary"
+            android:hint="@string/subject"
+            android:background="@drawable/bg_edit_text"
+            android:gravity="center_vertical"
+            android:paddingStart="10dp"></com.mg.shopping.edittextutil.NormalEditText>
+
+        <com.mg.shopping.edittextutil.NormalEditText
+            android:id="@+id/edit_message"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:textSize="@dimen/tagline_text_size"
+            android:textColor="?attr/colorTextSecondary"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textColorHint="?attr/colorTextSecondary"
+            android:hint="@string/write_your_message"
+            android:background="@drawable/bg_special_instructions"
+            android:gravity="start"
+            android:paddingStart="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            ></com.mg.shopping.edittextutil.NormalEditText>
+
+        <com.jcminarro.roundkornerlayout.RoundKornerLinearLayout
+            android:id="@+id/layout_save"
+            android:layout_width="180dp"
+            android:layout_height="45dp"
+            android:orientation="vertical"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="15dp"
+            app:corner_radius="15dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/bg_menu"
+            android:gravity="center">
+
+
+            <com.mg.shopping.textviewutil.NormalTextview
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/nm_txt_size"
+                android:textColor="?attr/colorTextTertiary"
+                android:text="@string/done"></com.mg.shopping.textviewutil.NormalTextview>
+
+
+        </com.jcminarro.roundkornerlayout.RoundKornerLinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+
+Q	java:S110"<This class has 9 parents which is greater than 5 authorized.(“ñŠ³
+r
+java:S1450"\Remove the "layoutCountry" field and declare it as a local variable in the relevant methods.(ÍµÅ”
+œ
+java:S1186C"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ıö¾Âÿÿÿÿÿ
+r
+java:S1450"\Remove the "layoutProfile" field and declare it as a local variable in the relevant methods.(Ü®“Ö
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ßƒá»ÿÿÿÿÿ
+o
+java:S1450""YRemove the "txtCountry" field and declare it as a local variable in the relevant methods.(÷àÔ
+P
+java:S1481“"-Remove this unused "dtObject" local variable.(ÑºÕ±ıÿÿÿÿ8Ø Íè.
+l
+java:S1450"VRemove the "txtMenu" field and declare it as a local variable in the relevant methods.(êÄŞÖ
+_
+java:S1854“"<Remove this useless assignment to local variable "dtObject".(ÑºÕ±ıÿÿÿÿ8Ø Íè.

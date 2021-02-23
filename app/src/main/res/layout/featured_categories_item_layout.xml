@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:gravity="center">
+
+
+    <RelativeLayout
+        android:id="@+id/layout_tab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="30dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <com.mg.shopping.textviewutil.TaglineTextview
+            android:id="@+id/txt_tab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginStart="0dp"
+            android:layout_marginEnd="0dp"
+            android:text="Test"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/colorTextPrimaryDay"
+            android:textSize="@dimen/lb_txt_size" />
+
+
+        <com.jcminarro.roundkornerlayout.RoundKornerLinearLayout
+            android:id="@+id/layout_indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="3dp"
+            android:minWidth="10dp"
+            android:layout_below="@+id/txt_tab"
+            android:layout_alignLeft="@+id/txt_tab"
+            android:layout_alignRight="@+id/txt_tab"
+            android:layout_marginStart="7dp"
+            android:layout_marginEnd="7dp"
+            android:layout_marginTop="2dp"
+            android:visibility="invisible"
+            app:corner_radius="5dp"
+            android:layout_centerHorizontal="true"
+            android:background="?attr/colorBackgroundSeptenary"
+            ></com.jcminarro.roundkornerlayout.RoundKornerLinearLayout>
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

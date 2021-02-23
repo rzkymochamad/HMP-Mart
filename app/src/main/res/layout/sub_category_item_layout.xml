@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="15dp"
+    android:layout_marginEnd="15dp"
+    android:layout_marginBottom="15dp"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <com.jcminarro.roundkornerlayout.RoundKornerLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="40dp"
+        android:orientation="vertical"
+        android:background="?attr/colorBackgroundTertiary"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        app:corner_radius="10dp"
+        android:gravity="center_vertical">
+
+
+        <LinearLayout
+            android:id="@+id/layout_sub_category"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+
+            <com.mg.shopping.textviewutil.NormalTextview
+                android:id="@+id/txt_sub_category_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/nm_txt_size"
+                android:layout_weight="1"
+                android:textColor="?attr/colorTextQuinary"
+                android:text="@string/add_to_cart"></com.mg.shopping.textviewutil.NormalTextview>
+
+
+            <com.mg.shopping.textviewutil.NormalTextview
+                android:id="@+id/txt_all"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="50dp"
+                android:gravity="end"
+                android:visibility="gone"
+                android:textSize="@dimen/nm_txt_size"
+                android:textColor="?attr/colorTextPrimary"
+                android:text="@string/all"></com.mg.shopping.textviewutil.NormalTextview>
+
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?attr/colorBackgroundSecondary"></TextView>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view_sub_category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            ></androidx.recyclerview.widget.RecyclerView>
+
+
+
+
+    </com.jcminarro.roundkornerlayout.RoundKornerLinearLayout>
+
+
+</LinearLayout>

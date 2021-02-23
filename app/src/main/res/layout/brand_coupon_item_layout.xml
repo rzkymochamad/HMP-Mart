@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <com.jcminarro.roundkornerlayout.RoundKornerLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:orientation="horizontal"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        app:corner_radius="10dp"
+        android:background="@drawable/bg_menu"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingStart="15dp"
+            android:paddingRight="15dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+
+            <com.mg.shopping.textviewutil.AquaticoRegularTextview
+                android:id="@+id/txt_sale_offer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/lb_txt_size"
+                android:textColor="?attr/colorTextTertiary"
+                android:text="12% Off "></com.mg.shopping.textviewutil.AquaticoRegularTextview>
+
+            <com.mg.shopping.textviewutil.TaglineTextview
+                android:id="@+id/txt_sale_tagline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textSize="@dimen/nm_txt_size"
+                android:textColor="?attr/colorTextTertiary"
+                android:text="12% Off on Car Electronics"></com.mg.shopping.textviewutil.TaglineTextview>
+
+            <com.mg.shopping.textviewutil.TaglineTextview
+                android:id="@+id/txt_expire_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:textSize="@dimen/nm_txt_size"
+                android:textColor="?attr/colorTextTertiary"
+                android:text="Expired Date : 31 Dec 2020"></com.mg.shopping.textviewutil.TaglineTextview>
+
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="?attr/colorBackgroundTertiary"
+            ></View>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <com.jcminarro.roundkornerlayout.RoundKornerLinearLayout
+                android:id="@+id/layout_get"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                app:corner_radius="15dp"
+                android:background="?attr/colorBackgroundTertiary"
+                android:gravity="center">
+
+                <com.mg.shopping.textviewutil.NormalTextview
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/nm_txt_size"
+                    android:textColor="?attr/colorBackgroundSenary"
+                    android:text="@string/get_now"></com.mg.shopping.textviewutil.NormalTextview>
+
+
+            </com.jcminarro.roundkornerlayout.RoundKornerLinearLayout>
+
+
+        </LinearLayout>
+
+    </com.jcminarro.roundkornerlayout.RoundKornerLinearLayout>
+
+
+</RelativeLayout>

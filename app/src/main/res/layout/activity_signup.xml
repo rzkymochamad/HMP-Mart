@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="?attr/colorBackgroundTertiary"
+    tools:context=".activityutil.Login">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_login_sign_up"
+        android:orientation="vertical">
+
+
+        <include
+            layout="@layout/menu_dark_layout"
+            android:layout_width="match_parent"
+            android:visibility="gone"
+            android:layout_height="51dp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center_vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="20dp"
+                        android:gravity="center">
+
+
+                        <com.mg.shopping.textviewutil.LemonMilkTextview
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/lb_txt_size"
+                            android:textColor="?attr/colorTextTertiary"
+                            android:text="@string/register_yourself"></com.mg.shopping.textviewutil.LemonMilkTextview>
+
+
+
+                    </LinearLayout>
+
+                    <com.jcminarro.roundkornerlayout.RoundKornerLinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:corner_radius="10dp"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginEnd="15dp"
+                        android:paddingStart="20dp"
+                        android:paddingEnd="20dp"
+                        android:paddingTop="40dp"
+                        android:paddingBottom="40dp"
+                        android:background="?attr/colorBackgroundTertiary"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="center">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="vertical"
+                                android:gravity="center_vertical">
+
+                                <com.mg.shopping.textviewutil.TaglineTextview
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="?attr/colorTextSecondary"
+                                    android:layout_gravity="start"
+                                    android:layout_marginBottom="8dp"
+                                    android:layout_marginStart="5dp"
+                                    android:textSize="@dimen/nm_txt_size"
+                                    android:text="@string/first_name"></com.mg.shopping.textviewutil.TaglineTextview>
+
+                                <com.jcminarro.roundkornerlayout.RoundKornerLinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="45dp"
+                                    android:padding="5dp"
+                                    app:corner_radius="10dp"
+                                    android:background="?attr/colorBackgroundSecondary"
+                                    android:gravity="center_vertical"
+                                    android:orientation="horizontal">
+
+                                    <com.mg.shopping.edittextutil.NormalEditText
+                                        android:id="@+id/edit_fname"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:paddingStart="10dp"
+                                        android:background="@color/colorTransparent"
+                                        android:textColor="?attr/colorTextQuinary"
+                                        android:textColorHint="?attr/colorTextSecondary"
+                                        android:textSize="@dimen/nm_txt_size"
+
+                                        />
+
+
+                                </com.jcminarro.roundkornerlayout.RoundKornerLinearLayout>
+
+
+                            </LinearLayout>
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:layout_marginStart="10dp"
+                                android:orientation="vertical"
+                                android:gravity="center_vertical">
+
+                                <com.mg.shopping.textviewutil.TaglineTextview
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="?attr/colorTextSecondary"
+                                    android:layout_gravity="start"
+                                    android:layout_marginBottom="8dp"
+                                    android:layout_marginStart="5dp"
+                                    android:textSize="@dimen/nm_txt_size"
+                                    android:text="@string/last_name"></com.mg.shopping.textviewutil.TaglineTextview>
+
+                                <com.jcminarro.roundkornerlayout.RoundKornerLinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="45dp"
+                                    android:padding="5dp"
+                                    app:corner_radius="10dp"
+                                    android:background="?attr/colorBackgroundSecondary"
+                                    android:gravity="center_vertical"
+                                    android:orientation="horizontal">
+
+                                    <com.mg.shopping.edittextutil.NormalEditText
+                                        android:id="@+id/edit_lname"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:paddingStart="10dp"
+                                        android:background="@color/colorTransparent"
+                                        android:textColor="?attr/colorTextQuinary"
+                                        android:textColorHint="?attr/colorTextSecondary"
+                                        android:textSize="@dimen/nm_txt_size"
+
+                                        />
+
+
+                                </com.jcminarro.roundkornerlayout.RoundKornerLinearLayout>
+
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+
+                        <com.mg.shopping.textviewutil.TaglineTextview
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="?attr/colorTextSecondary"
+                            android:layout_gravity="start"
+                            android:layout_marginBottom="8dp"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="20dp"
+                            android:textSize="@dimen/nm_txt_size"
+                            android:text="@string/phone_number_with_code"></com.mg.shopping.textviewutil.TaglineTextview>
+
+                        <com.jcminarro.roundkornerlayout.RoundKornerLinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="45dp"
+                            android:padding="5dp"
+                            app:corner_radius="10dp"
+                            android:background="?attr/colorBackgroundSecondary"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal">
+
+                            <com.mg.shopping.edittextutil.NormalEditText
+                                android:id="@+id/edit_phone"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:paddingStart="10dp"
+                                android:background="@color/colorTransparent"
+                                android:textColor="?attr/colorTextQuinary"
+                                android:textColorHint="?attr/colorTextSecondary"
+                                android:textSize="@dimen/nm_txt_size"
+
+                                />
+
+
+                        </com.jcminarro.roundkornerlayout.RoundKornerLinearLayout>
+
+
+                        <com.mg.shopping.textviewutil.TaglineTextview
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="?attr/colorTextSecondary"
+                            android:layout_gravity="start"
+                            android:layout_marginBottom="8dp"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="20dp"
+                            android:textSize="@dimen/nm_txt_size"
+                            android:text="@string/email_address"></com.mg.shopping.textviewutil.TaglineTextview>
+
+                        <com.jcminarro.roundkornerlayout.RoundKornerLinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="45dp"
+                            android:padding="5dp"
+                            app:corner_radius="10dp"
+                            android:background="?attr/colorBackgroundSecondary"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal">
+
+                            <com.mg.shopping.edittextutil.NormalEditText
+                                android:id="@+id/edit_email"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:paddingStart="10dp"
+                                android:background="@color/colorTransparent"
+                                android:textColor="?attr/colorTextQuinary"
+                                android:textColorHint="?attr/colorTextSecondary"
+                                android:textSize="@dimen/nm_txt_size"
+
+                                />
+
+
+                        </com.jcminarro.roundkornerlayout.RoundKornerLinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="center">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:gravity="center"
+                                android:layout_weight="1">
+
+                                <com.mg.shopping.textviewutil.TaglineTextview
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="?attr/colorTextSecondary"
+                                    android:layout_gravity="start"
+                                    android:layout_marginBottom="8dp"
+                                    android:layout_marginStart="5dp"
+                                    android:layout_marginTop="20dp"
+                                    android:textSize="@dimen/nm_txt_size"
+                                    android:text="@string/password"></com.mg.shopping.textviewutil.TaglineTextview>
+
+                                <com.jcminarro.roundkornerlayout.RoundKornerLinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="45dp"
+                                    android:padding="5dp"
+                                    app:corner_radius="10dp"
+                                    android:background="?attr/colorBackgroundSecondary"
+                                    android:gravity="center_vertical"
+                                    android:orientation="horizontal">
+
+                                    <com.mg.shopping.edittextutil.NormalEditText
+                                        android:id="@+id/edit_password"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:inputType="textPassword"
+                                        android:paddingStart="10dp"
+                                        android:background="@color/colorTransparent"
+                                        android:textColor="?attr/colorTextQuinary"
+                                        android:textColorHint="?attr/colorTextSecondary"
+                                        android:textSize="@dimen/nm_txt_size"
+
+                                        />
+
+
+                                </com.jcminarro.roundkornerlayout.RoundKornerLinearLayout>
+
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:gravity="center"
+                                android:layout_marginStart="10dp"
+                                android:layout_weight="1">
+
+                                <com.mg.shopping.textviewutil.TaglineTextview
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="?attr/colorTextSecondary"
+                                    android:layout_gravity="start"
+                                    android:layout_marginBottom="8dp"
+                                    android:layout_marginStart="5dp"
+                                    android:layout_marginTop="20dp"
+                                    android:textSize="@dimen/nm_txt_size"
+                                    android:text="@string/confirm_password"></com.mg.shopping.textviewutil.TaglineTextview>
+
+                                <com.jcminarro.roundkornerlayout.RoundKornerLinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="45dp"
+                                    android:padding="5dp"
+                                    app:corner_radius="10dp"
+                                    android:background="?attr/colorBackgroundSecondary"
+                                    android:gravity="center_vertical"
+                                    android:orientation="horizontal">
+
+                                    <com.mg.shopping.edittextutil.NormalEditText
+                                        android:id="@+id/edit_confirm_password"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:inputType="textPassword"
+                                        android:background="@color/colorTransparent"
+                                        android:textColor="?attr/colorTextQuinary"
+                                        android:textColorHint="?attr/colorTextSecondary"
+                                        android:textSize="@dimen/nm_txt_size"
+
+                                        />
+
+
+                                </com.jcminarro.roundkornerlayout.RoundKornerLinearLayout>
+
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="10dp"
+                            android:visibility="gone"
+                            android:gravity="center_vertical">
+
+                            <androidx.appcompat.widget.AppCompatCheckBox
+                                android:id="@+id/checkbox_remember"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:checked="false"
+                                android:buttonTint="?attr/colorBackgroundQuaternary"
+                                android:scaleX="0.8"
+                                android:scaleY="0.8"  />
+
+                            <com.mg.shopping.textviewutil.NormalTextview
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="@dimen/nm_txt_size"
+                                android:textColor="?attr/colorTextSecondary"
+                                android:text="@string/remember_me"></com.mg.shopping.textviewutil.NormalTextview>
+
+
+                        </LinearLayout>
+
+                        <com.jcminarro.roundkornerlayout.RoundKornerLinearLayout
+                            android:id="@+id/layout_sign_up"
+                            android:layout_width="300dp"
+                            android:layout_height="45dp"
+                            android:orientation="vertical"
+                            app:corner_radius="10dp"
+                            android:layout_marginTop="40dp"
+                            android:background="?attr/colorBackgroundSeptenary"
+                            android:gravity="center">
+
+
+                            <com.mg.shopping.textviewutil.LabelTextview
+                                android:id="@+id/txt_sign_up"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:text="@string/sign_up"
+                                android:textColor="?attr/colorTextTertiary"
+                                android:textSize="@dimen/lb_txt_size" />
+
+
+                        </com.jcminarro.roundkornerlayout.RoundKornerLinearLayout>
+
+
+
+
+                        <!--<LinearLayout
+                            android:layout_width="300dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:gravity="center"
+
+                            android:orientation="horizontal">
+
+
+                            <com.haris.shopping.TextviewUtil.NormalTextview
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/did_not_create_account"
+                                android:textColor="?attr/colorTextQuinary"
+                                android:textSize="@dimen/nm_txt_size" />
+
+                            <com.haris.shopping.TextviewUtil.LabelTextview
+                                android:id="@+id/txt_sign_up"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/sign_up"
+                                android:textColor="?attr/colorTextQuinary"
+                                android:textSize="@dimen/nm_txt_size" />
+
+
+                        </LinearLayout>-->
+
+
+                    </com.jcminarro.roundkornerlayout.RoundKornerLinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="20dp"
+                        android:gravity="center">
+
+                        <com.mg.shopping.textviewutil.NormalTextview
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/nm_txt_size"
+                            android:textColor="?attr/colorTextTertiary"
+                            android:text="@string/already_have_account"></com.mg.shopping.textviewutil.NormalTextview>
+
+                        <com.mg.shopping.textviewutil.HeadingTextview
+                            android:id="@+id/txt_login"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:minHeight="40dp"
+                            android:gravity="center"
+                            android:textSize="@dimen/lb_txt_size"
+                            android:layout_marginStart="5dp"
+                            android:textColor="?attr/colorTextTertiary"
+                            android:text="@string/login_now"></com.mg.shopping.textviewutil.HeadingTextview>
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </ScrollView>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

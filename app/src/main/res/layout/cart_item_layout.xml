@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <com.jcminarro.roundkornerlayout.RoundKornerLinearLayout
+        android:id="@+id/layout_item"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:orientation="horizontal"
+        android:padding="0dp"
+        android:clickable="true"
+        app:corner_radius="15dp"
+        android:background="?attr/colorBackgroundTertiary"
+        android:gravity="center_vertical">
+
+        <LinearLayout
+            android:id="@+id/layout_selector"
+            android:layout_width="30dp"
+            android:layout_height="120dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+
+            <LinearLayout
+                android:id="@+id/layout_selection"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:orientation="horizontal"
+                android:backgroundTint="?attr/colorBackgroundSenary"
+                android:background="@drawable/bg_circle_stroked"
+                android:gravity="center">
+
+
+                <ImageView
+                    android:layout_width="8dp"
+                    android:layout_height="8dp"
+                    android:src="@drawable/ic_tick"></ImageView>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/image_product"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:padding="5dp"
+            app:riv_corner_radius="10dp"
+            android:src="@drawable/product_01"></com.makeramen.roundedimageview.RoundedImageView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:orientation="vertical"
+            android:paddingStart="5dp"
+            android:paddingLeft="5dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center_vertical">
+
+
+                <com.mg.shopping.textviewutil.TaglineTextview
+                    android:id="@+id/txt_product_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kedos Running Shoes from Adidas"
+                    android:textSize="@dimen/nm_txt_size"
+                    android:textColor="?attr/colorTextQuinary"></com.mg.shopping.textviewutil.TaglineTextview>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recycler_view_attribute"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="4dp"
+                    ></androidx.recyclerview.widget.RecyclerView>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="5dp"
+                    android:layout_gravity="start"
+                    android:gravity="center_vertical|start">
+
+
+                    <com.mg.shopping.textviewutil.LabelTextview
+                        android:id="@+id/txt_currency_symbol"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="?attr/colorTextQuinary"
+                        android:textSize="@dimen/nm_txt_size"
+                        android:layout_marginEnd="0dp"></com.mg.shopping.textviewutil.LabelTextview>
+
+                    <com.mg.shopping.textviewutil.HeadingTextview
+                        android:id="@+id/txt_price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:textColor="?attr/colorTextQuinary"
+                        android:layout_gravity="start"
+                        android:textSize="@dimen/nm_txt_size"
+                        android:text="25.36"></com.mg.shopping.textviewutil.HeadingTextview>
+
+
+                </LinearLayout>
+
+
+            <com.mg.shopping.textviewutil.TaglineTextview
+                android:id="@+id/txt_discount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:layout_marginEnd="10dp"
+                android:text="30% off"
+                android:visibility="invisible"
+                android:textSize="@dimen/sm_txt_size"
+                android:textColor="?attr/colorTextQuaternary"></com.mg.shopping.textviewutil.TaglineTextview>
+
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="28dp"
+                android:orientation="horizontal"
+                android:layout_marginEnd="10dp"
+                android:backgroundTint="?attr/colorBackgroundQuaternary"
+                android:background="@drawable/bg_rect_stroked"
+                android:gravity="center">
+
+
+                <ImageView
+                    android:id="@+id/image_minus"
+                    android:layout_width="30dp"
+                    android:layout_height="28dp"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_minus"
+                    android:tint="?attr/colorBackgroundQuaternary"></ImageView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+
+                    <com.mg.shopping.edittextutil.NormalEditText
+                        android:id="@+id/edit_quantity"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/colorTransparent"
+                        android:textSize="@dimen/sm_txt_size"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="2"
+                        android:visibility="visible"
+                        android:textColor="?attr/colorTextQuinary"></com.mg.shopping.edittextutil.NormalEditText>
+
+                    <ProgressBar
+                        android:id="@+id/progress_quantity"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:visibility="gone"
+                        ></ProgressBar>
+
+
+                </LinearLayout>
+
+
+                <ImageView
+                    android:id="@+id/image_add"
+                    android:layout_width="30dp"
+                    android:layout_height="28dp"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_add"
+                    android:tint="?attr/colorBackgroundQuinary"></ImageView>
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        </LinearLayout>
+
+    </com.jcminarro.roundkornerlayout.RoundKornerLinearLayout>
+
+</RelativeLayout>

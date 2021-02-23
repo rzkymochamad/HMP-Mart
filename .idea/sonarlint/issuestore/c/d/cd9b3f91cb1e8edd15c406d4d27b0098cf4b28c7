@@ -1,0 +1,6 @@
+
+—
+java:S1319"|The type of the "fragmentArrayList" object should be an interface such as "List" rather than the implementation "ArrayList".(Ó½”–üÿÿÿÿ
+C
+java:S1185"(Remove this method to simply inherit it.(ëŒ³©øÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¯Ú®­øÿÿÿÿ

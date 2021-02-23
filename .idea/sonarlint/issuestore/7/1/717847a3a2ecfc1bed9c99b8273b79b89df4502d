@@ -1,0 +1,68 @@
+
+G
+java:S1481Ê"0Remove this unused "layoutMinus" local variable.(êŞ³ 
+V
+java:S1854Ê"?Remove this useless assignment to local variable "layoutMinus".(êŞ³ 
+e
+java:S1128!"ORemove this unused import 'com.haris.shopping.JsonUtil.AllCategoryUtil.Datum_'.(ºÚı¼
+>
+java:S1185I"(Remove this method to simply inherit it.(«ÃÀ÷
+T
+java:S1854Ì"=Remove this useless assignment to local variable "layoutAdd".(Ê×•ƒ
+g	java:S117ô"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñ×ÓÆ
+i
+java:S1871³"MThis branch's code block is the same as the block for the branch on line 433.(àïÁšûÿÿÿÿ
+E
+java:S1481Ì".Remove this unused "layoutAdd" local variable.(Ê×•ƒ
+i
+java:S1128#"SRemove this unused import 'com.haris.shopping.JsonUtil.HotDataUtil.ListOfFeatured'.(ø½Üé
+_
+java:S1128"IRemove this unused import 'com.haris.shopping.ActivityUtil.BaseActivity'.(êµ§£
+I
+java:S1068?".Remove this unused "dataObject" private field.(ÖÓÙæşÿÿÿÿ
+N
+java:S1135 "2Complete the task associated to this TODO comment.(±¢ÅÖıÿÿÿÿ
+X
+java:S1126‚"BReplace this if-then-else statement by a single method invocation.(ó¯’d
+
+java:S1186ƒ"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(™Î«şÿÿÿÿ
+˜
+java:S1186§"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¡é††
+S
+java:S1144®"7Remove this unused private "getLastVisibleItem" method.(³£°œúÿÿÿÿ
+Q	java:S125g"<This block of commented-out lines of code should be removed.(­™ß
+l
+java:S1450B"VRemove the "loading" field and declare it as a local variable in the relevant methods.(ª¸¦•
+W	java:S125¹"<This block of commented-out lines of code should be removed.(Š€É¡ùÿÿÿÿ
+V
+java:S1854È"?Remove this useless assignment to local variable "txtDiscount".(›ïƒá
+Z
+java:S1117ß"CRename "objectArrayList" which hides the field declared at line 62.( §Í³
+J
+java:S1481Î"4Remove this unused "layoutAddToCart" local variable.(ÓÜÓ>
+
+java:S1186è"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ø´´øÿÿÿÿ
+S
+java:S2589ù"7Remove this expression which always evaluates to "true"(‚©Ëıÿÿÿÿ
+i
+java:S3776¬"RRefactor this method to reduce its Cognitive Complexity from 32 to the 15 allowed.(ƒ®„¤
+c
+java:S1128'"MRemove this unused import 'com.haris.shopping.JsonUtil.StyleJsonUtil.Banner'.(š¶í—
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÅÙ¯
+G
+java:S1481È"0Remove this unused "txtDiscount" local variable.(›ïƒá
+F
+java:S1068D"1Remove this unused "stringBuilder" private field.(ŸšÅ8
+i
+java:S3776º"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(ú¾†ƒ
+l	java:S117Ù"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óËåÏşÿÿÿÿ
+Y
+java:S1854Î"CRemove this useless assignment to local variable "layoutAddToCart".(ÓÜÓ>
+Y
+java:S1117Ğ"BRename "layoutScroller" which hides the field declared at line 70.(Óú¬Ê
+G
+java:S1481Ë"0Remove this unused "txtQuantity" local variable.(½Ë€
+A
+java:S1068C"+Remove this unused "skipIds" private field.(‡µüë
+V
+java:S1854Ë"?Remove this useless assignment to local variable "txtQuantity".(½Ë€

@@ -1,0 +1,16 @@
+
+f	java:S117;"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·°º
+{
+java:S1104"`Make REQUEST_CODE_GALLERY a static final constant or non-public and provide accessors if needed.(®ÒÛøÿÿÿÿ
+U
+java:S1444":Make this "public static REQUEST_CODE_GALLERY" field final(®ÒÛøÿÿÿÿ
+k	java:S117D"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åª’Õıÿÿÿÿ
+O
+java:S1444"9Make this "public static REQUEST_CODE_CAMERA" field final(»®ä×
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(™êÜüÿÿÿÿ
+t
+java:S3008"^Rename this field "REQUEST_CODE_CAMERA" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»®ä×
+z
+java:S3008"_Rename this field "REQUEST_CODE_GALLERY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®ÒÛøÿÿÿÿ
+u
+java:S1104"_Make REQUEST_CODE_CAMERA a static final constant or non-public and provide accessors if needed.(»®ä×

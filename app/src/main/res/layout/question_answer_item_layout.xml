@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.jcminarro.roundkornerlayout.RoundKornerLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:corner_radius="15dp"
+        android:padding="5dp"
+        android:background="?attr/colorBackgroundTertiary"
+        android:gravity="center_vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <LinearLayout
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:orientation="horizontal"
+                android:background="@drawable/bg_rect_filled"
+                android:gravity="center">
+
+                <com.mg.shopping.textviewutil.NormalTextview
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/xx_sm_txt_size"
+                    android:text="Q"
+                    android:textColor="?attr/colorTextTertiary"></com.mg.shopping.textviewutil.NormalTextview>
+
+
+            </LinearLayout>
+
+            <com.mg.shopping.textviewutil.NormalTextview
+                android:id="@+id/txt_question"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/nm_txt_size"
+                android:textColor="?attr/colorTextSecondary"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:maxLines="3"
+                android:text="GADYSON A9105 Calendar Casual Style Men Wristwatch Full Steel Luminous Display Quartz Watch"></com.mg.shopping.textviewutil.NormalTextview>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="gone"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical">
+
+            <LinearLayout
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:orientation="horizontal"
+                android:background="@drawable/bg_rect_filled"
+                android:backgroundTint="?attr/colorTextQuaternary"
+                android:gravity="center">
+
+                <com.mg.shopping.textviewutil.NormalTextview
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/xx_sm_txt_size"
+                    android:text="A"
+                    android:textColor="?attr/colorTextTertiary"></com.mg.shopping.textviewutil.NormalTextview>
+
+
+            </LinearLayout>
+
+            <com.mg.shopping.textviewutil.NormalTextview
+                android:id="@+id/txt_answer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/nm_txt_size"
+                android:textColor="?attr/colorTextSecondary"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:maxLines="3"
+                android:text="GADYSON A9105 Calendar Casual Style Men Wristwatch Full Steel Luminous Display Quartz Watch"></com.mg.shopping.textviewutil.NormalTextview>
+
+
+
+        </LinearLayout>
+
+        <com.mg.shopping.textviewutil.NormalTextview
+            android:id="@+id/txt_all_answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="20dp"
+            android:textSize="@dimen/nm_txt_size"
+            android:textColor="?attr/colorTextQuaternary"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="0dp"
+            android:gravity="center_vertical"
+            android:maxLines="3"
+            android:text="Total 2 Answers"></com.mg.shopping.textviewutil.NormalTextview>
+
+
+    </com.jcminarro.roundkornerlayout.RoundKornerLinearLayout>
+
+</RelativeLayout>

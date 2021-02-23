@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.jcminarro.roundkornerlayout.RoundKornerLinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="80dp"
+        android:minHeight="25dp"
+        app:corner_radius="5dp"
+        android:paddingLeft="5dp"
+        android:paddingStart="5dp"
+        android:paddingRight="5dp"
+        android:paddingEnd="5dp"
+        android:gravity="center"
+        android:background="?attr/colorBackgroundSecondary">
+
+
+        <com.mg.shopping.textviewutil.TaglineTextview
+            android:id="@+id/txt_attribute"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="?attr/colorTextQuinary"
+            android:textSize="@dimen/xx_sm_txt_size"
+            android:text="Color : XL"></com.mg.shopping.textviewutil.TaglineTextview>
+
+    </com.jcminarro.roundkornerlayout.RoundKornerLinearLayout>
+
+
+</RelativeLayout>

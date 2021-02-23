@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorTransparent">#00FFFFFF</color>
+
+    <!--Color for Day Mode-->
+
+    <color name="colorPrimaryDay">#ff8a23</color>
+    <color name="colorPrimaryDarkDay">#ff8a23</color>
+    <color name="colorAccentDay">#ff8a23</color>
+
+    <color name="colorTextPrimaryDay">#ff8a23</color>
+    <color name="colorTextSecondaryDay">#AAAAAA</color>
+    <color name="colorTextTertiaryDay">#FFFFFF</color>
+    <color name="colorTextQuaternaryDay">#0277BD</color>
+    <color name="colorTextQuinaryDay">#10242c</color>
+
+    <color name="colorButtonPrimaryDay">#323f51</color>
+    <color name="colorButtonSecondaryDay">#FFFFFF</color>
+    <color name="colorButtonTertiaryDay">#C62828</color>
+
+    <color name="colorBackgroundPrimaryDay">#F7F7F7</color>
+    <color name="colorBackgroundSecondaryDay">#F5F6F8</color>
+    <color name="colorBackgroundTertiaryDay">#FFFFFF</color>
+    <color name="colorBackgroundQuaternaryDay">#cfcfcf</color>
+    <color name="colorBackgroundQuinaryDay">#000000</color>
+    <color name="colorBackgroundSenaryDay">#FF4833</color>
+    <color name="colorBackgroundSeptenaryDay">#ff8a23</color>
+
+    <color name="colorDialogPrimaryDay">#FFFFFF</color>
+    <color name="colorDialogSecondaryDay">#EEEEEE</color>
+    <color name="colorDialogTertiaryDay">#F9A825</color>
+
+    <color name="colorPagerSelectedDay">#FF2474</color>
+    <color name="colorPagerUnSelectedDay">#AAAAAA</color>
+    <color name="colorBackgroundSelector">#A4000000</color>
+
+    <color name="white">#7AFFFFFF</color>
+
+    <!--Color for Extensible Page Indicator-->
+
+    <color name="fpi_default_indicator_inactive_color">#A8A8A8</color>
+    <color name="fpi_default_indicator_active_color">#AAAAAA</color>
+
+    <color name="default_picture_selector_icon_colour">#323f51</color>
+    <color name="default_picture_selector_text_colour">#323f51</color>
+
+
+    <!--Color for Category-->
+
+</resources>

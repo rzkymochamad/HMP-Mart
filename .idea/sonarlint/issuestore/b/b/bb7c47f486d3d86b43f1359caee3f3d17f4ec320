@@ -1,0 +1,61 @@
+
+T
+java:S1854œ"=Remove this useless assignment to local variable "layoutAdd".(Ê×•ƒ
+
+java:S1319E"uThe type of the "dataObject" object should be an interface such as "List" rather than the implementation "ArrayList".(ìŒØÏÿÿÿÿÿ
+X
+java:S1126Ò"BReplace this if-then-else statement by a single method invocation.(ó¯’d
+E
+java:S1481œ".Remove this unused "layoutAdd" local variable.(Ê×•ƒ
+R	java:S125"<This block of commented-out lines of code should be removed.(¹Üí‹
+Y
+java:S1854"CRemove this useless assignment to local variable "layoutAddToCart".(ÓÜÓ>
+>
+java:S1185O"(Remove this method to simply inherit it.(«ÃÀ÷
+S
+java:S1144ı"7Remove this unused private "getLastVisibleItem" method.(³£°œúÿÿÿÿ
+f
+java:S1128,"KRemove this unused import 'androidx.recyclerview.widget.GridLayoutManager'.(î¼çÿüÿÿÿÿ
+G
+java:S1481˜"0Remove this unused "txtDiscount" local variable.(›ïƒá
+P	java:S125P"<This block of commented-out lines of code should be removed.(ú‰ƒ
+V
+java:S1854›"?Remove this useless assignment to local variable "txtQuantity".(½Ë€
+N
+java:S1135æ"2Complete the task associated to this TODO comment.(Æ³»øüÿÿÿÿ
+V
+java:S1854˜"?Remove this useless assignment to local variable "txtDiscount".(›ïƒá
+J
+java:S1481"4Remove this unused "layoutAddToCart" local variable.(ÓÜÓ>
+A
+java:S1068;"+Remove this unused "skipIds" private field.(‡µüë
+˜
+java:S1186Ô"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¡é††
+€
+java:S1128"eRemove this unused import 'com.haris.shopping.JsonUtil.FeaturedCategoriesProductUtil.ListOfCategory'.(ş™‹Şøÿÿÿÿ
+j
+java:S1128"TRemove this unused import 'com.haris.shopping.JsonUtil.SaleProductUtil.ListOfDatum'.(ô…üø
+i
+java:S1871‚"MThis branch's code block is the same as the block for the branch on line 256.(àïÁšûÿÿÿÿ
+H
+java:S1128"2Remove this unused import 'android.os.Parcelable'.(õÃÀ­
+x
+java:S14507"]Remove the "itemDecoration" field and declare it as a local variable in the relevant methods.(¯¼úÿÿÿÿ
+V
+java:S1854š"?Remove this useless assignment to local variable "layoutMinus".(êŞ³ 
+Z
+java:S1117¯"CRename "objectArrayList" which hides the field declared at line 54.( §Í³
+i
+java:S3776Š"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(ú¾†ƒ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÅÙ¯
+V
+java:S1117È"?Rename "dataAdapter" which hides the field declared at line 53.(†ãŠÛ
+G
+java:S1481š"0Remove this unused "layoutMinus" local variable.(êŞ³ 
+G
+java:S1481›"0Remove this unused "txtQuantity" local variable.(½Ë€
+F
+java:S1068<"1Remove this unused "stringBuilder" private field.(ŸšÅ8
+w
+java:S14503"\Remove the "layoutManager" field and declare it as a local variable in the relevant methods.(†ÊÇõÿÿÿÿÿ
+W	java:S125à"<This block of commented-out lines of code should be removed.(ˆÇËıÿÿÿÿ

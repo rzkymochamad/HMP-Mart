@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?attr/colorBackgroundSecondary"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bg_menu">
+
+            <include
+                layout="@layout/product_detail_menu"
+                android:layout_width="match_parent"
+                android:layout_height="55dp" />
+
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/tab_layout"
+                android:layout_width="match_parent"
+                app:tabIndicatorHeight="1px"
+                app:tabPaddingStart="13dp"
+                app:tabPaddingEnd="13dp"
+                app:tabMaxWidth="0dp"
+                app:tabMinWidth="0dp"
+                android:layout_gravity="start"
+                android:clipToPadding="false"
+                android:fillViewport="false"
+                app:tabGravity="fill"
+                app:tabMode="scrollable"
+                app:tabIndicatorColor="@color/colorTransparent"
+                android:layout_height="50dp"
+                ></com.google.android.material.tabs.TabLayout>
+
+        </LinearLayout>
+
+
+        <com.mg.shopping.customutil.LockableViewPager
+            android:id="@+id/view_pager_category"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"></com.mg.shopping.customutil.LockableViewPager>
+
+
+
+
+       <!-- <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view_order_history"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            ></androidx.recyclerview.widget.RecyclerView>-->
+
+
+    </LinearLayout>
+
+</RelativeLayout>

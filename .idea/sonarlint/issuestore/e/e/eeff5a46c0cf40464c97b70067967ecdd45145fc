@@ -1,0 +1,30 @@
+
+^
+java:S3973ˆ"GUse indentation to denote the code conditionally executed by this "if".(ÄÔš•
+l
+java:S1450)"VRemove the "txtMenu" field and declare it as a local variable in the relevant methods.(êÄÞÖ
+?
+java:S1185‰"(Remove this method to simply inherit it.(Ù«µ§
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ßƒá»ÿÿÿÿÿ
+f
+java:S1128"PRemove this unused import 'com.haris.shopping.JsonUtil.SpecificProductUtil.Faq'.(ÂÀëÿ
+l
+java:S14502"VRemove the "txtName" field and declare it as a local variable in the relevant methods.(Ý³…¢
+Q	java:S110'"<This class has 9 parents which is greater than 5 authorized.(Ý˜ˆÞ
+v
+java:S14501"[Remove the "imageProduct" field and declare it as a local variable in the relevant methods.(œªð¨þÿÿÿÿ
+u
+java:S1450/"ZRemove the "txtQuestion" field and declare it as a local variable in the relevant methods.(è®‚ùÿÿÿÿ
+m
+java:S14503"WRemove the "txtPrice" field and declare it as a local variable in the relevant methods.(‰Åñ€
+r
+java:S1450+"^Remove the "recyclerViewFaq" field and declare it as a local variable in the relevant methods.(ýÍ_
+J
+java:S10684"/Remove this unused "txtDiscount" private field.(°ûÉ¦ýÿÿÿÿ
+u
+java:S14504"ZRemove the "txtDiscount" field and declare it as a local variable in the relevant methods.(°ûÉ¦ýÿÿÿÿ
+H
+java:S1128"2Remove this unused import 'android.os.Parcelable'.(õÃÀ­
+Q	java:S125"<This block of commented-out lines of code should be removed.(½Ãôó
+r
+java:S1450*"\Remove the "layoutManager" field and declare it as a local variable in the relevant methods.(áÓøÒ

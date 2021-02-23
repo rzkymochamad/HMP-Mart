@@ -1,0 +1,22 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÅÙ¯ž
+—
+java:S1186<"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÛÍðÄ
+>
+java:S1185"(Remove this method to simply inherit it.(«ÃÀ÷
+V
+java:S1128";Remove this unused import 'androidx.fragment.app.Fragment'.(‚Š©“ùÿÿÿÿ
+œ
+java:S11867"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ýö¾Âÿÿÿÿÿ
+P
+java:S1128"5Remove this unused import 'android.widget.ImageView'.(ú¯ëàüÿÿÿÿ
+`
+java:S1128"ERemove this unused import 'com.haris.shopping.ConstantUtil.Constant'.(êËãàþÿÿÿÿ
+–
+java:S1186H"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(…‹Ïr
+U
+java:S1128"?Remove this unused import 'com.haris.shopping.Utility.Utility'.(‰ÌãË
+c
+java:S1128"HRemove this unused import 'com.haris.shopping.ObjectUtil.OnBoardObject'.(®úøìýÿÿÿÿ
+O
+java:S1128	"4Remove this unused import 'android.widget.TextView'.(„Ë‚ˆÿÿÿÿÿ

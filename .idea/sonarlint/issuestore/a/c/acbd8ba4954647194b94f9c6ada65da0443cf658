@@ -1,0 +1,32 @@
+
+d
+java:S2095ƒ"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(£«øÍ
+Q	java:S125ô"<This block of commented-out lines of code should be removed.(²ü®
+W	java:S125Á"<This block of commented-out lines of code should be removed.( ¦¹¦ûÿÿÿÿ
+g	java:S117Õ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(º»öÛ
+K
+java:S1066š"/Merge this if statement with the enclosing one.(½£¾Èøÿÿÿÿ
+j
+java:S2095„"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(â½§Öúÿÿÿÿ
+E
+java:S1066Þ"/Merge this if statement with the enclosing one.(’Ñ¼j
+E
+java:S1066é"/Merge this if statement with the enclosing one.(’Ñ¼j
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(•¦ÌÏÿÿÿÿÿ
+S
+java:S1481¿"7Remove this unused "lastItemInsertedId" local variable.(©î±ýÿÿÿÿ
+d
+java:S2095ã"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(£«øÍ
+u
+java:S1450""_Remove the "sqLiteOpenHelper" field and declare it as a local variable in the relevant methods.(·¼Èô
+i
+java:S3776¼"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(éË•í
+c
+java:S1871å"MThis branch's code block is the same as the block for the branch on line 218.(‹È J
+W	java:S125ñ"<This block of commented-out lines of code should be removed.(±šð‹ûÿÿÿÿ
+j
+java:S2095ä"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(â½§Öúÿÿÿÿ
+?	java:S108•")Either remove or fill this block of code.(ä±ê“
+W	java:S125ö"<This block of commented-out lines of code should be removed.(”ÜŸ›úÿÿÿÿ
+k
+java:S1450$"URemove the "editor" field and declare it as a local variable in the relevant methods.(–ñèˆ

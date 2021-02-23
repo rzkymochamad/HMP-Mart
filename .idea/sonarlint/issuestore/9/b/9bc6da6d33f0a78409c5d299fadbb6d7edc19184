@@ -1,0 +1,127 @@
+
+m	java:S116y"YRename this field "attribute_type" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(º¬¾t
+p	java:S100¯"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚¬‰üùÿÿÿÿ8ç€ğÌè.
+
+java:S1319Ì"yThe type of the "brandArrayList" object should be an interface such as "List" rather than the implementation "ArrayList".(Œ‡…
+š
+java:S1319Î"wThe type of the "objectList02" object should be an interface such as "List" rather than the implementation "ArrayList".(ªãşúÿÿÿÿ8ç€ğÌè.
+n	java:S116g"YRename this field "category_image" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñæè¸
+p
+java:S3776å"RRefactor this method to reduce its Cognitive Complexity from 68 to the 15 allowed.(¾´Ä­8ç€ğÌè.
+l	java:S117û"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿ¨ôÒüÿÿÿÿ
+m	java:S116f"XRename this field "category_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(üÎ€°
+Q
+java:S1481Ú"4Remove this unused "objectArrayList" local variable.(Ä˜Â
+8ç€ğÌè.
+l	java:S116v"WRename this field "attribute_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğ°ï
+p	java:S100Ş"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ó«¢©ûÿÿÿÿ8ç€ğÌè.
+k	java:S100ë"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹¸ÁŞ8ç€ğÌè.
+g	java:S117‘"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Â ô·
+s	java:S117â"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Š‚²œıÿÿÿÿ8ç€ğÌè.
+q	java:S116^"\Rename this field "style_orientation" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜©‚
+o	java:S116M"URename this field "product_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÀÅÛÏøÿÿÿÿ
+|
+java:S2293À	"YReplace the type specification in this constructor call with the diamond operator ("<>").(İ°Õùÿÿÿÿ8ŠÊÍè.
+p	java:S100¡"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(à¹Ùêÿÿÿÿÿ8ç€ğÌè.
+g
+java:S1192Õ"JDefine a constant instead of duplicating this literal " Child = " 3 times.(ÚÁóc8ç€ğÌè.
+k	java:S116_"WRename this field "style_banner" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜ÿ 
+Q
+java:S1481Ş"4Remove this unused "objectArrayList" local variable.(Ä˜Â
+8ç€ğÌè.
+˜
+java:S1319¼"zThe type of the "objectArrayList" object should be an interface such as "List" rather than the implementation "ArrayList".(Ò®Ÿ±8ç€ğÌè.
+l	java:S117š"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸ıà‹ùÿÿÿÿ
+j
+java:S1128"ORemove this unused import 'com.haris.shopping.JsonUtil.CityJson.Configuration'.(”©ßÕıÿÿÿÿ
+p	java:S100â"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Š‚²œıÿÿÿÿ8ç€ğÌè.
+s	java:S117¡"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(à¹Ùêÿÿÿÿÿ8ç€ğÌè.
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ã¯óªûÿÿÿÿ
+g	java:S116W"RRename this field "user_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„¡Ü
+Œ
+java:S1319Ó"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(•®†Îøÿÿÿÿ
+p	java:S100¾"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(È¦Öşøÿÿÿÿ8ç€ğÌè.
+
+java:S1319Á"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ñí§¬8ç€ğÌè.
+š
+java:S1319à"wThe type of the "objectList04" object should be an interface such as "List" rather than the implementation "ArrayList".(Ş÷ğ¨ıÿÿÿÿ8ç€ğÌè.
+“
+java:S1319Ó"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Ñ¤¼Àøÿÿÿÿ8ç€ğÌè.
+n	java:S116o"YRename this field "subCategory_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ç¿œ÷
+j	java:S116Š"TRename this field "data_type" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ïŞ»ƒ
+•
+java:S1319×"wThe type of the "objectList03" object should be an interface such as "List" rather than the implementation "ArrayList".(ôÇ±š8ç€ğÌè.
+d	java:S100‘"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Â ô·
+k
+java:S11283"NRemove this unused import 'com.haris.shopping.JsonUtil.StyleJsonUtil.Setting'.(ø„ˆİ8¨«şÌè.
+o	java:S116]"URename this field "style_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ùşº·üÿÿÿÿ
+i	java:S100š"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸ıà‹ùÿÿÿÿ
+d	java:S100ã"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(” úÑ
+^	java:S125ô"<This block of commented-out lines of code should be removed.(±¡™âÿÿÿÿÿ8ç€ğÌè.
+d	java:S100ì"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡¢ÕŠ
+r	java:S116G"XRename this field "deep_link_url" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©±Ù¤øÿÿÿÿ
+s	java:S117¾"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(È¦Öşøÿÿÿÿ8ç€ğÌè.
+n	java:S116w"YRename this field "attribute_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(È”æ€
+g	java:S117ã"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(” úÑ
+d	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×³ê
+p	java:S100³"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£Ïòùùÿÿÿÿ8ç€ğÌè.
+Œ
+java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(®ĞË«ûÿÿÿÿ
+…
+java:S1319×"oThe type of the "data" object should be an interface such as "List" rather than the implementation "ArrayList".(÷É‘x
+i	java:S100ñ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÑàáŞşÿÿÿÿ
+w
+java:S2293Æ	"YReplace the type specification in this constructor call with the diamond operator ("<>").(Æï·Ã8ŠÊÍè.
+r
+java:S11284"PRemove this unused import 'com.haris.shopping.JsonUtil.StyleJsonUtil.StyleJson'.(‚Î·íúÿÿÿÿ8³ØüÌè.
+m	java:S117½	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( „q8ŠÊÍè.
+m	java:S116\"SRename this field "style_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›îî¬ûÿÿÿÿ
+y	java:S116~"^Rename this field "payment_method_icon" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•“Êj8ßƒùÌè.
+w
+java:S2293Â	"YReplace the type specification in this constructor call with the diamond operator ("<>").(İèÒ®8ŠÊÍè.
+“
+java:S1319Ê"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Ó¡Œúÿÿÿÿ8ç€ğÌè.
+l	java:S117ñ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÑàáŞşÿÿÿÿ
+t	java:S116j"ZRename this field "category_enable" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥öêüùÿÿÿÿ
+g
+java:S1192Õ"JDefine a constant instead of duplicating this literal "Parent = " 3 times.(ÚÁóc8ç€ğÌè.
+
+java:S1319¸"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ı›Ü8ç€ğÌè.
+k	java:S100º"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Á¢ó’8ç€ğÌè.
+‘
+java:S1319…"zThe type of the "subCategoryList" object should be an interface such as "List" rather than the implementation "ArrayList".(Ø¯Ğ­
+g	java:S117ì"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡¢ÕŠ
+y	java:S116i"_Rename this field "category_orientation" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÕŠ©•ùÿÿÿÿ
+c	java:S100ß"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÒŒÅ1
+c	java:S100è"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·— 
+	java:S116}"^Rename this field "payment_method_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»Æ°úÿÿÿÿÿ8ßƒùÌè.
+k	java:S100ç"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷ßÑß8ç€ğÌè.
+j	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ã‹³.8ç€ğÌè.
+“
+java:S1319Ü"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(İñ‡şÿÿÿÿ8ç€ğÌè.
+‡
+java:S1319È"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(“Å
+w
+java:S2293Ä	"YReplace the type specification in this constructor call with the diamond operator ("<>").(³çĞ§8ŠÊÍè.
+k	java:S116N"VRename this field "question_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥ÅÁŸ
+r	java:S116h"XRename this field "category_type" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥¹Îøøÿÿÿÿ
+s	java:S117³"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£Ïòùùÿÿÿÿ8ç€ğÌè.
+n	java:S117ë"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹¸ÁŞ8ç€ğÌè.
+k	java:S116e"VRename this field "category_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„´¼š
+“
+java:S1319Å"uThe type of the "objectList" object should be an interface such as "List" rather than the implementation "ArrayList".(œÒñ8ç€ğÌè.
+`
+java:S1854Ş"CRemove this useless assignment to local variable "objectArrayList".(Ä˜Â
+8ç€ğÌè.
+i	java:S100û"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿ¨ôÒüÿÿÿÿ
+j
+java:S11285"ORemove this unused import 'com.haris.shopping.JsonUtil.UserProfileUtil.Detail'.( ©ûîúÿÿÿÿ
+t	java:S116x"ZRename this field "attribute_price" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œÈÅÜıÿÿÿÿ
+Y	java:S125ï"<This block of commented-out lines of code should be removed.(Ø¾Öô8ç€ğÌè.
+o	java:S116u"ZRename this field "attribute_label" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿Ÿóâ
+p	java:S116p"[Rename this field "subCategory_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾›‰Æ
+`
+java:S1854Ú"CRemove this useless assignment to local variable "objectArrayList".(Ä˜Â
+8ç€ğÌè.
+i	java:S100÷"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(††¸„şÿÿÿÿ
+i	java:S100–"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷äöÀıÿÿÿÿ

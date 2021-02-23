@@ -1,0 +1,11 @@
+
+|	java:S116"bRename this field "LEAST_DISTANCE_IN_METER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½ÌâÚüÿÿÿÿ
+c	java:S116"NRename this field "TAG" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ËƒòÄ
+M
+java:S1135."2Complete the task associated to this TODO comment.(žáÃæùÿÿÿÿ
+u	java:S116"`Rename this field "REQUEST_LOCATION_TIME" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ä¯õ›
+E
+java:S1066+"/Merge this if statement with the enclosing one.(åðúŽ
+r
+java:S1450"WRemove the "location" field and declare it as a local variable in the relevant methods.(¹¿É‚ÿÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¤¿÷í

@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="?attr/colorBackgroundSecondary">
+
+        <include
+            layout="@layout/product_detail_menu"
+            android:layout_width="match_parent"
+            android:layout_height="55dp" />
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/layout_scroller"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center_horizontal">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="250dp">
+
+
+                    <ImageView
+                        android:id="@+id/image_cover"
+                        android:layout_width="match_parent"
+                        android:scaleType="centerCrop"
+                        android:layout_height="150dp"></ImageView>
+
+                    <com.makeramen.roundedimageview.RoundedImageView
+                        android:id="@+id/image_brand"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/app_icon"
+                        app:riv_corner_radius="15dp"
+                        android:background="?attr/colorBackgroundTertiary"
+                        android:layout_below="@+id/image_cover"
+                        android:layout_marginTop="-10dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginLeft="20dp"></com.makeramen.roundedimageview.RoundedImageView>
+
+                    <com.mg.shopping.textviewutil.LabelTextview
+                        android:id="@+id/txt_brand"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/image_cover"
+                        android:layout_toEndOf="@+id/image_brand"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp"
+                        android:textSize="@dimen/lb_txt_size"
+                        android:textColor="?attr/colorTextQuinary"
+                        android:text="Navi Force"></com.mg.shopping.textviewutil.LabelTextview>
+
+                    <com.jcminarro.roundkornerlayout.RoundKornerLinearLayout
+                        android:id="@+id/layout_follow"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:minWidth="80dp"
+                        android:minHeight="30dp"
+                        app:corner_radius="5dp"
+                        android:gravity="center"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_toEndOf="@+id/txt_label"
+                        android:layout_below="@+id/image_cover"
+                        android:background="?attr/colorBackgroundSeptenary">
+
+
+                        <ImageView
+                            android:id="@+id/image_tick"
+                            android:layout_width="15dp"
+                            android:layout_height="15dp"
+                            android:padding="4dp"
+                            android:src="@drawable/ic_add"></ImageView>
+
+                        <com.mg.shopping.textviewutil.TaglineTextview
+                            android:id="@+id/txt_follow"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginLeft="5dp"
+                            android:textColor="?attr/colorTextTertiary"
+                            android:textSize="@dimen/sm_txt_size"
+                            android:text="@string/follow"></com.mg.shopping.textviewutil.TaglineTextview>
+
+
+                    </com.jcminarro.roundkornerlayout.RoundKornerLinearLayout>
+
+
+
+                </RelativeLayout>
+
+                <com.jcminarro.roundkornerlayout.RoundKornerLinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="70dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="10dp"
+                    app:corner_radius="15dp"
+                    android:background="?attr/colorBackgroundTertiary"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        android:gravity="center">
+
+
+                        <com.mg.shopping.textviewutil.LabelTextview
+                            android:id="@+id/txt_item"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/nm_txt_size"
+                            android:textColor="?attr/colorTextQuinary"
+                            android:text="70"></com.mg.shopping.textviewutil.LabelTextview>
+
+                        <com.mg.shopping.textviewutil.NormalTextview
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="?attr/colorTextSecondary"
+                            android:textSize="@dimen/sm_txt_size"
+                            android:layout_marginTop="5dp"
+                            android:text="@string/items"></com.mg.shopping.textviewutil.NormalTextview>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="1px"
+                        android:layout_height="50dp"
+                        android:background="?attr/colorBackgroundQuaternary"></TextView>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        android:gravity="center">
+
+
+                        <com.mg.shopping.textviewutil.LabelTextview
+                            android:id="@+id/txt_reviews"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/nm_txt_size"
+                            android:textColor="?attr/colorTextQuinary"
+                            android:text="1070"></com.mg.shopping.textviewutil.LabelTextview>
+
+                        <com.mg.shopping.textviewutil.NormalTextview
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="?attr/colorTextSecondary"
+                            android:textSize="@dimen/sm_txt_size"
+                            android:layout_marginTop="5dp"
+                            android:text="@string/review"></com.mg.shopping.textviewutil.NormalTextview>
+
+
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="1px"
+                        android:layout_height="50dp"
+                        android:background="?attr/colorBackgroundQuaternary"></TextView>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        android:gravity="center">
+
+                        <androidx.appcompat.widget.AppCompatRatingBar
+                            android:id="@+id/rating_store"
+                            style="@style/Base.Widget.AppCompat.RatingBar.Small"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="0dp"
+                            android:scaleX="0.7"
+                            android:scaleY="0.7"
+                            android:rating="4"/>
+
+                        <com.mg.shopping.textviewutil.NormalTextview
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="?attr/colorTextSecondary"
+                            android:textSize="@dimen/sm_txt_size"
+                            android:layout_marginTop="5dp"
+                            android:text="@string/rating"></com.mg.shopping.textviewutil.NormalTextview>
+
+
+                    </LinearLayout>
+
+
+                </com.jcminarro.roundkornerlayout.RoundKornerLinearLayout>
+
+
+            </LinearLayout>
+
+
+        </androidx.core.widget.NestedScrollView>
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

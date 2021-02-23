@@ -1,0 +1,10 @@
+
+F
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ
+c	java:S1002"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ËžÕÌ
+q	java:S116"WRename this field "user_picture" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§áØ¨úÿÿÿÿ
+m
+java:S1128	"RRemove this unused import 'com.haris.shopping.JsonUtil.CategoryUtil.CategoryIcon'.(éÜªãýÿÿÿÿ
+b	java:S100."NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µ“™3
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Š¸¾½ýÿÿÿÿ
+f	java:S1172"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ËžÕÌ

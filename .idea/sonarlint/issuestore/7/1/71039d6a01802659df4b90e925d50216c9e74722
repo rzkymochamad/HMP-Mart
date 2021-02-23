@@ -1,0 +1,11 @@
+
+q	java:S116"WRename this field "loading_type" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥æ”úÿÿÿÿ
+g	java:S117¼"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥”¡÷
+d	java:S100¼"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥”¡÷
+i	java:S100‰"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡”“Âıÿÿÿÿ
+l	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( û®íşÿÿÿÿ
+h	java:S116"SRename this field "skip_ids" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿ¦«¿
+g	java:S117“"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿…Ğ˜
+i	java:S100¸"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Àà‹µüÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ã¯óªûÿÿÿÿ
+i	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( û®íşÿÿÿÿ

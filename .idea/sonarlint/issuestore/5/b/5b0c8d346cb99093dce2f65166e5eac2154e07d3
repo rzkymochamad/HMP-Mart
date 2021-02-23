@@ -1,0 +1,15 @@
+
+@
+java:S1068"+Remove this unused "context" private field.(êÝç
+I
+java:S1068"'Remove this unused "tag" private field.(¿¨ÿ øÿÿÿÿ8¤­™Ðè.
+Z
+java:S1128
+"DRemove this unused import 'com.haris.shopping.DateUtil.DateBuilder'.(¦Å½Ç
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(—ù…°ùÿÿÿÿ
+N
+java:S1481Z"3Remove this unused "lastInsertedId" local variable.(Ô€Žúÿÿÿÿÿ
+‹
+java:S1319%"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(‘ç„ìùÿÿÿÿ
+J
+java:S10664"/Merge this if statement with the enclosing one.(à÷úÍüÿÿÿÿ

@@ -1,0 +1,18 @@
+
+N
+java:S18549"8Remove this useless assignment to local variable "gson".(şëŒ
+?
+java:S14819")Remove this unused "gson" local variable.(şëŒ
+1
+java:S3626A"Remove this redundant jump.(ûÁİ…
+M
+java:S1135"2Complete the task associated to this TODO comment.(Ê÷Ééüÿÿÿÿ
+M
+java:S2589@"7Remove this expression which always evaluates to "true"(êæ¥¤
+J
+java:S1481<"/Remove this unused "objectList" local variable.(¡©òüùÿÿÿÿ
+F
+java:S1481:"+Remove this unused "object" local variable.(¦Öİ“ûÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¢šİüúÿÿÿÿ
+Y
+java:S1854<">Remove this useless assignment to local variable "objectList".(¡©òüùÿÿÿÿ

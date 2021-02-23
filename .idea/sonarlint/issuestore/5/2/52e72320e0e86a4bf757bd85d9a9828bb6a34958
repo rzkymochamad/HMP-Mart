@@ -1,0 +1,6 @@
+
+j	java:S116"VRename this field "shipment_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ß—á
+f	java:S1173"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(áŞâ
+c	java:S1003"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(áŞâ
+c	java:S100/"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æÀì¶
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(îÚè±ÿÿÿÿÿ

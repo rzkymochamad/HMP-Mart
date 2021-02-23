@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <com.jcminarro.roundkornerlayout.RoundKornerLinearLayout
+        android:id="@+id/layout_product"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:padding="0dp"
+        android:clickable="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        app:corner_radius="15dp"
+        android:background="?attr/colorBackgroundTertiary"
+        android:gravity="center_vertical">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/image_product"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:padding="5dp"
+            app:riv_corner_radius="10dp"
+            android:src="@drawable/product_01"></com.makeramen.roundedimageview.RoundedImageView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:orientation="vertical"
+            android:paddingStart="5dp"
+            android:paddingLeft="5dp"
+            android:layout_weight="1">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center_vertical">
+
+
+                <com.mg.shopping.textviewutil.NormalTextview
+                    android:id="@+id/txt_product_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kedos Running Shoes from Adidas"
+                    android:textSize="@dimen/nm_txt_size"
+                    android:textColor="?attr/colorTextQuinary"></com.mg.shopping.textviewutil.NormalTextview>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center_vertical">
+
+                    <com.jcminarro.roundkornerlayout.RoundKornerLinearLayout
+                        android:id="@+id/layout_status"
+                        android:layout_width="wrap_content"
+                        android:layout_height="22dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                        android:gravity="center"
+                        android:background="?attr/colorBackgroundSeptenary"
+                        app:corner_radius="5dp">
+
+                        <com.mg.shopping.textviewutil.TaglineTextview
+                            android:id="@+id/txt_status"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/sm_txt_size"
+                            android:textColor="?attr/colorTextTertiary"
+                            android:text="Rejected"></com.mg.shopping.textviewutil.TaglineTextview>
+
+
+                    </com.jcminarro.roundkornerlayout.RoundKornerLinearLayout>
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center_vertical">
+
+
+                    <com.mg.shopping.textviewutil.NormalTextview
+                        android:id="@+id/txt_price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="10dp"
+                        android:text="$ 7000"
+                        android:textSize="@dimen/nm_txt_size"
+                        android:textColor="?attr/colorTextQuinary"></com.mg.shopping.textviewutil.NormalTextview>
+
+
+                    <com.mg.shopping.textviewutil.NormalTextview
+                        android:id="@+id/txt_quantity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="?attr/colorTextQuinary"
+                        android:textSize="@dimen/nm_txt_size"
+                        android:text="x2"></com.mg.shopping.textviewutil.NormalTextview>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </com.jcminarro.roundkornerlayout.RoundKornerLinearLayout>
+
+</RelativeLayout>

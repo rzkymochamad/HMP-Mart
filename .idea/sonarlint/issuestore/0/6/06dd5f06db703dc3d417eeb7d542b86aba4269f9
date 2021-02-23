@@ -1,0 +1,70 @@
+
+x
+java:S1450B"]Remove the "itemDecoration" field and declare it as a local variable in the relevant methods.(¯¼úÿÿÿÿ
+€
+java:S14509"eRemove the "recyclerViewCategories" field and declare it as a local variable in the relevant methods.(±™…øÿÿÿÿ
+E
+java:S1481ñ".Remove this unused "layoutAdd" local variable.(Ê×•ƒ
+H
+java:S1068@"-Remove this unused "txtSearch" private field.(¾‹Š†üÿÿÿÿ
+J
+java:S1481ó"4Remove this unused "layoutAddToCart" local variable.(ÓÜÓ>
+V
+java:S1854ğ"?Remove this useless assignment to local variable "txtQuantity".(½Ë€
+i
+java:S1871×"MThis branch's code block is the same as the block for the branch on line 341.(àïÁšûÿÿÿÿ
+G
+java:S1481í"0Remove this unused "txtDiscount" local variable.(›ïƒá
+˜
+java:S1186›"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¡é††
+R	java:S125×"<This block of commented-out lines of code should be removed.(³àšÙ
+X
+java:S1126¦"BReplace this if-then-else statement by a single method invocation.(ó¯’d
+v
+java:S14508"`Remove the "gridLayoutManager" field and declare it as a local variable in the relevant methods.(†ºŸã
+W	java:S125‹"<This block of commented-out lines of code should be removed.(îÔ†”úÿÿÿÿ
+G
+java:S1481ğ"0Remove this unused "txtQuantity" local variable.(½Ë€
+e
+java:S1128"ORemove this unused import 'com.haris.shopping.JsonUtil.AllCategoryUtil.Datum_'.(ºÚı¼
+Z
+java:S1117„"CRename "objectArrayList" which hides the field declared at line 61.( §Í³
+V
+java:S1854ï"?Remove this useless assignment to local variable "layoutMinus".(êŞ³ 
+T
+java:S1854ñ"=Remove this useless assignment to local variable "layoutAdd".(Ê×•ƒ
+G
+java:S1481ï"0Remove this unused "layoutMinus" local variable.(êŞ³ 
+K
+java:S1068C"0Remove this unused "categoryType" private field.(–›¶Óüÿÿÿÿ
+f
+java:S1128"PRemove this unused import 'com.haris.shopping.ActivityUtil.CategorizedProducts'.(ÛĞ’¦
+i
+java:S1128"NRemove this unused import 'com.haris.shopping.JsonUtil.AllCategoryUtil.Datum'.(Æ¢õÎüÿÿÿÿ
+q
+java:S1128"VRemove this unused import 'com.haris.shopping.JsonUtil.ListOfProductUtil.ListOfDatum'.(Üì®œùÿÿÿÿ
+>
+java:S1185["(Remove this method to simply inherit it.(«ÃÀ÷
+U
+java:S1117">Rename "dataObject" which hides the field declared at line 63.(­˜Áÿ
+F
+java:S1068A"+Remove this unused "txtType" private field.(¡È—–üÿÿÿÿ
+_
+java:S1128"IRemove this unused import 'com.haris.shopping.ActivityUtil.BaseActivity'.(êµ§£
+V
+java:S1854í"?Remove this useless assignment to local variable "txtDiscount".(›ïƒá
+i
+java:S3776ß"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(ú¾†ƒ
+A
+java:S1068G"+Remove this unused "skipIds" private field.(‡µüë
+c
+java:S1128""HRemove this unused import 'com.haris.shopping.ObjectUtil.OnBoardObject'.(®úøìıÿÿÿÿ
+N
+java:S1135Ä"2Complete the task associated to this TODO comment.(Æ³»øüÿÿÿÿ
+V
+java:S1117œ"?Rename "dataAdapter" which hides the field declared at line 60.(†ãŠÛ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÅÙ¯
+}
+java:S1450:"bRemove the "recyclerViewProduct" field and declare it as a local variable in the relevant methods.(€ÔÒ¼şÿÿÿÿ
+Y
+java:S1854ó"CRemove this useless assignment to local variable "layoutAddToCart".(ÓÜÓ>

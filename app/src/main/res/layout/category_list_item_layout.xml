@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/colorBackgroundTertiary"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/layout_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="50dp"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+
+        <com.mg.shopping.textviewutil.NormalTextview
+            android:id="@+id/txt_category_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="?attr/colorTextQuinary"
+            android:textSize="@dimen/nm_txt_size"
+            android:text="Quartz Watches"></com.mg.shopping.textviewutil.NormalTextview>
+
+
+        <ImageView
+            android:id="@+id/image_selected"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:padding="2dp"
+            android:visibility="invisible"
+            android:tint="?attr/colorBackgroundSeptenary"
+            android:src="@drawable/ic_tick"></ImageView>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="?attr/colorBackgroundQuaternary"
+        android:layout_marginStart="13dp"
+        android:layout_marginEnd="13dp"></TextView>
+
+
+</LinearLayout>

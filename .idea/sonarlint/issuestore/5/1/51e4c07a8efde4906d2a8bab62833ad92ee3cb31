@@ -1,0 +1,48 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ò˜’Ùıÿÿÿÿ
+R
+java:S1874µ"6Remove this use of "ProgressDialog"; it is deprecated.(†Šëšøÿÿÿÿ
+Z
+java:S2589Ë"7Remove this expression which always evaluates to "true"(”±¢şÿÿÿÿ8í£ÔÓè.
+I
+java:S1659ğ"&Declare "coverUri" on a separate line.(©­‚Çıÿÿÿÿ8í£ÔÓè.
+N
+java:S1481‚"2Remove this unused "shortLinkTask" local variable.(œ·œ¨ùÿÿÿÿ
+K
+java:S1481À".Remove this unused "NOTIFY_ID" local variable.(‰ëÇ8í£ÔÓè.
+L
+java:S1874d"6Remove this use of "ProgressDialog"; it is deprecated.(ğİıº
+i
+java:S1128""NRemove this unused import 'com.haris.shopping.ActivityUtil.AddBillingAddress'.(µ¼Î‰ıÿÿÿÿ
+Y
+java:S1874©"6Remove this use of "ProgressDialog"; it is deprecated.(òÿè¢øÿÿÿÿ8£ëÒÓè.
+I
+java:S1481Ã"+Remove this unused "intent" local variable.(„ò©¨8£ëÒÓè.
+i
+java:S1871ƒ"MThis branch's code block is the same as the block for the branch on line 345.(œ¾ÚŸúÿÿÿÿ
+P
+java:S1481ğ"-Remove this unused "coverUri" local variable.(©­‚Çıÿÿÿÿ8í£ÔÓè.
+Y
+java:S1874°"6Remove this use of "ProgressDialog"; it is deprecated.(÷èĞ§ÿÿÿÿÿ8í£ÔÓè.
+m	java:S117À"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰ëÇ8í£ÔÓè.
+Z
+java:S1854À"=Remove this useless assignment to local variable "NOTIFY_ID".(‰ëÇ8í£ÔÓè.
+X
+java:S1874ò"5Remove this use of "PRIORITY_HIGH"; it is deprecated.(è–ıÿÿÿÿ8í£ÔÓè.
+Y	java:S125ö"<This block of commented-out lines of code should be removed.(É¤Áİ8í£ÔÓè.
+I
+java:S1481¿"-Remove this unused "acDialog" local variable.(óÎ§ûşÿÿÿÿ
+c
+java:S1117—"ERename "bottomSheetDialog" which hides the field declared at line 99.(ãİ€¬8í£ÔÓè.
+Y
+java:S1874ª"6Remove this use of "ProgressDialog"; it is deprecated.(Îø†ßÿÿÿÿÿ8í£ÔÓè.
+Y
+java:S1874ª"6Remove this use of "ProgressDialog"; it is deprecated.(Îø†ßÿÿÿÿÿ8í£ÔÓè.
+`
+java:S1117µ"DRename "acProgressFlower" which hides the field declared at line 98.(†Šëšøÿÿÿÿ
+^	java:S125‰"<This block of commented-out lines of code should be removed.(¹ª±Êüÿÿÿÿ8í£ÔÓè.
+Y	java:S125±"<This block of commented-out lines of code should be removed.(ˆ˜àß8í£ÔÓè.
+i
+java:S3776f"SRefactor this method to reduce its Cognitive Complexity from 164 to the 15 allowed.(‹éû»
+P
+java:S1481Ä"2Remove this unused "pendingIntent" local variable.(¡áÃ¡8í£ÔÓè.

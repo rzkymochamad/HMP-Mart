@@ -1,0 +1,14 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ìğ“¿şÿÿÿÿ
+‡
+java:S1319ñ"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ßÊŸœ
+–
+java:S13198"{The type of the "pictureArrayList" object should be an interface such as "List" rather than the implementation "ArrayList".(µ›Æµÿÿÿÿÿ
+†
+java:S13194"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ƒúê
+]
+java:S1128"GRemove this unused import 'com.google.gson.annotations.SerializedName'.(äöúõ
+Z
+java:S1128"?Remove this unused import 'com.google.gson.annotations.Expose'.(î³ÓÆùÿÿÿÿ
+
+java:S1319õ"€The type of the "multiBillingArrayList" object should be an interface such as "List" rather than the implementation "ArrayList".(ÄĞôúÿÿÿÿ

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="?attr/colorBackgroundTertiary"
+        android:gravity="center_horizontal">
+
+
+        <include
+            layout="@layout/categorized_product_search_menu"
+            android:layout_width="match_parent"
+            android:layout_height="55dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+
+            <LinearLayout
+                android:id="@+id/layout_category"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_weight="1">
+
+                <com.mg.shopping.textviewutil.LabelTextview
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/nm_txt_size"
+                    android:text="@string/categories"
+                    android:textColor="?attr/colorTextQuinary"></com.mg.shopping.textviewutil.LabelTextview>
+
+
+                <LinearLayout
+                    android:layout_width="13dp"
+                    android:layout_height="13dp"
+                    android:rotation="180"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/shape_traingle"></LinearLayout>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_popular"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_weight="1">
+
+
+                <com.mg.shopping.textviewutil.LabelTextview
+                    android:id="@+id/txt_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/nm_txt_size"
+                    android:text="@string/popular"
+                    android:textColor="?attr/colorTextQuinary"></com.mg.shopping.textviewutil.LabelTextview>
+
+
+                <LinearLayout
+                    android:layout_width="13dp"
+                    android:layout_height="13dp"
+                    android:rotation="180"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/shape_traingle"></LinearLayout>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_filter"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                android:gravity="center"
+                android:layout_weight="1">
+
+
+                <ImageView
+                    android:layout_width="14dp"
+                    android:layout_height="14dp"
+                    android:src="@drawable/ic_filtter"
+                    android:tint="?attr/colorBackgroundQuinary"></ImageView>
+
+                <com.mg.shopping.textviewutil.LabelTextview
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:textSize="@dimen/nm_txt_size"
+                    android:text="@string/filter"
+                    android:textColor="?attr/colorTextQuinary"></com.mg.shopping.textviewutil.LabelTextview>
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view_product"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:background="?attr/colorBackgroundSecondary"
+            ></androidx.recyclerview.widget.RecyclerView>
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

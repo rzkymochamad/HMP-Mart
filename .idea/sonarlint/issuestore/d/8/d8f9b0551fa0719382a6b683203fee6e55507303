@@ -1,0 +1,20 @@
+
+f	java:S117="QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´´ñÈ
+i
+java:S1128"NRemove this unused import 'com.haris.shopping.JsonUtil.AllCategoryUtil.Brand'.(ÁÄ™‚ıÿÿÿÿ
+f	java:S1174"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡ÓËŸ
+p	java:S116"\Rename this field "card_company_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ı‹ˆ
+c	java:S1000"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“õ‹
+h	java:S1009"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ì©ßşşÿÿÿÿ
+l	java:S116"RRename this field "card_no" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àÖ¢´ıÿÿÿÿ
+c	java:S100="NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´´ñÈ
+c	java:S100B"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ü¸×ª
+i
+java:S1128	"NRemove this unused import 'com.haris.shopping.JsonUtil.AllCategoryUtil.Datum'.(Æ¢õÎüÿÿÿÿ
+c	java:S1004"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡ÓËŸ
+f	java:S117F"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Øêî¯
+o	java:S116""URename this field "card_token" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(íëÅûÿÿÿÿ
+F
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÍÏª³ıÿÿÿÿ
+c	java:S100F"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Øêî¯

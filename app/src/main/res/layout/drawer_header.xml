@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorTransparent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/colorTransparent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.jcminarro.roundkornerlayout.RoundKornerLinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorBackgroundSenary"
+            android:orientation="horizontal"
+            android:gravity="center"
+            app:corner_radius="14dp">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:padding="1.5px"
+                android:src="@drawable/app_icon" />
+
+
+        </com.jcminarro.roundkornerlayout.RoundKornerLinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

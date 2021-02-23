@@ -1,0 +1,23 @@
+
+F
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ
+e
+java:S1128"JRemove this unused import 'com.haris.shopping.ObjectUtil.SelectionObject'.(›·’¡ýÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ßƒá»ÿÿÿÿÿ
+Q	java:S110""<This class has 9 parents which is greater than 5 authorized.(ô§½Ú
+H
+java:S1128"2Remove this unused import 'android.os.Parcelable'.(õÃÀ­
+f
+java:S1128"PRemove this unused import 'com.haris.shopping.InterfaceUtil.SelectionInterface'.(²œÊç
+h
+java:S1128"MRemove this unused import 'androidx.recyclerview.widget.LinearLayoutManager'.(ôœ¹ºýÿÿÿÿ
+b
+java:S1128"GRemove this unused import 'com.haris.shopping.AdapterUtil.DataAdapter'.(ñš®øÿÿÿÿ
+f
+java:S1128"KRemove this unused import 'androidx.recyclerview.widget.GridLayoutManager'.(î¼çÿüÿÿÿÿ
+j
+java:S1128"TRemove this unused import 'com.thekhaeng.recyclerviewmargin.LayoutMarginDecoration'.(¸Æ¼Í
+a
+java:S1128 "FRemove this unused import 'androidx.recyclerview.widget.RecyclerView'.(Îèòçøÿÿÿÿ
+i
+java:S1128"NRemove this unused import 'com.haris.shopping.JsonUtil.AllCategoryUtil.Brand'.(ÁÄ™‚ýÿÿÿÿ

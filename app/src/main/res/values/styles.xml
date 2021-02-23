@@ -1,0 +1,73 @@
+<resources>
+
+    <!-- Keywords application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <!-- Customize your theme here. -->
+
+        <item name="colorPrimary">@color/colorPrimaryDay</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkDay</item>
+        <item name="colorAccent">@color/colorAccentDay</item>
+
+        <item name="colorTextPrimary">@color/colorTextPrimaryDay</item>
+        <item name="colorTextSecondary">@color/colorTextSecondaryDay</item>
+        <item name="colorTextTertiary">@color/colorTextTertiaryDay</item>
+        <item name="colorTextQuaternary">@color/colorTextQuaternaryDay</item>
+        <item name="colorTextQuinary">@color/colorTextQuinaryDay</item>
+
+        <item name="colorButtonPrimary">@color/colorButtonPrimaryDay</item>
+        <item name="colorButtonSecondary">@color/colorButtonSecondaryDay</item>
+        <item name="colorButtonTertiary">@color/colorButtonTertiaryDay</item>
+
+        <item name="colorBackgroundPrimary">@color/colorBackgroundPrimaryDay</item>
+        <item name="colorBackgroundSecondary">@color/colorBackgroundSecondaryDay</item>
+        <item name="colorBackgroundTertiary">@color/colorBackgroundTertiaryDay</item>
+        <item name="colorBackgroundQuaternary">@color/colorBackgroundQuaternaryDay</item>
+        <item name="colorBackgroundQuinary">@color/colorBackgroundQuinaryDay</item>
+        <item name="colorBackgroundSenary">@color/colorBackgroundSenaryDay</item>
+        <item name="colorBackgroundSeptenary">@color/colorBackgroundSeptenaryDay</item>
+
+        <item name="colorDialogPrimary">@color/colorDialogPrimaryDay</item>
+        <item name="colorDialogSecondary">@color/colorDialogSecondaryDay</item>
+        <item name="colorDialogTertiary">@color/colorDialogTertiaryDay</item>
+
+        <item name="colorPagerSelected">@color/colorPagerSelectedDay</item>
+        <item name="colorPagerUnSelected">@color/colorPagerUnSelectedDay</item>
+
+        <item name="bottomSheetDialogTheme">@style/AppBottomSheetDialogTheme</item>
+        <item name="android:listDivider">@color/colorBackgroundSecondaryDay</item>
+
+    </style>
+
+    <!-- Night application theme. -->
+
+    <style name="AppModalStyle"
+        parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/bg_bottom_sheet</item>
+    </style>
+
+    <style name="AppBottomSheetDialogTheme"
+        parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/AppModalStyle</item>
+    </style>
+
+
+    <!-- Base application theme. -->
+
+    <declare-styleable name="ExpandableTextView">
+        <attr name="trimLength" format="integer" />
+    </declare-styleable>
+
+
+    <declare-styleable name="MusicCoverView">
+        <attr name="shape" format="enum">
+            <enum name="rectangle" value="0"/>
+            <enum name="circle" value="1"/>
+        </attr>
+        <attr name="trackColor" format="color"/>
+    </declare-styleable>
+
+
+
+
+</resources>

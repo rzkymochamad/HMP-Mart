@@ -1,0 +1,24 @@
+
+u
+java:S3776î	"RRefactor this method to reduce its Cognitive Complexity from 69 to the 15 allowed.(¿³ıáøÿÿÿÿ8ó˜üÊè.
+u
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 66 to the 15 allowed.(Å–‡ÿÿÿÿÿ8ó˜üÊè.
+m
+java:S1192´"JDefine a constant instead of duplicating this literal "coupon_id" 8 times.(Üä»Ÿúÿÿÿÿ8ó˜üÊè.
+]	java:S1108"<This class has 9 parents which is greater than 5 authorized.(µ³¨‚üÿÿÿÿ8Àµ‘Çè.
+u
+java:S3776×"RRefactor this method to reduce its Cognitive Complexity from 26 to the 15 allowed.(ª­ù¶ûÿÿÿÿ8ÿÎûÊè.
+L
+java:S1125¬	")Remove the literal "false" boolean value.(¢„‹üşÿÿÿÿ8ó˜üÊè.
+Y	java:S107¶"<Method has 8 parameters, which is greater than 7 authorized.(ëÎŠ8ó˜üÊè.
+w
+java:S2293’"YReplace the type specification in this constructor call with the diamond operator ("<>").(ßè£µ8İ£ŞÊè.
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ßƒá»ÿÿÿÿÿ
+L
+java:S1125¨")Remove the literal "false" boolean value.(ã¡·¼ûÿÿÿÿ8İ£ŞÊè.
+p
+java:S3776’"RRefactor this method to reduce its Cognitive Complexity from 26 to the 15 allowed.(Ùİ®ï8İ£ŞÊè.
+p
+java:S3776İ"RRefactor this method to reduce its Cognitive Complexity from 65 to the 15 allowed.(ƒ®„¤8èéÊè.
+p
+java:S3776¶"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(ëÎŠ8ó˜üÊè.

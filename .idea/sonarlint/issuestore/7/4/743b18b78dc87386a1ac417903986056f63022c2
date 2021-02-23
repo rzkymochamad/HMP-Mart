@@ -1,0 +1,143 @@
+
+f
+java:S1128*"QRemove this unused import 'com.haris.shopping.JsonUtil.SpecificProductUtil.Item'.(ùÜ…!
+V	java:S110K"<This class has 9 parents which is greater than 5 authorized.(òïÙåıÿÿÿÿ
+a
+java:S1117œ">Rename "dataObject" which hides the field declared at line 85.(‰±´Òøÿÿÿÿ8ÊÊ¡Íè.
+K
+java:S1068P"0Remove this unused "layoutFilter" private field.(ÕÔşŠÿÿÿÿÿ
+p
+java:S3776Å"RRefactor this method to reduce its Cognitive Complexity from 80 to the 15 allowed.(ƒ®„¤8ÊÊ¡Íè.
+p
+java:S3776…"RRefactor this method to reduce its Cognitive Complexity from 43 to the 15 allowed.(¡é††8ÊÊ¡Íè.
+M
+java:S1066"/Merge this if statement with the enclosing one.(µ³ÕÊ8ÊÊ¡Íè.
+X	java:S125º"<This block of commented-out lines of code should be removed.(¶êÉ8ÊÊ¡Íè.
+R	java:S125²"<This block of commented-out lines of code should be removed.(óˆÜ»
+s
+java:S1450€"]Remove the "frameContainer" field and declare it as a local variable in the relevant methods.(áŠ…~
+W	java:S125î"<This block of commented-out lines of code should be removed.(•”›âúÿÿÿÿ
+d
+java:S1117Ô"ARename "layoutManager" which hides the field declared at line 81.(ŞÏË®şÿÿÿÿ8ÊÊ¡Íè.
+^
+java:S3973¢	"GUse indentation to denote the code conditionally executed by this "if".(á áú
+b
+java:S1117¼"?Rename "dataAdapter" which hides the field declared at line 83.(¥ş¸ùÿÿÿÿ8ÊÊ¡Íè.
+K
+java:S1125Ö"(Remove the literal "true" boolean value.(ˆò¢Şüÿÿÿÿ8ÊÊ¡Íè.
+w
+java:S1450Q"\Remove the "layoutManager" field and declare it as a local variable in the relevant methods.(†ÊÇõÿÿÿÿÿ
+^
+java:S1126 "BReplace this if-then-else statement by a single method invocation.(¶úÕøÿÿÿÿ
+M
+java:S1066²"/Merge this if statement with the enclosing one.(‰¸Ÿø8ÊÊ¡Íè.
+\
+java:S1117€">Rename "dataObject" which hides the field declared at line 85.(­˜Áÿ8ÊÊ¡Íè.
+
+java:S1186œ	"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ø´´øÿÿÿÿ
+^
+java:S3973"GUse indentation to denote the code conditionally executed by this "if".(š Ò¥
+L
+java:S1068e"1Remove this unused "layoutCounter" private field.(ÿ¼İİúÿÿÿÿ
+n	java:S117‡"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ô‡÷‰8ÊÊ¡Íè.
+d
+java:S1117°"ARename "layoutManager" which hides the field declared at line 81.(ËØ¡·üÿÿÿÿ8ÊÊ¡Íè.
+\
+java:S1117ä"?Rename "dataAdapter" which hides the field declared at line 83.(“ÊŠn8ÊÊ¡Íè.
+a
+java:S1117ù"CRename "objectArrayList" which hides the field declared at line 84.( §Í³8ÊÊ¡Íè.
+W	java:S125Î"<This block of commented-out lines of code should be removed.(’ŠÕÆûÿÿÿÿ
+M
+java:S1066•"/Merge this if statement with the enclosing one.(£†úÎ8ÊÊ¡Íè.
+A
+java:S1068]"+Remove this unused "skipIds" private field.(‡µüë
+F
+java:S1125Ğ"(Remove the literal "true" boolean value.(‚€×ß8ÊÊ¡Íè.
+F
+java:S1125Ä"(Remove the literal "true" boolean value.(Á„·±8ÊÊ¡Íè.
+F
+java:S1125"(Remove the literal "true" boolean value.(‡³şß8ÊÊ¡Íè.
+Y	java:S125ç"<This block of commented-out lines of code should be removed.(‰õº8ÊÊ¡Íè.
+A
+java:S1068\"+Remove this unused "loading" private field.(ª¸¦•
+€
+java:S1450{"eRemove the "txtQuestionAnswerLabel" field and declare it as a local variable in the relevant methods.(Ö·ßœÿÿÿÿÿ
+M
+java:S1874ÿ"6Remove this use of "BitmapDrawable"; it is deprecated.(ÆŸîÚ
+\
+java:S1117—"?Rename "dataAdapter" which hides the field declared at line 83.(“ÊŠn8ÊÊ¡Íè.
+W	java:S125­	"<This block of commented-out lines of code should be removed.(í‰à’şÿÿÿÿ
+H
+java:S1068|"2Remove this unused "txtReviewLabel" private field.(¢’œü
+s	java:S117£"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ì£ÿÿÿÿÿ8ÊÊ¡Íè.
+X	java:S125ë"<This block of commented-out lines of code should be removed.(ÃîÊY8ÊÊ¡Íè.
+˜
+java:S1186ƒ	"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ªÉã˜
+\
+java:S1155²">Use isEmpty() to check whether the collection is empty or not.(‰¸Ÿø8ÊÊ¡Íè.
+K
+java:S1068”"4Remove this unused "shippingPosition" private field.( ³„·
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ßƒá»ÿÿÿÿÿ
+K
+java:S1125Ê"(Remove the literal "true" boolean value.(æÎÌöüÿÿÿÿ8ÊÊ¡Íè.
+R	java:S125Ò"<This block of commented-out lines of code should be removed.(¹¨Ü¤
+F
+java:S1068^"1Remove this unused "stringBuilder" private field.(ŸšÅ8
+w
+java:S1450e"\Remove the "layoutCounter" field and declare it as a local variable in the relevant methods.(ÿ¼İİúÿÿÿÿ
+W	java:S125™"<This block of commented-out lines of code should be removed.(‡†Üğûÿÿÿÿ
+u
+java:S1450d"_Remove the "viewPagerPicture" field and declare it as a local variable in the relevant methods.(ï¼çÛ
+H
+java:S1068€"2Remove this unused "frameContainer" private field.(áŠ…~
+u
+java:S1192¥"RDefine a constant instead of duplicating this literal "favourite_product" 4 times.(àô¸ùÿÿÿÿ8ÊÊ¡Íè.
+|
+java:S2293Í"YReplace the type specification in this constructor call with the diamond operator ("<>").(âû¤Ùùÿÿÿÿ8ÊÊ¡Íè.
+
+java:S1186§	"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(™Î«şÿÿÿÿ
+e
+java:S1192Å"NDefine a constant instead of duplicating this literal "functionality" 4 times.(ÿÜŠå
+b
+java:S1117Ø"?Rename "dataAdapter" which hides the field declared at line 83.(ÍåÓ¬şÿÿÿÿ8ÊÊ¡Íè.
+a
+java:S1117é">Rename "dataObject" which hides the field declared at line 85.(‰±´Òøÿÿÿÿ8ÊÊ¡Íè.
+P
+java:S1068"5Remove this unused "mFullScreenDialog" private field.(Ë•“¤øÿÿÿÿ
+F
+java:S1125"(Remove the literal "true" boolean value.(¸Õ²8ÊÊ¡Íè.
+K
+java:S1068~"5Remove this unused "pictureFullScreen" private field.(¢Ìµ£
+{
+java:S1450"_Remove the "txtShippingLabel" field and declare it as a local variable in the relevant methods.(Õ“óüÿÿÿÿ
+s
+java:S1450|"]Remove the "txtReviewLabel" field and declare it as a local variable in the relevant methods.(¢’œü
+]
+java:S1117‘"?Rename "dataAdapter" which hides the field declared at line 83.(ëÉ”ì8ÊÊ¡Íè.
+R	java:S125"<This block of commented-out lines of code should be removed.(÷¥âÿ
+g
+java:S1192Æ"KDefine a constant instead of duplicating this literal "product_id" 3 times.(÷ÛÆÑúÿÿÿÿ
+P
+java:S1135˜"2Complete the task associated to this TODO comment.(ãâªÄ8ÊÊ¡Íè.
+a
+java:S1117¶"CRename "objectArrayList" which hides the field declared at line 84.( §Í³8ÊÊ¡Íè.
+N
+java:S1874"0Remove this use of "fromHtml"; it is deprecated.(™®¤´8ÊÊ¡Íè.
+R	java:S125»"<This block of commented-out lines of code should be removed.(ÖŒ¥
+U
+java:S1068{":Remove this unused "txtQuestionAnswerLabel" private field.(Ö·ßœÿÿÿÿÿ
+s	java:S117™"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(áÎÎşÿÿÿÿ8ÊÊ¡Íè.
+^	java:S125û"<This block of commented-out lines of code should be removed.(É¯õÄúÿÿÿÿ8ÊÊ¡Íè.
+{
+java:S1450p"`Remove the "txtCurrencySymbol" field and declare it as a local variable in the relevant methods.(“Ü¨ûÿÿÿÿ
+P
+java:S1135Ÿ"2Complete the task associated to this TODO comment.(ãâªÄ8ÊÊ¡Íè.
+{	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(ÌñÚ÷úÿÿÿÿ8ÊÊ¡Íè.
+`
+java:S1117É"CRename "txtDescription" which hides the field declared at line 162.(ÓµQ8ÊÊ¡Íè.
+F
+java:S1125Ü"(Remove the literal "true" boolean value.(¾Ëøü8ÊÊ¡Íè.
+P
+java:S1068"4Remove this unused "txtShippingLabel" private field.(Õ“óüÿÿÿÿ
+J
+java:S1128"4Remove this unused import 'android.widget.EditText'.(†Å›Ú

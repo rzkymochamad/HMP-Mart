@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+
+    <!--String for Error Messages-->
+
+    <string name="app_name">Sakkarep</string>
+    <string name="internet_not_available">Internet not available</string>
+
+
+    <!--String for General Messages-->
+
+    <string name="download_error">Error while downloading</string>
+    <string name="downloading">Downloading</string>
+
+
+    <!--String for Menu Text-->
+
+    <string name="about_us">About us</string>
+    <string name="using_camera">Using Camera</string>
+    <string name="using_gallery">Using Gallery</string>
+    <string name="picture_selector">Select Picture</string>
+
+    <!--String for Onboarding Message-->
+
+
+    <string name="general">General</string>
+
+    <!--String for HomeFragment screen-->
+
+    <string name="loading_configuration">Loading</string>
+
+    <!--String for Facebook App Id-->
+
+    <string name="facebook_app_id">facebook_app_id</string>
+    <string name="fb_login_protocol_scheme">fb_login_protocol_scheme</string>
+
+
+    <!--String for Live Wallpaper-->
+
+
+    <string name="downloading_tagline">Downloading</string>
+    <string name="wait">Kindly wait...</string>
+
+
+    <!--String for Income Type Categories-->
+
+    <!--String for Expense Type Categories-->
+
+    <string name="categories">Categories</string>
+    <string name="home">Home</string>
+    <string name="statistics">Statistics</string>
+    <string name="rate_our_app">Rate the App</string>
+    <string name="share_app">Share the App</string>
+    <string name="setting">Setting</string>
+    <string name="select_your_city">Select your City</string>
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="select_quantity">Select Quantity</string>
+    <string name="category">Category</string>
+    <string name="jewelery_watches"><![CDATA[Jewelry & Watch]]></string>
+    <string name="all">All</string>
+    <string name="search_item">Search Product</string>
+    <string name="popular">Popular</string>
+    <string name="filter">Filter</string>
+    <string name="most_reviews">Most Reviews</string>
+    <string name="newest">Newest</string>
+    <string name="low_price">Low Price</string>
+    <string name="high_price">High Price</string>
+    <string name="sorting">Sorting</string>
+    <string name="loading">Loading</string>
+    <string name="detail">Detail</string>
+    <string name="review">Reviews</string>
+    <string name="orders">Orders</string>
+    <string name="wish">Wish</string>
+    <string name="shipping"><![CDATA[Processing & Shipping]]></string>
+    <string name="select">Select</string>
+    <string name="quantity_attribute"><![CDATA[Quantity & Attributes]]></string>
+    <string name="product_description">Product Description</string>
+    <string name="product_detail">Product Detail</string>
+    <string name="customer_review">Customer Reviews</string>
+    <string name="question_answers"><![CDATA[Question & Answers]]></string>
+    <string name="answers">Answers</string>
+    <string name="total">Total</string>
+    <string name="available">Available</string>
+    <string name="question">Questions</string>
+    <string name="ask_question">Ask Questions</string>
+    <string name="answer_based_on_question">Please answer based on question</string>
+    <string name="submit">Submit</string>
+    <string name="reviews_rating"><![CDATA[Reviews & Rating]]></string>
+    <string name="related_product">Related Product</string>
+    <string name="buy_now">Buy Now</string>
+    <string name="cart">Shopping Cart</string>
+    <string name="checkout">Checkout</string>
+    <string name="add_your_shipping_address">Please add your Shipping Address</string>
+    <string name="order_previews">Order Previews</string>
+    <string name="faster_processing">For Faster processing , your item split into\nmultiple orders</string>
+    <string name="payment_method">Payment Methods</string>
+    <string name="coupon_code">Coupon Code</string>
+    <string name="use">Use</string>
+    <string name="order_total">Order Total</string>
+    <string name="shipping_fee">Shipping fee</string>
+    <string name="shipping_insurance_fee">Shipping insurance fee</string>
+    <string name="shipping_charges">Shipping</string>
+    <string name="shipping_insurance">Shipping insurance</string>
+    <string name="traffic_insurance">Traffic insurance</string>
+    <string name="business_days">Business Days</string>
+    <string name="available_shipping">Shipping Services</string>
+    <string name="same_day">Same Day</string>
+    <string name="select_shipping">Select Shipping</string>
+    <string name="brand">Brands</string>
+    <string name="follow">Follow</string>
+    <string name="items">Items</string>
+    <string name="rating">Ratings</string>
+    <string name="days_left">days left</string>
+    <string name="latest_product">New &amp; Latest</string>
+    <string name="deals"><![CDATA[Deals & Discount]]></string>
+    <string name="view_all_product">View All Products</string>
+    <string name="products">Products</string>
+    <string name="more_to_love">More to Love</string>
+    <string name="discount">Discount</string>
+    <string name="brands">Brands</string>
+    <string name="favourites">Favourites</string>
+    <string name="history">History</string>
+    <string name="featured_brands">Featured Brands</string>
+    <string name="you_may_like">You may like</string>
+    <string name="sale">Sales</string>
+    <string name="profile">Profile</string>
+    <string name="shopping_cart">Cart</string>
+    <string name="flash_deals">Flash Deals</string>
+    <string name="get_now">Get Now</string>
+    <string name="expires">Expires</string>
+    <string name="deals_coupon">Deals &amp; Coupons</string>
+    <string name="list_of_brands">List of Brands</string>
+    <string name="cancel">Cancel</string>
+    <string name="top_searches">Top Searches</string>
+    <string name="wishlist">Wishlist</string>
+    <string name="wishlisted">Wishlisted</string>
+    <string name="followed">Followed</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email_address">Email Address</string>
+    <string name="mobile_no">Mobile No.</string>
+    <string name="billing_address">Billing Address</string>
+    <string name="address">Address</string>
+    <string name="apartment">Apartment</string>
+    <string name="city">City</string>
+    <string name="postal_code">Postal Code</string>
+    <string name="phone">Phone</string>
+    <string name="country">Country</string>
+    <string name="special_note">Special Note</string>
+    <string name="write_special_notes">Write Special Note</string>
+    <string name="add_shipping_detail">Add Shipping Detail</string>
+    <string name="save_continue"><![CDATA[Save & Continue]]></string>
+    <string name="adding">Adding</string>
+    <string name="need_address">Kindly add the address</string>
+    <string name="discount_applied">discount applied</string>
+    <string name="shipping_cost">Shipping</string>
+    <string name="price_discount_value">Billing price would be greater than %s</string>
+    <string name="all_coupons">All Coupons</string>
+    <string name="category_coupons">Category Coupons</string>
+    <string name="brand_coupons">Brand Coupons</string>
+    <string name="product_coupons">Product Coupons</string>
+    <string name="estimated_time">Estimated time</string>
+    <string name="check">Check</string>
+    <string name="write_your_question">Write your questions</string>
+    <string name="submiting">Submitting</string>
+    <string name="empty_answer">Empty Answer</string>
+    <string name="order_history">Order History</string>
+    <string name="shipping_partner">Shipping Partner</string>
+    <string name="refund">Refund</string>
+    <string name="all_orders">All Orders</string>
+    <string name="pending_orders">Pending Orders</string>
+    <string name="completed_orders">Completed Orders</string>
+    <string name="processed_orders">Processed Orders</string>
+    <string name="add_rating">Add Rating</string>
+    <string name="add_review">Add Reviews</string>
+    <string name="write_your_reviews">Write your reviews</string>
+    <string name="list_of_product">List of product</string>
+    <string name="empty_review">Empty Reviews</string>
+    <string name="card_holder_name">Cardholder name</string>
+    <string name="card_number">Card No.</string>
+    <string name="expiry_month">MM</string>
+    <string name="expire_year">YY</string>
+    <string name="cvv">CVV</string>
+    <string name="done">Done</string>
+    <string name="save_this_card">Save this cards ?</string>
+    <string name="add_billing_detail">Add Billing Detail</string>
+    <string name="validate_card">invalid card</string>
+    <string name="validate_cvc">invalid cvv</string>
+    <string name="validate_expiry_date">invalid expiry date</string>
+    <string name="validate_expiry_month">invalid expiry month</string>
+    <string name="select_billing_card">Select billing card</string>
+    <string name="available_payment_methods">List of available cards</string>
+    <string name="add_refund_request">Request Refund</string>
+    <string name="reason_of_refund">Write reason for refund</string>
+    <string name="response">Response</string>
+    <string name="list_of_reports">List of Reports</string>
+    <string name="refund_request">Refund Request</string>
+    <string name="dispute_request">Dispute Request</string>
+    <string name="pending">Pending</string>
+    <string name="accepted">Accepted</string>
+    <string name="rejected">Rejected</string>
+    <string name="response_of_refund">Response of seller regarding refund request</string>
+    <string name="dispute">Dispute</string>
+    <string name="confirmation_message">"Confirmation "</string>
+    <string name="want_to_create_dispute">You want to create the dispute regarding this refund ?</string>
+    <string name="edit_profile">Edit User Profile</string>
+    <string name="processing">Processing</string>
+    <string name="shipped">Shipped</string>
+    <string name="account_setting">Account Setting</string>
+    <string name="services">Services</string>
+    <string name="address_book">Address Book</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="my_review">My Reviews</string>
+    <string name="report">Reports</string>
+    <string name="following">Following</string>
+    <string name="delete">Delete</string>
+    <string name="want_to_delete_review">You want to delete selected review ?</string>
+    <string name="subject">Write your subject</string>
+    <string name="write_your_message">Write your message</string>
+    <string name="empty_subject">Empty Subject</string>
+    <string name="empty_message">Empty Message</string>
+    <string name="user_following">User Followings</string>
+    <string name="password">Password</string>
+    <string name="phone_number">Phone no.</string>
+    <string name="remember_me">Remember me</string>
+    <string name="login">Login</string>
+    <string name="did_not_create_account">Didn\'t have any account ?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_in">Sign In</string>
+    <string name="email_or_phone_no">Email or Phone number</string>
+    <string name="sign_up_now">Sign Up Now</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="already_have_account">Already have an account ?</string>
+    <string name="login_now">Login Now</string>
+    <string name="register_yourself">Register Yourself</string>
+    <string name="login_into_account">Login into account</string>
+    <string name="empty_first_name">Empty first name</string>
+    <string name="empty_last_name">Empty last name</string>
+    <string name="empty_email">Empty email</string>
+    <string name="empty_phone">Empty phone</string>
+    <string name="empty_password">Empty password</string>
+    <string name="update">Update Profile</string>
+    <string name="empty_confirm_password">Empty confirm password</string>
+    <string name="password_mis_match">Password are not matched with each other !</string>
+    <string name="updating">Updating</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="select_country">Select Country</string>
+    <string name="logout">Logout</string>
+    <string name="failed_to_load_configuration">Failed to load configuration</string>
+    <string name="phone_authentication">Phone Authentication</string>
+    <string name="verify">Verfiy</string>
+    <string name="verification_code">Verification Code</string>
+    <string name="sold">Sold</string>
+
+    <string name="featured_products">Featured Products</string>
+    <string name="want_delete_item">Kindly confirm it , you want to delete item ?</string>
+    <string name="empty_cart">Empty Cart</string>
+    <string name="need_login">Need login</string>
+    <string name="creating">Creating</string>
+    <string name="copied">Copied</string>
+    <string name="phone_number_with_code">Phone No (incl. country code)</string>
+    <string name="select_courier_service">Select Courier Service</string>
+    <string name="select_required_options">Select avail. options</string>
+    <string name="failed_to_load_image">Failed to load image</string>
+    <string name="failed_to_authenticate">Failed to authenticate</string>
+
+</resources>

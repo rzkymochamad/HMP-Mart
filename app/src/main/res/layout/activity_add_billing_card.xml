@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="?attr/colorBackgroundTertiary"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/menu_dark_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingStart="30dp"
+        android:gravity="center"
+        android:paddingEnd="30dp"
+        android:minHeight="260dp"
+        android:orientation="vertical">
+
+        <com.mg.shopping.edittextutil.NormalEditText
+            android:id="@+id/edit_card_holder"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="@dimen/nm_txt_size"
+            android:textColor="?attr/colorTextSecondary"
+            android:textColorHint="?attr/colorTextSecondary"
+            android:hint="@string/card_holder_name"
+            android:background="@drawable/bg_edit_text"
+            android:gravity="center_vertical"
+            android:paddingStart="10dp"></com.mg.shopping.edittextutil.NormalEditText>
+
+        <com.mg.shopping.edittextutil.NormalEditText
+            android:id="@+id/edit_card_number"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="@dimen/tagline_text_size"
+            android:textColor="?attr/colorTextSecondary"
+            android:layout_marginTop="10dp"
+            android:inputType="number"
+            android:layout_marginBottom="10dp"
+            android:textColorHint="?attr/colorTextSecondary"
+            android:hint="@string/card_number"
+            android:background="@drawable/bg_edit_text"
+            android:gravity="center_vertical"
+            android:paddingStart="10dp"></com.mg.shopping.edittextutil.NormalEditText>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <com.mg.shopping.edittextutil.NormalEditText
+                android:id="@+id/edit_expiry_month"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:textSize="@dimen/tagline_text_size"
+                android:inputType="number"
+                android:textColor="?attr/colorTextSecondary"
+                android:textColorHint="?attr/colorTextSecondary"
+                android:hint="@string/expiry_month"
+                android:background="@drawable/bg_edit_text"
+                android:gravity="center"
+                android:paddingStart="10dp"></com.mg.shopping.edittextutil.NormalEditText>
+
+            <com.mg.shopping.edittextutil.NormalEditText
+                android:id="@+id/edit_expiry_year"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:inputType="number"
+                android:layout_marginStart="10dp"
+                android:textSize="@dimen/tagline_text_size"
+                android:textColor="?attr/colorTextSecondary"
+                android:textColorHint="?attr/colorTextSecondary"
+                android:hint="@string/expire_year"
+                android:background="@drawable/bg_edit_text"
+                android:gravity="center"
+                android:paddingStart="10dp"></com.mg.shopping.edittextutil.NormalEditText>
+
+
+
+            <com.mg.shopping.edittextutil.NormalEditText
+                android:id="@+id/edit_cvv"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:layout_marginStart="10dp"
+                android:textSize="@dimen/tagline_text_size"
+                android:inputType="number"
+                android:textColor="?attr/colorTextSecondary"
+                android:textColorHint="?attr/colorTextSecondary"
+                android:hint="@string/cvv"
+                android:background="@drawable/bg_edit_text"
+                android:gravity="center"
+                android:paddingStart="10dp"></com.mg.shopping.edittextutil.NormalEditText>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+            android:minHeight="30dp"
+            android:visibility="visible"
+            android:gravity="center_vertical|right|end">
+
+            <androidx.appcompat.widget.AppCompatCheckBox
+                    android:id="@+id/checkbox_save"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleX="0.7"
+                    android:scaleY="0.7"
+                    android:backgroundTint="?attr/colorBackgroundSenary"></androidx.appcompat.widget.AppCompatCheckBox>
+
+            <com.mg.shopping.textviewutil.NormalTextview
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/nm_txt_size"
+                android:textColor="?attr/colorTextPrimary"
+                android:text="@string/save_this_card"></com.mg.shopping.textviewutil.NormalTextview>
+
+        </LinearLayout>
+
+        <com.jcminarro.roundkornerlayout.RoundKornerLinearLayout
+            android:id="@+id/layout_save"
+            android:layout_width="180dp"
+            android:layout_height="45dp"
+            android:orientation="vertical"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="15dp"
+            app:corner_radius="15dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/bg_menu"
+            android:gravity="center">
+
+
+            <com.mg.shopping.textviewutil.NormalTextview
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/nm_txt_size"
+                android:textColor="?attr/colorTextTertiary"
+                android:text="@string/done"></com.mg.shopping.textviewutil.NormalTextview>
+
+
+        </com.jcminarro.roundkornerlayout.RoundKornerLinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

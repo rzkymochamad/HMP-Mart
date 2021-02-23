@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.jcminarro.roundkornerlayout.RoundKornerLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:corner_radius="0dp"
+        android:background="?attr/colorBackgroundTertiary"
+        android:layout_marginBottom="0dp"
+        android:padding="5dp"
+        android:gravity="center_vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/image_user"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:riv_corner_radius="15dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/app_icon"></com.makeramen.roundedimageview.RoundedImageView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginStart="15dp"
+                android:gravity="center_vertical">
+
+
+                <com.mg.shopping.textviewutil.NormalTextview
+                    android:id="@+id/txt_user_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/nm_txt_size"
+                    android:textColor="?attr/colorTextQuinary"
+                    android:text="Mexwell Estinion"></com.mg.shopping.textviewutil.NormalTextview>
+
+
+
+                <com.mg.shopping.textviewutil.TaglineTextview
+                    android:id="@+id/txt_date_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/sm_txt_size"
+                    android:textColor="?attr/colorTextSecondary"
+                    android:text="October 25 , 2020"></com.mg.shopping.textviewutil.TaglineTextview>
+
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <com.mg.shopping.textviewutil.NormalTextview
+            android:id="@+id/txt_answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/nm_txt_size"
+            android:textColor="?attr/colorTextQuinary"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="0dp"
+            android:text="GADYSON A9105 Calendar Casual Style Men Wristwatch Full Steel Luminous Display Quartz Watch"></com.mg.shopping.textviewutil.NormalTextview>
+
+
+    </com.jcminarro.roundkornerlayout.RoundKornerLinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,915 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <include
+            layout="@layout/product_detail_menu"
+            android:layout_width="match_parent"
+            android:layout_height="55dp" />
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:id="@+id/layout_scroller"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="?attr/colorBackgroundSecondary"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/frame_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp">
+
+                    <RelativeLayout
+                        android:id="@+id/main_frame"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <androidx.viewpager.widget.ViewPager
+                            android:id="@+id/view_pager_picture"
+                            android:layout_width="match_parent"
+                            android:background="?attr/colorBackgroundTertiary"
+                            android:layout_height="250dp"></androidx.viewpager.widget.ViewPager>
+
+                        <LinearLayout
+                            android:id="@+id/layout_counter"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:minWidth="60dp"
+                            android:minHeight="35dp"
+                            android:gravity="center"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/bg_counter"
+                            android:orientation="horizontal">
+
+
+                            <com.mg.shopping.textviewutil.NormalTextview
+                                android:id="@+id/txt_counter"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="?attr/colorTextTertiary"
+                                android:textSize="@dimen/sm_txt_size"
+                                android:text="4/10"></com.mg.shopping.textviewutil.NormalTextview>
+
+
+                        </LinearLayout>
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/layout_favourites"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:minWidth="60dp"
+                            android:minHeight="60dp"
+                            app:cardCornerRadius="20dp"
+                            android:gravity="center"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginEnd="20dp"
+                            android:layout_marginBottom="40dp"
+                            android:layout_alignParentEnd="true"
+                            app:cardElevation="5dp"
+                            android:background="?attr/colorBackgroundTertiary"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal"
+                                android:gravity="center">
+
+                                <ImageView
+                                    android:id="@+id/image_favourite"
+                                    android:layout_width="30dp"
+                                    android:layout_height="30dp"
+                                    android:padding="5dp"
+                                    android:tint="?attr/colorTextQuinary"
+                                    android:src="@drawable/ic_favourite_filled"></ImageView>
+
+
+                            </LinearLayout>
+
+
+
+
+                        </androidx.cardview.widget.CardView>
+
+                    </RelativeLayout>
+
+
+                </RelativeLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?attr/colorBackgroundTertiary"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingStart="10dp"
+                        android:paddingLeft="10dp"
+                        android:gravity="center_vertical">
+
+                        <com.mg.shopping.textviewutil.LabelTextview
+                            android:id="@+id/txt_currency_symbol"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="?attr/colorTextQuinary"
+                            android:textSize="@dimen/lb_txt_size"
+                            android:layout_marginEnd="5dp"></com.mg.shopping.textviewutil.LabelTextview>
+
+
+                        <com.mg.shopping.textviewutil.LabelTextview
+                            android:id="@+id/txt_price"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="?attr/colorTextQuinary"
+                            android:textSize="@dimen/lb_txt_size"></com.mg.shopping.textviewutil.LabelTextview>
+
+                        <com.mg.shopping.textviewutil.NormalTextview
+                            android:id="@+id/txt_original_price"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="15dp"
+                            android:visibility="gone"
+                            android:textColor="?attr/colorTextSecondary"
+                            android:textSize="@dimen/nm_txt_size"
+                            android:text="$ 25.36"></com.mg.shopping.textviewutil.NormalTextview>
+
+                        <LinearLayout
+                            android:id="@+id/layout_sale"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:minHeight="25dp"
+                            android:minWidth="70dp"
+                            android:paddingTop="3dp"
+                            android:paddingBottom="3dp"
+                            android:paddingStart="10dp"
+                            android:paddingEnd="10dp"
+                            android:layout_marginStart="15dp"
+                            android:orientation="horizontal"
+                            android:visibility="gone"
+                            android:background="@drawable/bg_rect_stroked"
+                            android:gravity="center">
+
+                            <com.mg.shopping.textviewutil.LabelTextview
+                                android:id="@+id/txt_sale"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="@dimen/nm_txt_size"
+                                android:textColor="?attr/colorTextPrimary"
+                                android:text="25% Off"></com.mg.shopping.textviewutil.LabelTextview>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:minHeight="25dp"
+                            android:minWidth="70dp"
+                            android:paddingTop="0dp"
+                            android:paddingBottom="0dp"
+                            android:paddingStart="0dp"
+                            android:paddingEnd="0dp"
+                            android:orientation="horizontal"
+                            android:gravity="end">
+
+                            <LinearLayout
+                                android:id="@+id/layout_share"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:minHeight="35dp"
+                                android:minWidth="50dp"
+                                android:paddingTop="3dp"
+                                android:paddingBottom="3dp"
+                                android:paddingStart="10dp"
+                                android:paddingEnd="10dp"
+                                android:orientation="horizontal"
+                                android:background="@drawable/bg_share"
+                                android:gravity="center">
+
+                                <ImageView
+                                    android:layout_width="20dp"
+                                    android:layout_height="20dp"
+                                    android:padding="3dp"
+                                    android:src="@drawable/ic_share_stroke"
+                                    android:tint="?attr/colorBackgroundQuaternary"></ImageView>
+
+
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+                    <com.mg.shopping.textviewutil.NormalTextview
+                        android:id="@+id/txt_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:textSize="@dimen/nm_txt_size"
+                        android:textColor="?attr/colorTextQuinary"></com.mg.shopping.textviewutil.NormalTextview>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingLeft="10dp"
+                        android:paddingStart="10dp"
+                        android:gravity="center_vertical">
+
+                        <com.mg.shopping.textviewutil.HeadingTextview
+                            android:id="@+id/txt_rating"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="?attr/colorTextQuinary"
+                            android:textSize="@dimen/nm_txt_size"
+                            android:text="0"></com.mg.shopping.textviewutil.HeadingTextview>
+
+                        <androidx.appcompat.widget.AppCompatRatingBar
+                            android:id="@+id/rating_product"
+                            style="@style/Base.Widget.AppCompat.RatingBar.Small"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="0dp"
+                            android:rating="0"/>
+
+                        <com.mg.shopping.textviewutil.LabelTextview
+                            android:id="@+id/txt_review"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/sm_txt_size"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginLeft="8dp"
+                            android:textColor="?attr/colorTextQuinary"
+                            android:text="0"></com.mg.shopping.textviewutil.LabelTextview>
+
+
+                        <com.mg.shopping.textviewutil.NormalTextview
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/sm_txt_size"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginLeft="8dp"
+                            android:textColor="?attr/colorTextSecondary"
+                            android:text="@string/review"></com.mg.shopping.textviewutil.NormalTextview>
+
+
+                        <TextView
+                            android:layout_width="1px"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginEnd="8dp"
+                            android:layout_marginRight="8dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="?attr/colorBackgroundQuaternary"></TextView>
+
+
+                        <com.mg.shopping.textviewutil.LabelTextview
+                            android:id="@+id/txt_order"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/sm_txt_size"
+                            android:textColor="?attr/colorTextQuinary"
+                            android:text="0"></com.mg.shopping.textviewutil.LabelTextview>
+
+
+                        <com.mg.shopping.textviewutil.NormalTextview
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/sm_txt_size"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginLeft="8dp"
+                            android:textColor="?attr/colorTextSecondary"
+                            android:text="@string/orders"></com.mg.shopping.textviewutil.NormalTextview>
+
+
+                        <TextView
+                            android:layout_width="1px"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginEnd="8dp"
+                            android:layout_marginRight="8dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:visibility="gone"
+                            android:background="?attr/colorBackgroundQuaternary"></TextView>
+
+
+                        <com.mg.shopping.textviewutil.LabelTextview
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/sm_txt_size"
+                            android:visibility="gone"
+                            android:textColor="?attr/colorTextQuinary"
+                            android:text="2030"></com.mg.shopping.textviewutil.LabelTextview>
+
+
+                        <com.mg.shopping.textviewutil.NormalTextview
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/sm_txt_size"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginLeft="8dp"
+                            android:visibility="gone"
+                            android:textColor="?attr/colorTextSecondary"
+                            android:text="@string/wish"></com.mg.shopping.textviewutil.NormalTextview>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:paddingStart="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingEnd="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="8dp"
+                    android:orientation="vertical"
+                    android:background="?attr/colorBackgroundTertiary">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:minHeight="40dp"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical">
+
+
+                        <com.mg.shopping.textviewutil.LabelTextview
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/nm_txt_size"
+                            android:textColor="?attr/colorTextQuinary"
+                            android:text="@string/shipping"></com.mg.shopping.textviewutil.LabelTextview>
+
+                        <com.mg.shopping.textviewutil.TaglineTextview
+                            android:id="@+id/txt_shipping_label"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/nm_txt_size"
+                            android:layout_marginStart="12dp"
+                            android:layout_weight="1"
+                            android:visibility="invisible"
+                            android:textColor="?attr/colorTextQuinary"
+                            android:text="US 25.34"></com.mg.shopping.textviewutil.TaglineTextview>
+
+
+                        <com.mg.shopping.textviewutil.NormalTextview
+                            android:id="@+id/txt_shipping"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:minWidth="70dp"
+                            android:gravity="center_vertical|end"
+                            android:textSize="@dimen/nm_txt_size"
+                            android:text="@string/check"
+                            android:textColor="?attr/colorTextQuaternary"></com.mg.shopping.textviewutil.NormalTextview>
+
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:layout_marginBottom="10dp"
+                        android:background="?attr/colorBackgroundQuaternary"></TextView>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical">
+
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:src="@drawable/ic_stock"
+                            android:padding="2dp"
+                            android:tint="?attr/colorBackgroundQuaternary"></ImageView>
+
+                        <com.mg.shopping.textviewutil.NormalTextview
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/nm_txt_size"
+                            android:textColor="?attr/colorTextPrimary"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginLeft="5dp"
+                            android:text="In Stock."
+                            ></com.mg.shopping.textviewutil.NormalTextview>
+
+
+                        <com.mg.shopping.textviewutil.NormalTextview
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/nm_txt_size"
+                            android:textColor="?attr/colorTextQuinary"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginLeft="5dp"
+                            android:text="Processing Time"
+                            ></com.mg.shopping.textviewutil.NormalTextview>
+
+                        <com.mg.shopping.textviewutil.NormalTextview
+                            android:id="@+id/txt_processing_time"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/nm_txt_size"
+                            android:textColor="?attr/colorTextPrimary"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginLeft="5dp"
+                            android:text="1-3 Business Days"
+                            ></com.mg.shopping.textviewutil.NormalTextview>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/layout_shipping"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="8dp"
+                        android:visibility="gone"
+                        android:layout_marginBottom="0dp"
+                        android:gravity="center_vertical">
+
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:src="@drawable/ic_delivery_truck"
+                            android:padding="1dp"
+                            android:tint="?attr/colorBackgroundQuaternary"></ImageView>
+
+                        <com.mg.shopping.textviewutil.NormalTextview
+                            android:id="@+id/txt_delivery_service"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/nm_txt_size"
+                            android:textColor="?attr/colorTextQuinary"
+                            android:layout_marginStart="7dp"
+                            android:layout_marginLeft="7dp"
+                            android:text="USPS Courier"
+                            ></com.mg.shopping.textviewutil.NormalTextview>
+
+                        <com.mg.shopping.textviewutil.NormalTextview
+                            android:id="@+id/txt_delivery_days"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/nm_txt_size"
+                            android:visibility="visible"
+                            android:textColor="?attr/colorTextPrimary"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginLeft="5dp"
+                            android:text="10-13 Business Days"
+                            ></com.mg.shopping.textviewutil.NormalTextview>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:paddingStart="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingEnd="10dp"
+                    android:paddingRight="10dp"
+                    android:orientation="vertical"
+                    android:background="?attr/colorBackgroundTertiary">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:minHeight="40dp"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical">
+
+                        <com.mg.shopping.textviewutil.LabelTextview
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/nm_txt_size"
+                            android:layout_weight="1"
+                            android:textColor="?attr/colorTextQuinary"
+                            android:text="@string/quantity_attribute"></com.mg.shopping.textviewutil.LabelTextview>
+
+
+                        <com.mg.shopping.textviewutil.NormalTextview
+                            android:id="@+id/txt_quantity"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:minWidth="70dp"
+                            android:gravity="center_vertical|end"
+                            android:textSize="@dimen/nm_txt_size"
+                            android:text="@string/select"
+                            android:textColor="?attr/colorTextQuaternary"></com.mg.shopping.textviewutil.NormalTextview>
+
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+
+                        android:background="?attr/colorBackgroundQuaternary"></TextView>
+
+                    <LinearLayout
+                        android:id="@+id/layout_attribute"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="8dp"
+                        android:gravity="center_vertical">
+
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:src="@drawable/ic_stock"
+                            android:padding="2dp"
+                            android:tint="?attr/colorBackgroundQuaternary"></ImageView>
+
+                        <com.mg.shopping.textviewutil.NormalTextview
+                            android:id="@+id/txt_attribute"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/nm_txt_size"
+                            android:textColor="?attr/colorTextPrimary"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginLeft="5dp"
+                            android:text="3 Sizes , 5 Colours"
+                            ></com.mg.shopping.textviewutil.NormalTextview>
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:paddingStart="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingEnd="10dp"
+                    android:paddingRight="10dp"
+                    android:orientation="vertical"
+                    android:background="?attr/colorBackgroundTertiary">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:minHeight="40dp"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical">
+
+                        <com.mg.shopping.textviewutil.LabelTextview
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/nm_txt_size"
+                            android:layout_weight="1"
+                            android:textColor="?attr/colorTextQuinary"
+                            android:text="@string/product_detail"></com.mg.shopping.textviewutil.LabelTextview>
+
+
+                        <LinearLayout
+                            android:id="@+id/layout_next_detail"
+                            android:layout_width="50dp"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            android:gravity="center_vertical|end">
+
+                            <ImageView
+                                android:layout_width="15dp"
+                                android:layout_height="15dp"
+                                android:padding="2dp"
+                                android:src="@drawable/ic_next"
+                                android:tint="?attr/colorBackgroundQuaternary"></ImageView>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:layout_marginBottom="10dp"
+                        android:background="?attr/colorBackgroundQuaternary"></TextView>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginBottom="8dp"
+                        android:gravity="center_vertical">
+
+                        <com.mg.shopping.textviewutil.NormalTextview
+                            android:id="@+id/txt_description"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/nm_txt_size"
+                            android:textColor="?attr/colorTextSecondary"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginLeft="5dp"
+                            android:maxLength="400"
+                            android:maxLines="2"
+                            android:text="GADYSON A9105 Calendar Casual Style Men Wristwatch Full Steel Luminous Display Quartz Watch"
+                            ></com.mg.shopping.textviewutil.NormalTextview>
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:paddingStart="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingEnd="10dp"
+                    android:paddingRight="10dp"
+                    android:orientation="vertical"
+                    android:background="?attr/colorBackgroundTertiary">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:minHeight="40dp"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical">
+
+                        <com.mg.shopping.textviewutil.LabelTextview
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/nm_txt_size"
+                            android:layout_weight="1"
+                            android:textColor="?attr/colorTextQuinary"
+                            android:text="@string/customer_review"></com.mg.shopping.textviewutil.LabelTextview>
+
+
+                        <LinearLayout
+                            android:id="@+id/layout_next_rating"
+                            android:layout_width="50dp"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            android:gravity="center_vertical|end">
+
+                            <ImageView
+                                android:layout_width="15dp"
+                                android:layout_height="15dp"
+                                android:padding="2dp"
+                                android:src="@drawable/ic_next"
+                                android:tint="?attr/colorBackgroundQuaternary"></ImageView>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:layout_marginBottom="0dp"
+                        android:background="?attr/colorBackgroundQuaternary"></TextView>
+
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:id="@+id/layout_review_scroller"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_marginBottom="0dp"
+                            android:gravity="center_vertical">
+
+
+                        </LinearLayout>
+
+
+                    </ScrollView>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:paddingStart="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingEnd="10dp"
+                    android:paddingRight="10dp"
+                    android:orientation="vertical"
+                    android:background="?attr/colorBackgroundTertiary">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:minHeight="40dp"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical">
+
+                        <com.mg.shopping.textviewutil.LabelTextview
+                            android:id="@+id/txt_question_answer_label"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/nm_txt_size"
+                            android:layout_weight="1"
+                            android:textColor="?attr/colorTextQuinary"
+                            android:text="@string/question_answers"></com.mg.shopping.textviewutil.LabelTextview>
+
+                        <LinearLayout
+                            android:id="@+id/layout_next_qa"
+                            android:layout_width="50dp"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            android:gravity="center_vertical|end">
+
+                            <ImageView
+                                android:layout_width="15dp"
+                                android:layout_height="15dp"
+                                android:padding="2dp"
+                                android:src="@drawable/ic_next"
+                                android:tint="?attr/colorBackgroundQuaternary"></ImageView>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:background="?attr/colorBackgroundQuaternary"></TextView>
+
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginBottom="0dp">
+
+                        <LinearLayout
+                            android:id="@+id/layout_question_scroller"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_marginBottom="0dp"
+                            android:gravity="center_vertical">
+
+
+                        </LinearLayout>
+
+
+                    </ScrollView>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </androidx.core.widget.NestedScrollView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardUseCompatPadding="false"
+            app:cardElevation="2dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="?attr/colorBackgroundTertiary"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+
+                <LinearLayout
+                    android:id="@+id/layout_cart"
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:padding="1dp"
+                        android:src="@drawable/ic_wish_list_cart"
+                        android:tint="?attr/colorBackgroundQuinary"></ImageView>
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:paddingStart="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingEnd="5dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:gravity="center">
+
+                    <com.jcminarro.roundkornerlayout.RoundKornerLinearLayout
+                        android:id="@+id/layout_buy_now"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:layout_weight="1.2"
+                        app:top_left_corner_radius="10dp"
+                        app:bottom_left_corner_radius="10dp"
+                        android:background="?attr/colorBackgroundSeptenary">
+
+
+                        <com.mg.shopping.textviewutil.NormalTextview
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/nm_txt_size"
+                            android:textColor="?attr/colorTextTertiary"
+                            android:text="@string/buy_now"></com.mg.shopping.textviewutil.NormalTextview>
+
+
+                    </com.jcminarro.roundkornerlayout.RoundKornerLinearLayout>
+
+                    <com.jcminarro.roundkornerlayout.RoundKornerLinearLayout
+                        android:id="@+id/layout_add_to_cart"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        app:top_right_corner_radius="10dp"
+                        app:bottom_right_corner_radius="10dp"
+                        android:background="?attr/colorBackgroundSenary">
+
+
+                        <com.mg.shopping.textviewutil.NormalTextview
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/nm_txt_size"
+                            android:textColor="?attr/colorTextTertiary"
+                            android:text="@string/add_to_cart"></com.mg.shopping.textviewutil.NormalTextview>
+
+
+                    </com.jcminarro.roundkornerlayout.RoundKornerLinearLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

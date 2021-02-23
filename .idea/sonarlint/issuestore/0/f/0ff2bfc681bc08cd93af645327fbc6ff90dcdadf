@@ -1,0 +1,59 @@
+
+T
+java:S1854Ñ"=Remove this useless assignment to local variable "layoutAdd".(Ê×•ƒ
+x
+java:S14505"]Remove the "itemDecoration" field and declare it as a local variable in the relevant methods.(¯¼úÿÿÿÿ
+E
+java:S1481Ñ".Remove this unused "layoutAdd" local variable.(Ê×•ƒ
+i
+java:S3776À"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(ú¾†ƒ
+X
+java:S1126‡"BReplace this if-then-else statement by a single method invocation.(ó¯’d
+J
+java:S1481Ó"4Remove this unused "layoutAddToCart" local variable.(ÓÜÓ>
+?
+java:S1185®"(Remove this method to simply inherit it.(Ù«µ§
+V
+java:S1117ı"?Rename "dataAdapter" which hides the field declared at line 48.(†ãŠÛ
+N
+java:S1135Ÿ"2Complete the task associated to this TODO comment.(Æ³»øüÿÿÿÿ
+G
+java:S1481Ï"0Remove this unused "layoutMinus" local variable.(êŞ³ 
+H
+java:S1068-"-Remove this unused "imageBack" private field.(äš›ùÿÿÿÿ
+i
+java:S1871¹"MThis branch's code block is the same as the block for the branch on line 311.(àïÁšûÿÿÿÿ
+G
+java:S1481Í"0Remove this unused "txtDiscount" local variable.(›ïƒá
+Q	java:S110,"<This class has 9 parents which is greater than 5 authorized.(ÆàËµ
+V
+java:S1854Í"?Remove this useless assignment to local variable "txtDiscount".(›ïƒá
+Z
+java:S1117ä"CRename "objectArrayList" which hides the field declared at line 49.( §Í³
+K
+java:S10686"0Remove this unused "categoryType" private field.(–›¶Óüÿÿÿÿ
+s
+java:S1450-"XRemove the "imageBack" field and declare it as a local variable in the relevant methods.(äš›ùÿÿÿÿ
+G
+java:S1481Ğ"0Remove this unused "txtQuantity" local variable.(½Ë€
+}
+java:S1450/"bRemove the "recyclerViewProduct" field and declare it as a local variable in the relevant methods.(€ÔÒ¼şÿÿÿÿ
+˜
+java:S1186ù"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¡é††
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ßƒá»ÿÿÿÿÿ
+c
+java:S3973Ö"GUse indentation to denote the code conditionally executed by this "if".(öÅĞ¹şÿÿÿÿ
+Y
+java:S1854Ó"CRemove this useless assignment to local variable "layoutAddToCart".(ÓÜÓ>
+H
+java:S10683"-Remove this unused "txtSearch" private field.(¾‹Š†üÿÿÿÿ
+V
+java:S1854Ï"?Remove this useless assignment to local variable "layoutMinus".(êŞ³ 
+t
+java:S1450<"YRemove the "imageOther" field and declare it as a local variable in the relevant methods.(ÎßšÀüÿÿÿÿ
+V
+java:S1854Ğ"?Remove this useless assignment to local variable "txtQuantity".(½Ë€
+F
+java:S10684"+Remove this unused "txtType" private field.(¡È—–üÿÿÿÿ
+l
+java:S1450="VRemove the "txtMenu" field and declare it as a local variable in the relevant methods.(êÄŞÖ

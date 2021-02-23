@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorBackgroundSenary"
+    tools:context=".activityutil.SplashSample">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+        <ImageView
+            android:id="@+id/image_app"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_centerInParent="true"
+            android:padding="10dp"
+            android:visibility="visible"
+            android:src="@drawable/app_icon" />
+
+        <com.mg.shopping.textviewutil.NeuroTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/image_app"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:visibility="gone"
+            android:text="@string/app_name"
+            android:textColor="?attr/colorTextPrimary"
+            android:textSize="22sp" />
+
+
+        <LinearLayout
+            android:id="@+id/layout_configure"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <com.mg.shopping.textviewutil.NormalTextview
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="@string/loading_configuration"
+                android:textColor="?attr/colorTextTertiary"
+                android:textSize="15sp" />
+
+            <net.bohush.geometricprogressview.GeometricProgressView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginBottom="15dp"
+                app:gp_color="?attr/colorBackgroundTertiary"
+                app:gp_duration="800"
+                app:gp_figure_padding="3dp"
+                app:gp_number_of_angles="20"
+                app:gp_type="triangle" />
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

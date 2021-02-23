@@ -1,0 +1,22 @@
+
+l
+java:S1450$"VRemove the "txtMenu" field and declare it as a local variable in the relevant methods.(êÄÞÖ
+A
+java:S1068$"+Remove this unused "txtMenu" private field.(êÄÞÖ
+m
+java:S1450+"WRemove the "txtLogin" field and declare it as a local variable in the relevant methods.(´óÉÎ
+œ
+java:S1186N"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ýö¾Âÿÿÿÿÿ
+U
+java:S1155£">Use isEmpty() to check whether the collection is empty or not.(¯œˆ˜
+P
+java:S1128":Remove this unused import 'android.widget.CompoundButton'.(®½¤Þ
+W	java:S125¸"<This block of commented-out lines of code should be removed.(„‡ñ§ýÿÿÿÿ
+B
+java:S1068+",Remove this unused "txtLogin" private field.(´óÉÎ
+V	java:S125V"<This block of commented-out lines of code should be removed.(æ‰üÍøÿÿÿÿ
+R	java:S125‡"<This block of commented-out lines of code should be removed.(‹ëˆ
+V	java:S110#"<This class has 9 parents which is greater than 5 authorized.(©½Žøÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ßƒá»ÿÿÿÿÿ
+>
+java:S1125ß"(Remove the literal "true" boolean value.(ðŒ©%

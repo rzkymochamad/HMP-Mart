@@ -1,0 +1,13 @@
+
+S
+java:S1874"0Remove this use of "getColor"; it is deprecated.(”õ¥šúÿÿÿÿ8óÃÂŞí.
+G
+java:S1481R"*Remove this unused "start" local variable.(»åû8óÃÂŞí.
+b	java:S100F"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(É²ˆu
+Y
+java:S1854T"7Remove this useless assignment to local variable "end".(õ‘İşüÿÿÿÿ8óÃÂŞí.
+V
+java:S1854R"9Remove this useless assignment to local variable "start".(»åû8óÃÂŞí.
+c	java:S100;"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(å‡‰´
+L
+java:S1172O"*Remove this unused method parameter "tag".(’û˜µùÿÿÿÿ8ñåÃŞí.

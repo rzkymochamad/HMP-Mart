@@ -1,0 +1,23 @@
+
+V
+java:S1128";Remove this unused import 'com.stripe.android.model.Token'.(ª¥œ™øÿÿÿÿ
+X
+java:S1128"=Remove this unused import 'com.haris.shopping.MyApplication'.(Ìð®Óøÿÿÿÿ
+Q	java:S110"<This class has 9 parents which is greater than 5 authorized.(Áó—õ
+N
+java:S1128"8Remove this unused import 'androidx.annotation.NonNull'.(ˆÛúÜ
+P
+java:S1128":Remove this unused import 'com.stripe.android.model.Card'.(ÕÁîî
+]
+java:S1128"HRemove this unused import 'androidx.appcompat.widget.AppCompatCheckBox'.(‡ª
+S
+java:S1128"=Remove this unused import 'com.stripe.android.TokenCallback'.(ó®ôŠ
+l
+java:S1450 "VRemove the "txtMenu" field and declare it as a local variable in the relevant methods.(êÄÞÖ
+œ
+java:S1186F"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ýö¾Âÿÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ßƒá»ÿÿÿÿÿ
+L
+java:S1128"6Remove this unused import 'com.stripe.android.Stripe'.(×âðˆ
+[
+java:S1128"ERemove this unused import 'com.haris.shopping.ObjectUtil.DataObject'.(­”’°

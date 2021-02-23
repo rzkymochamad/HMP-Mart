@@ -1,0 +1,13 @@
+
+˜
+java:S1186º"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¡é††
+r
+java:S1450'"\Remove the "layoutManager" field and declare it as a local variable in the relevant methods.(áÓøÒ
+l
+java:S1128"VRemove this unused import 'com.haris.shopping.JsonUtil.ListOfCouponUtil.ListOfDatum_'.(Å‚ÑÄ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÅÙ¯
+}
+java:S1450("bRemove the "recyclerViewProduct" field and declare it as a local variable in the relevant methods.(€ÔÒ¼şÿÿÿÿ
+x
+java:S1450+"]Remove the "itemDecoration" field and declare it as a local variable in the relevant methods.(¯¼úÿÿÿÿ
+Q	java:S125"<This block of commented-out lines of code should be removed.(õ´µ‚

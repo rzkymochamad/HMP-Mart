@@ -1,0 +1,47 @@
+
+H
+java:S1128
+"2Remove this unused import 'android.os.Parcelable'.(õÃÀ­
+Q	java:S110)"<This class has 9 parents which is greater than 5 authorized.(ÖÊ‚Ò
+†
+java:S1319–"oThe type of the "list" object should be an interface such as "List" rather than the implementation "ArrayList".(ãªœ‘
+U
+java:S1155ñ">Use isEmpty() to check whether the collection is empty or not.(ƒ³Î
+Z
+java:S1117">Rename "dataObject" which hides the field declared at line 49.(‘ÃÔşşÿÿÿÿ
+y
+java:S1450+"^Remove the "layoutConfigure" field and declare it as a local variable in the relevant methods.(º»Öùÿÿÿÿ
+N
+java:S1068+"3Remove this unused "layoutConfigure" private field.(º»Öùÿÿÿÿ
+i
+java:S1128"GRemove this unused import 'com.haris.shopping.AdapterUtil.DataAdapter'.(ñš®øÿÿÿÿ8 »ÿÌè.
+F
+java:S1128$"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ
+Q	java:S125x"<This block of commented-out lines of code should be removed.(¨Íåä
+l
+java:S1128"JRemove this unused import 'com.haris.shopping.ObjectUtil.SelectionObject'.(›·’¡ıÿÿÿÿ8 »ÿÌè.
+D
+java:S1068*".Remove this unused "prefObject" private field.(ôº¥ò
+P
+java:S1128".Remove this unused import 'android.view.View'.(Ø½­äşÿÿÿÿ8 »ÿÌè.
+h
+java:S1128'"FRemove this unused import 'androidx.recyclerview.widget.RecyclerView'.(Îèòçøÿÿÿÿ8 »ÿÌè.
+o
+java:S1450*"YRemove the "prefObject" field and declare it as a local variable in the relevant methods.(ôº¥ò
+s
+java:S1128"VRemove this unused import 'com.google.android.material.bottomsheet.BottomSheetDialog'.(ùÎœ8 »ÿÌè.
+U
+java:S1128"8Remove this unused import 'android.view.LayoutInflater'.(À¯ÑÇ8 »ÿÌè.
+U
+java:S1128"3Remove this unused import 'android.graphics.Color'.(øãíòşÿÿÿÿ8 »ÿÌè.
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ßƒá»ÿÿÿÿÿ
+f
+java:S1128"DRemove this unused import 'android.graphics.drawable.ColorDrawable'.(ÖŸÂ«øÿÿÿÿ8 »ÿÌè.
+t
+java:S14501"YRemove the "dataObject" field and declare it as a local variable in the relevant methods.(ÖÓÙæşÿÿÿÿ
+G
+java:S1128",Remove this unused import 'android.net.Uri'.(òêû‘ıÿÿÿÿ
+o
+java:S1128&"MRemove this unused import 'androidx.recyclerview.widget.LinearLayoutManager'.(ôœ¹ºıÿÿÿÿ8 »ÿÌè.
+m
+java:S1128"PRemove this unused import 'com.haris.shopping.InterfaceUtil.SelectionInterface'.(²œÊç8 »ÿÌè.

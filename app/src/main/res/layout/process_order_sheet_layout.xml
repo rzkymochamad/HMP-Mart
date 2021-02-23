@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:orientation="vertical"
+        android:background="?attr/colorBackgroundFloating"
+        android:gravity="center">
+
+
+        <net.bohush.geometricprogressview.GeometricProgressView
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            app:gp_color="?attr/colorBackgroundPrimary"
+            app:gp_duration="800"
+            app:gp_figure_padding="3dp"
+            app:gp_number_of_angles="20"
+            app:gp_type="triangle" />
+
+
+        <com.mg.shopping.textviewutil.LabelTextview
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/label_text_size"
+            android:textColor="?attr/colorTextPrimary"
+            android:layout_marginTop="30dp"
+            android:text="@string/wait"></com.mg.shopping.textviewutil.LabelTextview>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

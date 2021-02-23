@@ -1,0 +1,81 @@
+
+F
+java:S1874¢"/Remove this use of "getType"; it is deprecated.(ãÇÒ±
+Q	java:S125è"<This block of commented-out lines of code should be removed.(ç«»>
+V	java:S125g"<This block of commented-out lines of code should be removed.(Äšâéøÿÿÿÿ
+J
+java:S1172¦".Remove this unused method parameter "context".(ßä“ÿùÿÿÿÿ
+K
+java:S1481¸"4Remove this unused "network_enabled" local variable.(ºÕÔ«
+X
+java:S1854†"BRemove this useless assignment to local variable "appPackageName".(—ñ„
+L
+java:S1172a"*Remove this unused method parameter "tag".(’û˜µùÿÿÿÿ8¸ƒ°Éè.
+e
+java:S1192×"IDefine a constant instead of duplicating this literal "drawable" 4 times.(–öûØşÿÿÿÿ
+b	java:S100Q"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(É²ˆu
+W	java:S125œ"<This block of commented-out lines of code should be removed.(œ¥ÿÈøÿÿÿÿ
+]
+java:S1192Ó"FDefine a constant instead of duplicating this literal ".jpeg" 4 times.(â…­¿
+V	java:S125R"<This block of commented-out lines of code should be removed.(×½Èùûÿÿÿÿ
+i
+java:S3776Ş"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(åª®
+E
+java:S1874Ÿ"/Remove this use of "getType"; it is deprecated.(üˆ¡:
+H
+java:S1135î"2Complete the task associated to this TODO comment.(›½Ÿ2
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¨›Ìøÿÿÿÿ
+U
+java:S1118<":Add a private constructor to hide the implicit public one.(¹‹ó¿ıÿÿÿÿ
+f	java:S117Ş"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥Ï¹
+c	java:S100F"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(å‡‰´
+V
+java:S1874ÿ":Remove this use of "getRunningServices"; it is deprecated.(‰¿Â¼ÿÿÿÿÿ
+R
+java:S1854f"7Remove this useless assignment to local variable "end".(õ‘İşüÿÿÿÿ
+h	java:S100\"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒ„œ‹ûÿÿÿÿ
+L
+java:S1854Ó"5Remove this useless assignment to local variable "k".(“Æì
+@
+java:S1481d"*Remove this unused "start" local variable.(»åû
+K
+java:S1481§"/Remove this unused "management" local variable.(êÆšüÿÿÿÿ
+H
+java:S1172µ",Remove this unused method parameter "isGps".(¬Ïıßıÿÿÿÿ
+a
+java:S2147ó"ECombine this catch with the one at line 880, which has the same body.(µØ¯®øÿÿÿÿ
+Z
+java:S1155œ">Use isEmpty() to check whether the collection is empty or not.(Ñ¸îĞşÿÿÿÿ
+O
+java:S1854d"9Remove this useless assignment to local variable "start".(»åû
+G
+java:S1874Ÿ"1Remove this use of "TYPE_WIFI"; it is deprecated.(üˆ¡:
+l	java:S117ß"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ı˜–Æøÿÿÿÿ
+R	java:S125Ã"<This block of commented-out lines of code should be removed.(‚˜ĞÚ
+a
+java:S1874À"KRemove this use of "FLAG_ACTIVITY_CLEAR_WHEN_TASK_RESET"; it is deprecated.(àò“0
+L
+java:S1874°"0Remove this use of "getColor"; it is deprecated.(”õ¥šúÿÿÿÿ
+F
+java:S3740Ú"/Provide the parametrized type for this generic.(ÔìôÊ
+g	java:S117¸"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ºÕÔ«
+W
+java:S2184Ö"@Cast one of the operands of this integer division to a "double".(‡ÒÅñ
+h
+java:S2095Š"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(ïşù‹şÿÿÿÿ
+Y
+java:S2184Ö"BCast one of the operands of this division operation to a "double".(‡ÒÅñ
+]
+java:S2259"AA "NullPointerException" could be thrown; "fos" is nullable here.(æŒÕ®ùÿÿÿÿ
+I
+java:S1481†"3Remove this unused "appPackageName" local variable.(—ñ„
+F
+java:S2093†"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+Z
+java:S1854§">Remove this useless assignment to local variable "management".(êÆšüÿÿÿÿ
+R	java:S125©"<This block of commented-out lines of code should be removed.(ƒÀªÏ
+J
+java:S1874¢"3Remove this use of "TYPE_MOBILE"; it is deprecated.(ãÇÒ±
+g	java:S117·"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€ğ´
+^
+java:S2259š"GA "NullPointerException" could be thrown; "addresses" is nullable here.(ÿ¢·ñ

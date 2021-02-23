@@ -1,0 +1,581 @@
+
+G
+java:S1444v"1Make this "public static PRIVACY_URL" field final(øùñÌ
+q
+java:S3008İ"URename this field "PRODUCT_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßÃòÿÿÿÿÿ
+R
+java:S1444É"6Make this "public static REQUEST_LOCATION" field final(øÅ§Òüÿÿÿÿ
+n
+java:S3008•"WRename this field "DEVICE_TOKEN" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯æ‰ö
+e
+java:S1104Û"NMake ID a static final constant or non-public and provide accessors if needed.(ÊÎÉƒ
+f
+java:S3008á"ORename this field "LIST" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Î´”í
+o
+java:S3008Ü"SRename this field "BRAND_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ò¶İçúÿÿÿÿ
+G
+java:S1444•"0Make this "public static error_code" field final(ı”È±
+P
+java:S1444Æ"9Make this "public static REQUEST_CODE_CAMERA" field final(™ù˜â
+q
+java:S3008˜"ZRename this field "ADMOB_BANNER_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜Â•
+T
+java:S1128	">Remove this unused import 'java.nio.charset.StandardCharsets'.(ï˜ŞÛ
+~
+java:S1104ô"bMake BRAND_COLUMN_OBJECT_ID a static final constant or non-public and provide accessors if needed.(ÏÉÈÿÿÿÿÿ
+q
+java:S3008µ"URename this field "USER_EMAIL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÆÙ¨Çıÿÿÿÿ
+N
+java:S1444³"2Make this "public static USER_PICTURE" field final(Ã³›èıÿÿÿÿ
+v
+java:S3008È"ZRename this field "ADDRESS_REQUEST" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•Ëİ­şÿÿÿÿ
+Q
+java:S1444ó":Make this "public static BRAND_COLUMN_USER_ID" field final(öÂú¼
+{
+java:S1104~"`Make CATEGORY_PICTURE_URL a static final constant or non-public and provide accessors if needed.(€ğåıÿÿÿÿ
+R
+java:S1444ñ"6Make this "public static BRAND_TABLE_NAME" field final(¦€³‹şÿÿÿÿ
+S
+java:S1444à"7Make this "public static REFUND_REQUEST_ID" field final(§×Ô¡øÿÿÿÿ
+g
+java:S1104á"PMake LIST a static final constant or non-public and provide accessors if needed.(Î´”í
+V
+java:S1444š":Make this "public static ADMOB_TEST_DEVICE_ID" field final(­ÄØàùÿÿÿÿ
+o
+java:S1104”"XMake success_code a static final constant or non-public and provide accessors if needed.(®Õú·
+N
+java:S1444‡"2Make this "public static dateFormat12" field final(Š››­şÿÿÿÿ
+d
+java:S3008Û"MRename this field "ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÊÎÉƒ
+H
+java:S1444|"2Make this "public static REST_API_URL" field final(„°Ø
+L
+java:S1444ò"5Make this "public static BRAND_COLUMN_ID" field final(†º•Â
+
+java:S1104¯"cMake AUTHOR_FAVOURITE_VIEWER a static final constant or non-public and provide accessors if needed.(ãŞÉ£ÿÿÿÿÿ
+p
+java:S1104±"YMake USER_REMEMBER a static final constant or non-public and provide accessors if needed.(Š¾…«
+€
+java:S3008í"dRename this field "FAVOURITES_COLUMN_USER_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šÜı¢ıÿÿÿÿ
+Œ
+java:S1319Ö"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Áõè˜ùÿÿÿÿ
+„
+java:S3008ï"hRename this field "FAVOURITES_COLUMN_OBJECT_TYPE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óôˆ„ûÿÿÿÿ
+n
+java:S1104ˆ"XMake timeFormat12 a static final constant or non-public and provide accessors if needed.(¬¿õ
+p
+java:S1104Ü"TMake BRAND_ID a static final constant or non-public and provide accessors if needed.(Ò¶İçúÿÿÿÿ
+Q
+java:S1444ì":Make this "public static FAVOURITES_COLUMN_ID" field final(šùÙ¿
+8
+java:S2386"Make this member "protected".(£®æ´ûÿÿÿÿ
+O
+java:S1444„"8Make this "public static REFUND_PICTURE_URL" field final(òæß 
+v
+java:S1104"[Make globalArraylist a static final constant or non-public and provide accessors if needed.(£®æ´ûÿÿÿÿ
+Q
+java:S1118¤":Add a private constructor to hide the implicit public one.(ûÇ•
+i
+java:S3008°"RRename this field "USER_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(é‹öê
+L
+java:S1444˜"5Make this "public static ADMOB_BANNER_ID" field final(˜Â•
+K
+java:S1444Í"4Make this "public static PROFILE_UPDATE" field final(¯Ôéé
+t
+java:S1104w"YMake DEEP_LINK_URL a static final constant or non-public and provide accessors if needed.(¼¡Øşÿÿÿÿ
+|
+java:S1104“"eMake isFacebookHashKeyRequired a static final constant or non-public and provide accessors if needed.(‰’ËÂ
+{
+java:S3008ƒ"_Rename this field "SHIPPING_PICTURE_URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»ıóîşÿÿÿÿ
+o
+java:S3008Ö"SRename this field "ON_BOARD" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œ’—¦şÿÿÿÿ
+S
+java:S1444²"7Make this "public static USER_PROFILE_NAME" field final(”üæÍùÿÿÿÿ
+–
+java:S1319Ò"zThe type of the "globalArraylist" object should be an interface such as "List" rather than the implementation "ArrayList".(ğ¯øøÿÿÿÿ
+u
+java:S3008Æ"^Rename this field "REQUEST_CODE_CAMERA" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™ù˜â
+n
+java:S3008–"WRename this field "PUBLISHER_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§¨ùİ
+L
+java:S1444µ"0Make this "public static USER_EMAIL" field final(ÆÙ¨Çıÿÿÿÿ
+l
+java:S3008´"URename this field "LOGIN_TYPE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë¬øÂ
+t
+java:S1104®"XMake FIRST_LAUNCH a static final constant or non-public and provide accessors if needed.(ÕÙú›üÿÿÿÿ
+g
+java:S3008¯"PRename this field "LOGIN" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸ìèõ
+I
+java:S1444ƒ"2Make this "public static dateFormat24" field final(şÉŠú
+I
+java:S1444•"2Make this "public static DEVICE_TOKEN" field final(¯æ‰ö
+l
+java:S3008v"VRename this field "PRIVACY_URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øùñÌ
+s
+java:S3008³"WRename this field "USER_PICTURE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ã³›èıÿÿÿÿ
+u
+java:S3008«"YRename this field "FAVOURITE_TYPE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ªàÛùşÿÿÿÿ
+h
+java:S1104¯"QMake LOGIN a static final constant or non-public and provide accessors if needed.(¸ìèõ
+m
+java:S1104•"VMake error_code a static final constant or non-public and provide accessors if needed.(ı”È±
+{
+java:S3008š"_Rename this field "ADMOB_TEST_DEVICE_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­ÄØàùÿÿÿÿ
+{
+java:S3008Ê"dRename this field "REQUEST_CODE_BILLING_CARD" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( ôÔé
+]
+java:S1444î"AMake this "public static FAVOURITES_COLUMN_OBJECT_ID" field final(³ÒìÛûÿÿÿÿ
+
+java:S1104Œ"cMake internationalTimeFormat a static final constant or non-public and provide accessors if needed.(ê¥™ëøÿÿÿÿ
+t
+java:S3008®"XRename this field "AUTHOR_VIEWER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ªë®ıÿÿÿÿ
+q
+java:S3008ò"ZRename this field "BRAND_COLUMN_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†º•Â
+F
+java:S1128"0Remove this unused import 'java.io.InputStream'.(¹»º
+J
+java:S1444¶"3Make this "public static USER_PASSWORD" field final(ˆ¹ÅÕ
+l
+java:S3008}"VRename this field "PICTURE_URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ß½Ï÷
+l
+java:S1104‹"UMake dayFormat a static final constant or non-public and provide accessors if needed.(Ì•Ú
+}
+java:S1104”"aMake isAdmobBannerRequired a static final constant or non-public and provide accessors if needed.(­é…ªûÿÿÿÿ
+J
+java:S1444Ù".Make this "public static POSITION" field final(µ“á¨şÿÿÿÿ
+i
+java:S1104Ş"RMake RATING a static final constant or non-public and provide accessors if needed.(¡ßÔ
+q
+java:S1104Õ"ZMake REQUEST_OBJECT a static final constant or non-public and provide accessors if needed.(ôµ
+V
+java:S1118“":Add a private constructor to hide the implicit public one.(¯ÈÙúÿÿÿÿ
+Y
+java:S1444Œ"=Make this "public static internationalTimeFormat" field final(ê¥™ëøÿÿÿÿ
+W
+java:S1444ë";Make this "public static FAVOURITES_TABLE_NAME" field final(ñæ¯•øÿÿÿÿ
+t
+java:S1104‡"XMake dateFormat12 a static final constant or non-public and provide accessors if needed.(Š››­şÿÿÿÿ
+U
+java:S1444Ç"9Make this "public static GOOGLE_SIGN_IN_CODE" field final(ÇİÊ“şÿÿÿÿ
+G
+java:S1444}"1Make this "public static PICTURE_URL" field final(ß½Ï÷
+~
+java:S3008Ä"bRename this field "PERMISSION_REQUEST_CODE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øÌ—ÿÿÿÿÿ
+j
+java:S1104°"SMake USER_ID a static final constant or non-public and provide accessors if needed.(é‹öê
+8
+java:S2386"Make this member "protected".(›üÿÿÿÿ
+‚
+java:S3008î"fRename this field "FAVOURITES_COLUMN_OBJECT_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³ÒìÛûÿÿÿÿ
+L
+java:S1444ª"0Make this "public static VIDEO_TYPE" field final(Œˆ‡ìıÿÿÿÿ
+•
+java:S1319"zThe type of the "globalArraylist" object should be an interface such as "List" rather than the implementation "ArrayList".(£®æ´ûÿÿÿÿ
+š
+java:S1319"The type of the "countryWiseArraylist" object should be an interface such as "List" rather than the implementation "ArrayList".(›üÿÿÿÿ
+o
+java:S1104•"XMake DEVICE_TOKEN a static final constant or non-public and provide accessors if needed.(¯æ‰ö
+J
+java:S1444Ÿ"4Make this "public static FACEBOOK_LOGIN" field final(Š™*
+x
+java:S1104É"\Make REQUEST_LOCATION a static final constant or non-public and provide accessors if needed.(øÅ§Òüÿÿÿÿ
+r
+java:S1104Ì"VMake LOGIN_CODE a static final constant or non-public and provide accessors if needed.(Û§üóøÿÿÿÿ
+Q
+java:S1118‘":Add a private constructor to hide the implicit public one.(ŸÛÀô
+N
+java:S1444—"2Make this "public static ADMOB_APP_ID" field final(¦ïÍ¸üÿÿÿÿ
+G
+java:S1444´"0Make this "public static LOGIN_TYPE" field final(Ë¬øÂ
+{
+java:S1104õ"dMake BRAND_COLUMN_OBJECT_TYPE a static final constant or non-public and provide accessors if needed.(°ëûô
+_
+java:S1444ï"CMake this "public static FAVOURITES_COLUMN_OBJECT_TYPE" field final(óôˆ„ûÿÿÿÿ
+O
+java:S1444®"3Make this "public static AUTHOR_VIEWER" field final(ªë®ıÿÿÿÿ
+M
+java:S1444°"6Make this "public static HASH_TAG_PROFILE" field final(‚°ë 
+X
+java:S1444ô"<Make this "public static BRAND_COLUMN_OBJECT_ID" field final(ÏÉÈÿÿÿÿÿ
+{
+java:S1104"`Make countryWiseArraylist a static final constant or non-public and provide accessors if needed.(›üÿÿÿÿ
+P
+java:S1444"5Make this "public static globalArraylist" field final(£®æ´ûÿÿÿÿ
+ƒ
+java:S1104‚"gMake FEATURED_BANNER_PICTURE_URL a static final constant or non-public and provide accessors if needed.(—ÜÖøÿÿÿÿ
+K
+java:S1444×"4Make this "public static LOGIN_REQUIRED" field final(„Áï
+}
+java:S1104™"aMake ADMOB_INTERSTITIAL_ID a static final constant or non-public and provide accessors if needed.(¬Àäıùÿÿÿÿ
+x
+java:S1104ñ"\Make BRAND_TABLE_NAME a static final constant or non-public and provide accessors if needed.(¦€³‹şÿÿÿÿ
+p
+java:S1104Ÿ"ZMake FACEBOOK_LOGIN a static final constant or non-public and provide accessors if needed.(Š™*
+L
+java:S1444º"5Make this "public static CURRENCY_SYMBOL" field final(®¯ªé
+s
+java:S1488Â"\Immediately return this expression instead of assigning it to the temporary variable "json".(¡š›
+{
+java:S3008Å"_Rename this field "REQUEST_CODE_GALLERY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÀÂ¸Ÿùÿÿÿÿ
+]
+java:S1444‚"AMake this "public static FEATURED_BANNER_PICTURE_URL" field final(—ÜÖøÿÿÿÿ
+m
+java:S1104¸"VMake COUNTRY_ID a static final constant or non-public and provide accessors if needed.(Êğ±È
+K
+java:S1444Õ"4Make this "public static REQUEST_OBJECT" field final(ôµ
+v
+java:S1104Ú"ZMake PRODUCT_OBJECT a static final constant or non-public and provide accessors if needed.(©òÓüÿÿÿÿ
+g
+java:S1104ß"PMake TYPE a static final constant or non-public and provide accessors if needed.(Û›®Ú
+l
+java:S3008•"URename this field "error_code" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ı”È±
+z
+java:S3008Ç"^Rename this field "GOOGLE_SIGN_IN_CODE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÇİÊ“şÿÿÿÿ
+s
+java:S3008"WRename this field "NATIVE_LOGIN" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ëÔçùÿÿÿÿ
+~
+java:S3008¯"bRename this field "AUTHOR_FAVOURITE_VIEWER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãŞÉ£ÿÿÿÿÿ
+r
+java:S3008°"[Rename this field "HASH_TAG_PROFILE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚°ë 
+o
+java:S3008±"XRename this field "USER_REMEMBER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Š¾…«
+t
+java:S1104"XMake NATIVE_LOGIN a static final constant or non-public and provide accessors if needed.(ëÔçùÿÿÿÿ
+v
+java:S1104Æ"_Make REQUEST_CODE_CAMERA a static final constant or non-public and provide accessors if needed.(™ù˜â
+›
+java:S1319Ú"The type of the "countryWiseArraylist" object should be an interface such as "List" rather than the implementation "ArrayList".(¯¢¶¥øÿÿÿÿ
+J
+java:S1444¹"3Make this "public static CURRENCY_CODE" field final(´ê˜œ
+C
+java:S1444Ş",Make this "public static RATING" field final(¡ßÔ
+f
+java:S3008ß"ORename this field "TYPE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Û›®Ú
+V
+java:S1118œ":Add a private constructor to hide the implicit public one.(ÁÆÃªıÿÿÿÿ
+s
+java:S1104Ø"WMake DATA_OBJECT a static final constant or non-public and provide accessors if needed.(¤ğÂ¦ıÿÿÿÿ
+t
+java:S1104 "XMake GOOGLE_LOGIN a static final constant or non-public and provide accessors if needed.(şóò€øÿÿÿÿ
+m
+java:S1104v"WMake PRIVACY_URL a static final constant or non-public and provide accessors if needed.(øùñÌ
+{
+java:S1104Ç"_Make GOOGLE_SIGN_IN_CODE a static final constant or non-public and provide accessors if needed.(ÇİÊ“şÿÿÿÿ
+o
+java:S3008¹"XRename this field "CURRENCY_CODE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´ê˜œ
+q
+java:S3008º"ZRename this field "CURRENCY_SYMBOL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®¯ªé
+p
+java:S1104¶"YMake USER_PASSWORD a static final constant or non-public and provide accessors if needed.(ˆ¹ÅÕ
+r
+java:S3008u"\Rename this field "GOOGLE_DRIVE_LINK" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŒÍ¿ª
+l
+java:S3008¸"URename this field "COUNTRY_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Êğ±È
+R
+java:S1444€"6Make this "public static USER_PICTURE_URL" field final(ø˜½ôÿÿÿÿÿ
+y
+java:S1104›"]Make ADMOB_PRIVACY_URL a static final constant or non-public and provide accessors if needed.(‡ƒÑéûÿÿÿÿ
+p
+java:S3008×"YRename this field "LOGIN_REQUIRED" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„Áï
+‡
+java:S1319Î"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(õ¿õ‰
+…
+java:S4144»"nUpdate this method so that its implementation is not identical to "loadCountriesDataFromJsonFile" on line 309.(­Ù•ì
+w
+java:S3008€"[Rename this field "USER_PICTURE_URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ø˜½ôÿÿÿÿÿ
+o
+java:S1104–"XMake PUBLISHER_ID a static final constant or non-public and provide accessors if needed.(§¨ùİ
+w
+java:S1104ì"`Make FAVOURITES_COLUMN_ID a static final constant or non-public and provide accessors if needed.(šùÙ¿
+U
+java:S1444õ">Make this "public static BRAND_COLUMN_OBJECT_TYPE" field final(°ëûô
+y
+java:S3008"]Rename this field "REVIEW_PICTURE_URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(öÈ¹ÿøÿÿÿÿ
+o	java:S115j"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¬¹µ­
+P
+java:S1118":Add a private constructor to hide the implicit public one.(®ÇÍk
+s
+java:S1104u"]Make GOOGLE_DRIVE_LINK a static final constant or non-public and provide accessors if needed.(ŒÍ¿ª
+u
+java:S3008Ú"YRename this field "PRODUCT_OBJECT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©òÓüÿÿÿÿ
+B
+java:S1444¯"+Make this "public static LOGIN" field final(¸ìèõ
+S
+java:S1444›"7Make this "public static ADMOB_PRIVACY_URL" field final(‡ƒÑéûÿÿÿÿ
+T
+java:S1444"8Make this "public static REVIEW_PICTURE_URL" field final(öÈ¹ÿøÿÿÿÿ
+J
+java:S1444Ö".Make this "public static ON_BOARD" field final(Œ’—¦şÿÿÿÿ
+[
+java:S1444í"?Make this "public static FAVOURITES_COLUMN_USER_ID" field final(šÜı¢ıÿÿÿÿ
+v
+java:S3008ó"_Rename this field "BRAND_COLUMN_USER_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(öÂú¼
+s
+java:S3008 "WRename this field "GOOGLE_LOGIN" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(şóò€øÿÿÿÿ
+N
+java:S1444"9Make this "public static PRODUCT_PICTURE_URL" field final(¬à–
+m
+java:S3008­"VRename this field "ONLY_VIEWER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö äô
+t
+java:S1104³"XMake USER_PICTURE a static final constant or non-public and provide accessors if needed.(Ã³›èıÿÿÿÿ
+m
+java:S1104}"WMake PICTURE_URL a static final constant or non-public and provide accessors if needed.(ß½Ï÷
+L
+java:S1444Ì"0Make this "public static LOGIN_CODE" field final(Û§üóøÿÿÿÿ
+Š
+java:S4144Á"nUpdate this method so that its implementation is not identical to "loadCountriesDataFromJsonFile" on line 309.(ÇŠ¥ãûÿÿÿÿ
+M
+java:S1444†"6Make this "public static timeDateFormat12" field final(”î˜ÿ
+I
+java:S1444”"2Make this "public static success_code" field final(®Õú·
+M
+java:S1444Ø"1Make this "public static DATA_OBJECT" field final(¤ğÂ¦ıÿÿÿÿ
+r
+java:S1104˜"[Make ADMOB_BANNER_ID a static final constant or non-public and provide accessors if needed.(˜Â•
+R
+java:S1444‚"6Make this "public static timeDateFormat24" field final(ä–½ğùÿÿÿÿ
+Y
+java:S1444¯"=Make this "public static AUTHOR_FAVOURITE_VIEWER" field final(ãŞÉ£ÿÿÿÿÿ
+n
+java:S3008”"WRename this field "success_code" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®Õú·
+…
+java:S4144Ç"nUpdate this method so that its implementation is not identical to "loadCountriesDataFromJsonFile" on line 309.(ßè¤„
+s
+java:S1488¼"\Immediately return this expression instead of assigning it to the temporary variable "json".(¡š›
+o
+java:S3008¶"XRename this field "USER_PASSWORD" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆ¹ÅÕ
+J
+java:S1444Ü".Make this "public static BRAND_ID" field final(Ò¶İçúÿÿÿÿ
+‚
+java:S3008‚"fRename this field "FEATURED_BANNER_PICTURE_URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—ÜÖøÿÿÿÿ
+Q
+java:S1444È"5Make this "public static ADDRESS_REQUEST" field final(•Ëİ­şÿÿÿÿ
+v
+java:S3008‡"_Rename this field "CREATE_DEEP_LINK_URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Õ¢ïó
+x
+java:S3008²"\Rename this field "USER_PROFILE_NAME" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”üæÍùÿÿÿÿ
+X
+java:S1128"=Remove this unused import 'com.haris.shopping.MyApplication'.(Ìğ®Óøÿÿÿÿ
+p
+java:S1104¹"YMake CURRENCY_CODE a static final constant or non-public and provide accessors if needed.(´ê˜œ
+Q
+java:S1118¨":Add a private constructor to hide the implicit public one.(¨Ù¿
+q
+java:S3008Ì"URename this field "LOGIN_CODE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Û§üóøÿÿÿÿ
+z
+java:S1104"^Make REVIEW_PICTURE_URL a static final constant or non-public and provide accessors if needed.(öÈ¹ÿøÿÿÿÿ
+x
+java:S3008à"\Rename this field "REFUND_REQUEST_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§×Ô¡øÿÿÿÿ
+p
+java:S1104Ö"TMake ON_BOARD a static final constant or non-public and provide accessors if needed.(Œ’—¦şÿÿÿÿ
+V
+java:S1444“"?Make this "public static isFacebookHashKeyRequired" field final(‰’ËÂ
+x
+java:S1104€"\Make USER_PICTURE_URL a static final constant or non-public and provide accessors if needed.(ø˜½ôÿÿÿÿÿ
+K
+java:S1128"0Remove this unused import 'java.io.IOException'.(ªº»Úıÿÿÿÿ
+P
+java:S1444«"4Make this "public static FAVOURITE_TYPE" field final(ªàÛùşÿÿÿÿ
+o
+java:S3008Ù"SRename this field "POSITION" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µ“á¨şÿÿÿÿ
+s
+java:S3008"^Rename this field "PRODUCT_PICTURE_URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬à–
+A
+java:S1444á"*Make this "public static LIST" field final(Î´”í
+w
+java:S1104‡"`Make CREATE_DEEP_LINK_URL a static final constant or non-public and provide accessors if needed.(Õ¢ïó
+N
+java:S1444®"2Make this "public static FIRST_LAUNCH" field final(ÕÙú›üÿÿÿÿ
+n
+java:S1104|"XMake REST_API_URL a static final constant or non-public and provide accessors if needed.(„°Ø
+L
+java:S1444İ"0Make this "public static PRODUCT_ID" field final(ßÃòÿÿÿÿÿ
+G
+java:S1444¸"0Make this "public static COUNTRY_ID" field final(Êğ±È
+t
+java:S1104"_Make PRODUCT_PICTURE_URL a static final constant or non-public and provide accessors if needed.(¬à–
+y
+java:S1104à"]Make REFUND_REQUEST_ID a static final constant or non-public and provide accessors if needed.(§×Ô¡øÿÿÿÿ
+…
+java:S1104ï"iMake FAVOURITES_COLUMN_OBJECT_TYPE a static final constant or non-public and provide accessors if needed.(óôˆ„ûÿÿÿÿ
+t
+java:S1104„"XMake timeFormat24 a static final constant or non-public and provide accessors if needed.(ÌÜÄ”ùÿÿÿÿ
+r
+java:S1104Š"VMake hourFormat a static final constant or non-public and provide accessors if needed.(Ö£ÆÅûÿÿÿÿ
+M
+java:S1444u"7Make this "public static GOOGLE_DRIVE_LINK" field final(ŒÍ¿ª
+u
+java:S1104„"^Make REFUND_PICTURE_URL a static final constant or non-public and provide accessors if needed.(òæß 
+r
+java:S1104µ"VMake USER_EMAIL a static final constant or non-public and provide accessors if needed.(ÆÙ¨Çıÿÿÿÿ
+q
+java:S1104×"ZMake LOGIN_REQUIRED a static final constant or non-public and provide accessors if needed.(„Áï
+s
+java:S1488¶"\Immediately return this expression instead of assigning it to the temporary variable "json".(¡š›
+q
+java:S1104Í"ZMake PROFILE_UPDATE a static final constant or non-public and provide accessors if needed.(¯Ôéé
+w
+java:S3008É"[Rename this field "REQUEST_LOCATION" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øÅ§Òüÿÿÿÿ
+n
+java:S3008¬"WRename this field "PROFILE_TYPE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãéÁæ
+Q
+java:S1118­":Add a private constructor to hide the implicit public one.(ùş“Ô
+o
+java:S1104ƒ"XMake dateFormat24 a static final constant or non-public and provide accessors if needed.(şÉŠú
+|
+java:S3008ë"`Rename this field "FAVOURITES_TABLE_NAME" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñæ¯•øÿÿÿÿ
+w
+java:S1104È"[Make ADDRESS_REQUEST a static final constant or non-public and provide accessors if needed.(•Ëİ­şÿÿÿÿ
+h
+java:S3008Ş"QRename this field "RATING" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡ßÔ
+A
+java:S1444ß"*Make this "public static TYPE" field final(Û›®Ú
+p
+java:S1104Ù"TMake POSITION a static final constant or non-public and provide accessors if needed.(µ“á¨şÿÿÿÿ
+y
+java:S1104…"]Make BRAND_PICTURE_URL a static final constant or non-public and provide accessors if needed.(ÜäÅ•ıÿÿÿÿ
+i
+java:S3008y"SRename this field "BASE_URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øªƒ’
+r
+java:S1104º"[Make CURRENCY_SYMBOL a static final constant or non-public and provide accessors if needed.(®¯ªé
+P
+java:S1444Ú"4Make this "public static PRODUCT_OBJECT" field final(©òÓüÿÿÿÿ
+v
+java:S1104«"ZMake FAVOURITE_TYPE a static final constant or non-public and provide accessors if needed.(ªàÛùşÿÿÿÿ
+N
+java:S1444w"3Make this "public static DEEP_LINK_URL" field final(¼¡Øşÿÿÿÿ
+I
+java:S1444–"2Make this "public static PUBLISHER_ID" field final(§¨ùİ
+|
+java:S1104š"`Make ADMOB_TEST_DEVICE_ID a static final constant or non-public and provide accessors if needed.(­ÄØàùÿÿÿÿ
+u
+java:S1104®"YMake AUTHOR_VIEWER a static final constant or non-public and provide accessors if needed.(ªë®ıÿÿÿÿ
+x
+java:S3008›"\Rename this field "ADMOB_PRIVACY_URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡ƒÑéûÿÿÿÿ
+z
+java:S3008õ"cRename this field "BRAND_COLUMN_OBJECT_TYPE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°ëûô
+N
+java:S1444 "2Make this "public static GOOGLE_LOGIN" field final(şóò€øÿÿÿÿ
+n
+java:S1104­"WMake ONLY_VIEWER a static final constant or non-public and provide accessors if needed.(ö äô
+w
+java:S3008ñ"[Rename this field "BRAND_TABLE_NAME" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦€³‹şÿÿÿÿ
+s
+java:S1104†"\Make timeDateFormat12 a static final constant or non-public and provide accessors if needed.(”î˜ÿ
+l
+java:S3008z"QRename this field "FOLDER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ê²¤×øÿÿÿÿ
+Q
+java:S1444‡":Make this "public static CREATE_DEEP_LINK_URL" field final(Õ¢ïó
+V
+java:S1444Å":Make this "public static REQUEST_CODE_GALLERY" field final(ÀÂ¸Ÿùÿÿÿÿ
+?
+java:S1444Û"(Make this "public static ID" field final(ÊÎÉƒ
+L
+java:S1444Š"0Make this "public static hourFormat" field final(Ö£ÆÅûÿÿÿÿ
+s
+java:S1488È"\Immediately return this expression instead of assigning it to the temporary variable "json".(¡š›
+z
+java:S3008~"_Rename this field "CATEGORY_PICTURE_URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€ğåıÿÿÿÿ
+H
+java:S1444­"1Make this "public static ONLY_VIEWER" field final(ö äô
+m
+java:S1104´"VMake LOGIN_TYPE a static final constant or non-public and provide accessors if needed.(Ë¬øÂ
+s
+java:S3008®"WRename this field "FIRST_LAUNCH" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÕÙú›üÿÿÿÿ
+y
+java:S1104²"]Make USER_PROFILE_NAME a static final constant or non-public and provide accessors if needed.(”üæÍùÿÿÿÿ
+t
+java:S3008„"]Rename this field "REFUND_PICTURE_URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(òæß 
+s
+java:S3008—"WRename this field "ADMOB_APP_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦ïÍ¸üÿÿÿÿ
+J
+java:S1444±"3Make this "public static USER_REMEMBER" field final(Š¾…«
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(»çı—øÿÿÿÿ
+}
+java:S1104ë"aMake FAVOURITES_TABLE_NAME a static final constant or non-public and provide accessors if needed.(ñæ¯•øÿÿÿÿ
+|
+java:S1104ƒ"`Make SHIPPING_PICTURE_URL a static final constant or non-public and provide accessors if needed.(»ıóîşÿÿÿÿ
+U
+java:S1118t":Add a private constructor to hide the implicit public one.(¸´‡¦øÿÿÿÿ
+V
+java:S1118è":Add a private constructor to hide the implicit public one.(‘Óüÿÿÿÿ
+r
+java:S1104ò"[Make BRAND_COLUMN_ID a static final constant or non-public and provide accessors if needed.(†º•Â
+P
+java:S1118Ô":Add a private constructor to hide the implicit public one.(†Û¼v
+}
+java:S3008ô"aRename this field "BRAND_COLUMN_OBJECT_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÏÉÈÿÿÿÿÿ
+r
+java:S1104İ"VMake PRODUCT_ID a static final constant or non-public and provide accessors if needed.(ßÃòÿÿÿÿÿ
+S
+java:S1444…"7Make this "public static BRAND_PICTURE_URL" field final(ÜäÅ•ıÿÿÿÿ
+N
+java:S1444„"2Make this "public static timeFormat24" field final(ÌÜÄ”ùÿÿÿÿ
+H
+java:S1444ˆ"2Make this "public static timeFormat12" field final(¬¿õ
+|
+java:S1104Ê"eMake REQUEST_CODE_BILLING_CARD a static final constant or non-public and provide accessors if needed.( ôÔé
+|
+java:S1104Å"`Make REQUEST_CODE_GALLERY a static final constant or non-public and provide accessors if needed.(ÀÂ¸Ÿùÿÿÿÿ
+x
+java:S1104‚"\Make timeDateFormat24 a static final constant or non-public and provide accessors if needed.(ä–½ğùÿÿÿÿ
+V
+java:S1444ƒ":Make this "public static SHIPPING_PICTURE_URL" field final(»ıóîşÿÿÿÿ
+
+java:S1104í"eMake FAVOURITES_COLUMN_USER_ID a static final constant or non-public and provide accessors if needed.(šÜı¢ıÿÿÿÿ
+t
+java:S1104—"XMake ADMOB_APP_ID a static final constant or non-public and provide accessors if needed.(¦ïÍ¸üÿÿÿÿ
+D
+java:S1444°"-Make this "public static USER_ID" field final(é‹öê
+r
+java:S1104ª"VMake VIDEO_TYPE a static final constant or non-public and provide accessors if needed.(Œˆ‡ìıÿÿÿÿ
+U
+java:S1444~":Make this "public static CATEGORY_PICTURE_URL" field final(€ğåıÿÿÿÿ
+o
+java:S1104¬"XMake PROFILE_TYPE a static final constant or non-public and provide accessors if needed.(ãéÁæ
+o
+java:S3008Ÿ"YRename this field "FACEBOOK_LOGIN" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Š™*
+s
+java:S3008w"XRename this field "DEEP_LINK_URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼¡Øşÿÿÿÿ
+W
+java:S1444™";Make this "public static ADMOB_INTERSTITIAL_ID" field final(¬Àäıùÿÿÿÿ
+Y
+java:S1444Ä"=Make this "public static PERMISSION_REQUEST_CODE" field final(øÌ—ÿÿÿÿÿ
+p
+java:S3008Í"YRename this field "PROFILE_UPDATE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯Ôéé
+q
+java:S3008ª"URename this field "VIDEO_TYPE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œˆ‡ìıÿÿÿÿ
+s
+java:S1104°"\Make HASH_TAG_PROFILE a static final constant or non-public and provide accessors if needed.(‚°ë 
+|
+java:S3008™"`Rename this field "ADMOB_INTERSTITIAL_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬Àäıùÿÿÿÿ
+F
+java:S1444‹"/Make this "public static dayFormat" field final(Ì•Ú
+I
+java:S1444¬"2Make this "public static PROFILE_TYPE" field final(ãéÁæ
+V
+java:S1444Ê"?Make this "public static REQUEST_CODE_BILLING_CARD" field final( ôÔé
+V
+java:S1118Ã":Add a private constructor to hide the implicit public one.(ë€ö¾şÿÿÿÿ
+ƒ
+java:S1104î"gMake FAVOURITES_COLUMN_OBJECT_ID a static final constant or non-public and provide accessors if needed.(³ÒìÛûÿÿÿÿ
+p
+java:S3008Õ"YRename this field "REQUEST_OBJECT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôµ
+W
+java:S1444”";Make this "public static isAdmobBannerRequired" field final(­é…ªûÿÿÿÿ
+w
+java:S1104ó"`Make BRAND_COLUMN_USER_ID a static final constant or non-public and provide accessors if needed.(öÂú¼
+
+java:S1104Ä"cMake PERMISSION_REQUEST_CODE a static final constant or non-public and provide accessors if needed.(øÌ—ÿÿÿÿÿ
+v
+java:S3008ì"_Rename this field "FAVOURITES_COLUMN_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šùÙ¿
+r
+java:S3008Ø"VRename this field "DATA_OBJECT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤ğÂ¦ıÿÿÿÿ
+U
+java:S1444":Make this "public static countryWiseArraylist" field final(›üÿÿÿÿ
+x
+java:S3008…"\Rename this field "BRAND_PICTURE_URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜäÅ•ıÿÿÿÿ
+N
+java:S1444"2Make this "public static NATIVE_LOGIN" field final(ëÔçùÿÿÿÿ
+m
+java:S3008|"WRename this field "REST_API_URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„°Ø

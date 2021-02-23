@@ -1,0 +1,14 @@
+
+n
+java:S1450"YRemove the "imageBoard" field and declare it as a local variable in the relevant methods.(Õ“ø	
+>
+java:S1185."(Remove this method to simply inherit it.(«ÃÀ÷
+c
+java:S1128"HRemove this unused import 'com.haris.shopping.ObjectUtil.OnBoardObject'.(®úøìýÿÿÿÿ
+O
+java:S1128	"4Remove this unused import 'android.widget.TextView'.(„Ë‚ˆÿÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÅÙ¯ž
+–
+java:S1186h"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(…‹Ïr
+U
+java:S1128"?Remove this unused import 'com.haris.shopping.Utility.Utility'.(‰ÌãË

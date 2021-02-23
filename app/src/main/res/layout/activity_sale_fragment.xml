@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_weight="1"
+        android:background="?attr/colorBackgroundSecondary"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:minHeight="50dp"
+            android:orientation="vertical"
+            android:paddingStart="0dp"
+            android:paddingEnd="0dp"
+            android:background="@drawable/bg_menu"
+            android:gravity="center">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+
+                <ImageView
+                    android:id="@+id/image_back"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:padding="10dp"
+                    android:visibility="invisible"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/ic_back"></ImageView>
+
+
+
+
+                <com.mg.shopping.textviewutil.LabelTextview
+                    android:id="@+id/txt_menu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="?attr/colorTextTertiary"
+                    android:textSize="@dimen/lb_txt_size"
+                    android:layout_centerInParent="true"
+                    android:text="@string/flash_deals"></com.mg.shopping.textviewutil.LabelTextview>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toRightOf="@+id/txt_menu"
+                    android:layout_toEndOf="@+id/txt_menu"
+                    android:orientation="horizontal"
+                    android:paddingEnd="10dp"
+                    android:paddingRight="10dp"
+                    android:gravity="center_vertical|end">
+
+
+                    <ImageView
+                        android:id="@+id/image_search"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:padding="8dp"
+                        android:tint="?attr/colorBackgroundTertiary"
+                        android:src="@drawable/ic_menu_search"></ImageView>
+
+
+                    <ImageView
+                        android:id="@+id/image_cart"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:padding="8dp"
+                        android:visibility="gone"
+                        android:tint="?attr/colorBackgroundTertiary"
+                        android:src="@drawable/ic_cart_menu"></ImageView>
+
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/tab_layout"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                app:tabIndicatorHeight="1px"
+                app:tabPaddingStart="13dp"
+                app:tabPaddingEnd="13dp"
+                app:tabMaxWidth="0dp"
+                app:tabMinWidth="0dp"
+                android:layout_gravity="start"
+                android:clipToPadding="false"
+                android:fillViewport="false"
+                app:tabGravity="fill"
+                app:tabMode="scrollable"
+                app:tabIndicatorColor="@color/colorTransparent"
+                android:layout_height="match_parent"
+                ></com.google.android.material.tabs.TabLayout>
+
+
+        </LinearLayout>
+
+
+
+
+        <com.mg.shopping.customutil.LockableViewPager
+            android:id="@+id/view_pager_category"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+
+            ></com.mg.shopping.customutil.LockableViewPager>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_ad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"></LinearLayout>
+
+
+</LinearLayout>

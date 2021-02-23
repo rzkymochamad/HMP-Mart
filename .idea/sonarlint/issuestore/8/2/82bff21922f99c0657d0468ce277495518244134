@@ -1,0 +1,14 @@
+
+x
+java:S1450!"bRemove the "mNavigationBarWidth" field and declare it as a local variable in the relevant methods.(Êø’þ
+s	java:S116"^Rename this field "CURVE_CIRCLE_RADIUS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Šó’Þ
+~
+java:S1450""cRemove the "mNavigationBarHeight" field and declare it as a local variable in the relevant methods.(ô Ÿ´úÿÿÿÿ
+h
+java:S1104"RMake mPaint a static final constant or non-public and provide accessors if needed.(‚³ Ž
+Q	java:S1257"<This block of commented-out lines of code should be removed.(€Ì‰µ
+7
+java:S1170"!Make this final field static too.(Šó’Þ
+C
+java:S1185<"(Remove this method to simply inherit it.(æî³Žøÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(óúï 

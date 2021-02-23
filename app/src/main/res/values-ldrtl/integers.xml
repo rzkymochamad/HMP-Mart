@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <integer name="locale_mirror_flip" tools:ignore="MissingDefaultResource">180</integer>
+</resources>

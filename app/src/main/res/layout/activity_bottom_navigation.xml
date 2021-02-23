@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activityutil.BottomNavigationSample">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <com.mg.shopping.customutil.LockableViewPager
+            android:id="@+id/view_pager_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            ></com.mg.shopping.customutil.LockableViewPager>
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tab_main"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            app:tabIndicatorHeight="1px"
+            app:tabPaddingStart="10dp"
+            app:tabPaddingEnd="10dp"
+            app:tabMaxWidth="0dp"
+            app:tabMinWidth="0dp"
+            android:layout_gravity="start"
+            android:clipToPadding="false"
+            android:fillViewport="false"
+            app:tabGravity="fill"
+            app:tabMode="fixed"
+            android:background="@color/white"
+            app:tabIndicatorColor="@color/colorTransparent"></com.google.android.material.tabs.TabLayout>
+
+       <!-- <FrameLayout
+            android:id="@+id/layout_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingBottom="0dp"></FrameLayout>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/layout_search"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            app:cardCornerRadius="25dp"
+            android:layout_marginBottom="35dp">
+
+            <LinearLayout
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:gravity="center">
+
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:padding="5dp"
+                    android:tint="?attr/colorBackgroundFloating"
+                    android:src="@drawable/ic_menu_search"></ImageView>
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <com.haris.shopping.CustomUtil.CurvedBottomNavigationView
+            android:id="@+id/customBottomBar"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            app:itemIconSize="18dp"
+            app:itemIconTint="@color/white"
+            app:labelVisibilityMode="unlabeled" />-->
+
+    </LinearLayout>
+
+</RelativeLayout>
+
+

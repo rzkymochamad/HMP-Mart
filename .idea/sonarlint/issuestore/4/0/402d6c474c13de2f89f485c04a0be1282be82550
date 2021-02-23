@@ -1,0 +1,53 @@
+
+K
+java:S1128"0Remove this unused import 'android.text.Layout'.(ÔŠ²±úÿÿÿÿ
+A
+java:S10689"+Remove this unused "loading" private field.(ª¸¦•
+^	java:S125³"<This block of commented-out lines of code should be removed.(•”›âúÿÿÿÿ8Ë»ÛÌè.
+F
+java:S1481Ì"(Remove this unused "pos" local variable.(ò´èı8Ë»ÛÌè.
+¤
+java:S1186®"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(™Î«şÿÿÿÿ8Ë»ÛÌè.
+Q	java:S1103"<This class has 9 parents which is greater than 5 authorized.(ğ¼Íë
+W	java:S125Ô"<This block of commented-out lines of code should be removed.(½æ€Üıÿÿÿÿ
+¤
+java:S1186ˆ"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ø´´øÿÿÿÿ8Ë»ÛÌè.
+K
+java:S1481ç"(Remove this unused "pos" local variable.(Ã¶Íàøÿÿÿÿ8Ë»ÛÌè.
+^	java:S125Î"<This block of commented-out lines of code should be removed.(Š¡Ìºüÿÿÿÿ8Ë»ÛÌè.
+Z
+java:S2589¡"7Remove this expression which always evaluates to "true"(‚©Ëıÿÿÿÿ8Ë»ÛÌè.
+Z
+java:S1117»">Rename "imageOther" which hides the field declared at line 54.(–üˆşÿÿÿÿ
+k
+java:S1128"PRemove this unused import 'com.haris.shopping.FragmentUtil.BrandCouponFragment'.(ô˜Õ±úÿÿÿÿ
+A
+java:S1068:"+Remove this unused "skipIds" private field.(‡µüë
+x
+java:S1450B"bRemove the "textualPagerAdapter" field and declare it as a local variable in the relevant methods.(óùÜã
+l
+java:S14504"VRemove the "txtMenu" field and declare it as a local variable in the relevant methods.(êÄŞÖ
+t
+java:S14506"YRemove the "imageOther" field and declare it as a local variable in the relevant methods.(ÎßšÀüÿÿÿÿ
+D
+java:S1068<".Remove this unused "prefObject" private field.(ôº¥ò
+S
+java:S1144Õ"7Remove this unused private "getLastVisibleItem" method.(³£°œúÿÿÿÿ
+l
+java:S14509"VRemove the "loading" field and declare it as a local variable in the relevant methods.(ª¸¦•
+i
+java:S1871Ú"MThis branch's code block is the same as the block for the branch on line 472.(àïÁšûÿÿÿÿ
+W	java:S125±"<This block of commented-out lines of code should be removed.(¬ã‰®ûÿÿÿÿ
+U
+java:S1854Ì"7Remove this useless assignment to local variable "pos".(ò´èı8Ë»ÛÌè.
+M
+java:S1874É"6Remove this use of "BitmapDrawable"; it is deprecated.(ÆŸîÚ
+n	java:S117•"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñ×ÓÆ8Ë»ÛÌè.
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ßƒá»ÿÿÿÿÿ
+˜
+java:S1186Í"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ªÉã˜
+l	java:S117µ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñ‰º¤úÿÿÿÿ
+i
+java:S1128"NRemove this unused import 'com.haris.shopping.JsonUtil.AllCategoryUtil.Brand'.(ÁÄ™‚ıÿÿÿÿ
+Z
+java:S1854ç"7Remove this useless assignment to local variable "pos".(Ã¶Íàøÿÿÿÿ8Ë»ÛÌè.

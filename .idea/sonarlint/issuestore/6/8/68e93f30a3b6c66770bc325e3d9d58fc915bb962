@@ -1,0 +1,29 @@
+
+N
+java:S1068"3Remove this unused "LABEL_ITEM_VIEW" private field.(ƒ™Äùÿÿÿÿ
+M
+java:S1068"2Remove this unused "layoutInflater" private field.(†üªŞûÿÿÿÿ
+E
+java:S1481@"/Remove this unused "viewHolder" local variable.(§ÏêÄ
+Q
+java:S1068e"6Remove this unused "txtShippingCompany" private field.(ñêÁˆüÿÿÿÿ
+G
+java:S1068o",Remove this unused "txtLabel" private field.(ªÈäøÿÿÿÿ
+V	java:S125\"<This block of commented-out lines of code should be removed.(àŸ˜ıÿÿÿÿ
+V	java:S125x"<This block of commented-out lines of code should be removed.(Áößûÿÿÿÿ
+ˆ
+java:S1319"rThe type of the "objects" object should be an interface such as "List" rather than the implementation "ArrayList".(×³œŸ
+Q	java:S1254"<This block of commented-out lines of code should be removed.(ù«Œ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¯Ú®­øÿÿÿÿ
+t	java:S116"ZRename this field "LABEL_ITEM_VIEW" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒ™Äùÿÿÿÿ
+Q
+java:S1068"6Remove this unused "SHIPPING_ITEM_VIEW" private field.(ò¹ˆ„ÿÿÿÿÿ
+V	java:S125A"<This block of commented-out lines of code should be removed.(•­àşÿÿÿÿ
+@
+java:S1068"+Remove this unused "context" private field.(êİç
+p
+java:S1128"URemove this unused import 'com.haris.shopping.JsonUtil.SpecificProductUtil.Shipping'.(¡ÄéÁúÿÿÿÿ
+w	java:S116"]Rename this field "SHIPPING_ITEM_VIEW" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ò¹ˆ„ÿÿÿÿÿ
+Q	java:S125C"<This block of commented-out lines of code should be removed.(æ¡¸
+L
+java:S1068f"6Remove this unused "txtShippingTagline" private field.(õ—èë

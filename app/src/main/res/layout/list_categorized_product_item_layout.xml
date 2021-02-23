@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <com.jcminarro.roundkornerlayout.RoundKornerLinearLayout
+        android:id="@+id/layout_product"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:minHeight="190dp"
+        app:corner_radius="10dp"
+        android:background="?attr/colorBackgroundTertiary"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/image_category"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:scaleType="centerCrop"></ImageView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <com.mg.shopping.textviewutil.NormalTextview
+                    android:id="@+id/txt_product"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/nm_txt_size"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="5dp"
+                    android:maxLines="2"
+                    android:layout_marginBottom="10dp"
+                    android:layout_gravity="start|top"
+                    android:textColor="?attr/colorTextSecondary"
+                    android:text="Creative Watches"></com.mg.shopping.textviewutil.NormalTextview>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:gravity="center_vertical">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="start"
+                    android:gravity="center">
+
+
+                    <com.mg.shopping.textviewutil.LabelTextview
+                        android:id="@+id/txt_currency_symbol"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="?attr/colorTextQuinary"
+                        android:textSize="@dimen/nm_txt_size"
+                        android:layout_marginEnd="0dp"></com.mg.shopping.textviewutil.LabelTextview>
+
+                    <com.mg.shopping.textviewutil.HeadingTextview
+                        android:id="@+id/txt_price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:textColor="?attr/colorTextQuinary"
+                        android:layout_gravity="start"
+                        android:textSize="@dimen/nm_txt_size"
+                        android:text="25.36"></com.mg.shopping.textviewutil.HeadingTextview>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:gravity="center_vertical">
+
+
+                    <androidx.appcompat.widget.AppCompatRatingBar
+                        android:id="@+id/rating_book"
+                        style="@style/Base.Widget.AppCompat.RatingBar.Small"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="0dp"
+                        android:rating="4"/>
+
+                    <com.mg.shopping.textviewutil.NormalTextview
+                        android:id="@+id/txt_sold"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginStart="7dp"
+                        android:textSize="@dimen/nm_txt_size"
+                        android:textColor="?attr/colorTextSecondary"
+                        android:text="1125 Sold"></com.mg.shopping.textviewutil.NormalTextview>
+
+
+                    <ImageView
+                        android:id="@+id/image_cart"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:padding="9dp"
+                        android:src="@drawable/ic_shopping_cart"
+                        android:tint="?attr/colorBackgroundQuaternary"></ImageView>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    </com.jcminarro.roundkornerlayout.RoundKornerLinearLayout>
+
+
+
+</RelativeLayout>

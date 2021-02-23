@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+    <com.mg.shopping.textviewutil.TaglineTextview
+        android:id="@+id/txt_attribute"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:minWidth="60dp"
+        android:minHeight="25dp"
+        android:text="uk19ffff"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:gravity="center"
+        android:textColor="?attr/colorTextQuinary"
+        android:textSize="@dimen/normal_text_size"
+        android:background="@drawable/bg_circle_stroked"
+        ></com.mg.shopping.textviewutil.TaglineTextview>
+
+
+</RelativeLayout>

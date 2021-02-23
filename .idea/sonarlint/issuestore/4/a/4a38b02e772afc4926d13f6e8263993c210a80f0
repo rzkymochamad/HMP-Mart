@@ -1,0 +1,64 @@
+
+K
+java:S1068E"0Remove this unused "categoryType" private field.(–›¶Óüÿÿÿÿ
+f
+java:S1128"PRemove this unused import 'com.haris.shopping.InterfaceUtil.ConnectionCallback'.(¹ö³ï
+V
+java:S11285";Remove this unused import 'androidx.fragment.app.Fragment'.(‚Š©“ùÿÿÿÿ
+W	java:S125€"<This block of commented-out lines of code should be removed.(Ž¸’œûÿÿÿÿ
+c
+java:S1128"NRemove this unused import 'com.haris.shopping.AdapterUtil.SimplePagerAdapter'.(ï®âM
+V
+java:S11289"@Remove this unused import 'androidx.viewpager.widget.ViewPager'.(¨Ù›æ
+i
+java:S1128"SRemove this unused import 'com.haris.shopping.FragmentUtil.ProductPictureFragment'.(®çÄÅ
+\
+java:S1128."ARemove this unused import 'org.apache.commons.lang3.StringUtils'.(Øœ¼ºúÿÿÿÿ
+r
+java:S1128"WRemove this unused import 'com.haris.shopping.AdapterUtil.SimpleDividerItemDecoration'.(àþÜ÷ÿÿÿÿÿ
+Q	java:S110<"<This class has 9 parents which is greater than 5 authorized.(‘®¼Ë
+^
+java:S1128"CRemove this unused import 'com.haris.shopping.CustomUtil.GlideApp'.(‹ˆÁ‰ÿÿÿÿÿ
+b
+java:S1128+"LRemove this unused import 'com.makeramen.roundedimageview.RoundedImageView'.(Üèƒõ
+d
+java:S11284"IRemove this unused import 'androidx.appcompat.widget.AppCompatRatingBar'.(”„ðŠþÿÿÿÿ
+U
+java:S1128":Remove this unused import 'android.widget.RelativeLayout'.(ü¯ðõþÿÿÿÿ
+S
+java:S1128"8Remove this unused import 'android.widget.LinearLayout'.(çîšçúÿÿÿÿ
+f
+java:S1128 "PRemove this unused import 'com.haris.shopping.JsonUtil.SpecificProductUtil.Faq'.(ÂÀëÿ
+l
+java:S1128"VRemove this unused import 'com.haris.shopping.JsonUtil.SpecificProductUtil.Attribute'.(ÎÝúÄ
+J
+java:S1128"/Remove this unused import 'android.app.Dialog'.(·‚Àžúÿÿÿÿ
+w
+java:S1450?"\Remove the "layoutManager" field and declare it as a local variable in the relevant methods.(Çòçöûÿÿÿÿ
+M
+java:S1068D"2Remove this unused "itemDecoration" private field.(ž¯¼úÿÿÿÿ
+I
+java:S1068C".Remove this unused "dataObject" private field.(ÖÓÙæþÿÿÿÿ
+I
+java:S1128"3Remove this unused import 'android.view.ViewGroup'.(‹îá
+e
+java:S1128"ORemove this unused import 'com.haris.shopping.JsonUtil.AllCategoryUtil.Datum_'.(ºÚý¼
+r
+java:S1450@"^Remove the "recyclerViewFaq" field and declare it as a local variable in the relevant methods.(ýÍ_
+i
+java:S1128#"SRemove this unused import 'com.haris.shopping.JsonUtil.SpecificProductUtil.Rating'.(ÄÆ°Ã
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ßƒá»ÿÿÿÿÿ
+m
+java:S1128!"RRemove this unused import 'com.haris.shopping.JsonUtil.SpecificProductUtil.Image'.(þù… ýÿÿÿÿ
+j
+java:S11288"TRemove this unused import 'androidx.recyclerview.widget.StaggeredGridLayoutManager'.(ó–ì»
+f
+java:S1128""QRemove this unused import 'com.haris.shopping.JsonUtil.SpecificProductUtil.Item'.(ùÜ…!
+H
+java:S1128	"2Remove this unused import 'android.os.Parcelable'.(õÃÀ­
+l
+java:S1450>"VRemove the "txtMenu" field and declare it as a local variable in the relevant methods.(êÄÞÖ
+U
+java:S1117‰">Rename "dataObject" which hides the field declared at line 67.(­˜Áÿ
+?
+java:S1185†"(Remove this method to simply inherit it.(Ù«µ§

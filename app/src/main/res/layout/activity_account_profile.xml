@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+
+    <include
+        layout="@layout/menu_dark_layout"
+        android:layout_width="match_parent"
+        android:layout_height="55dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?attr/colorBackgroundSecondary"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <com.jcminarro.roundkornerlayout.RoundKornerLinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    app:corner_radius="15dp"
+                    android:background="?attr/colorBackgroundTertiary"
+                    android:gravity="center_vertical">
+
+
+                    <com.makeramen.roundedimageview.RoundedImageView
+                        android:id="@+id/image_profile"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        app:riv_corner_radius="20dp"
+                        android:scaleType="centerCrop"
+                        app:riv_border_color="?attr/colorBackgroundSenary"
+                        app:riv_border_width="1px"
+                        android:src="@drawable/tcs"></com.makeramen.roundedimageview.RoundedImageView>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:minHeight="80dp"
+                        android:paddingStart="15dp"
+                        android:paddingEnd="10dp"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical">
+
+                        <com.mg.shopping.textviewutil.LabelTextview
+                            android:id="@+id/txt_username"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="?attr/colorTextQuinary"
+                            android:textSize="@dimen/lb_txt_size"
+                            android:text="Alex Smith"></com.mg.shopping.textviewutil.LabelTextview>
+
+
+                        <LinearLayout
+                            android:id="@+id/layout_edit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:paddingTop="5dp"
+                            android:paddingEnd="5dp"
+                            android:paddingBottom="5dp"
+                            android:gravity="center_vertical">
+
+                            <com.mg.shopping.textviewutil.TaglineTextview
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="?attr/colorTextSecondary"
+                                android:textSize="@dimen/nm_txt_size"
+                                android:text="@string/edit_profile"></com.mg.shopping.textviewutil.TaglineTextview>
+
+
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+
+                </com.jcminarro.roundkornerlayout.RoundKornerLinearLayout>
+
+                <com.jcminarro.roundkornerlayout.RoundKornerLinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:background="?attr/colorBackgroundTertiary"
+                    android:gravity="center_vertical"
+                    android:paddingTop="13dp"
+                    android:paddingBottom="0dp"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    app:corner_radius="15dp"
+                    android:orientation="vertical">
+
+
+                    <com.mg.shopping.textviewutil.LabelTextview
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/lb_txt_size"
+                        android:layout_marginStart="5dp"
+                        android:textColor="?attr/colorTextQuinary"
+                        android:text="@string/profile"></com.mg.shopping.textviewutil.LabelTextview>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center">
+
+
+                        <LinearLayout
+                            android:id="@+id/layout_wishlist"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            android:layout_weight="1">
+
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:padding="2dp"
+                                android:tint="?attr/colorBackgroundSeptenary"
+                                android:src="@drawable/ic_favourite_filled"></ImageView>
+
+
+                            <com.mg.shopping.textviewutil.TaglineTextview
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="?attr/colorTextQuinary"
+                                android:textSize="@dimen/sm_txt_size"
+                                android:layout_marginTop="8dp"
+                                android:text="@string/wishlist"></com.mg.shopping.textviewutil.TaglineTextview>
+
+
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="1px"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:background="?attr/colorBackgroundQuaternary"></TextView>
+
+
+                        <LinearLayout
+                            android:id="@+id/layout_following"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            android:layout_weight="1">
+
+
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:padding="2dp"
+                                android:tint="?attr/colorBackgroundSeptenary"
+                                android:src="@drawable/ic_bookmark"></ImageView>
+
+
+                            <com.mg.shopping.textviewutil.TaglineTextview
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="?attr/colorTextQuinary"
+                                android:textSize="@dimen/sm_txt_size"
+                                android:layout_marginTop="8dp"
+                                android:text="@string/following"></com.mg.shopping.textviewutil.TaglineTextview>
+
+
+
+
+                        </LinearLayout>
+
+
+                        <TextView
+                            android:layout_width="1px"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:background="?attr/colorBackgroundQuaternary"></TextView>
+
+
+
+                        <LinearLayout
+                            android:id="@+id/layout_history"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            android:layout_weight="1">
+
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:padding="4dp"
+                                android:tint="?attr/colorBackgroundSeptenary"
+                                android:src="@drawable/ic_history"></ImageView>
+
+
+                            <com.mg.shopping.textviewutil.TaglineTextview
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="?attr/colorTextQuinary"
+                                android:textSize="@dimen/sm_txt_size"
+                                android:layout_marginTop="8dp"
+                                android:text="@string/history"></com.mg.shopping.textviewutil.TaglineTextview>
+
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="1px"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:background="?attr/colorBackgroundQuaternary"></TextView>
+
+                        <LinearLayout
+                            android:id="@+id/layout_report"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            android:layout_weight="1">
+
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:padding="4dp"
+                                android:tint="?attr/colorBackgroundSeptenary"
+                                android:src="@drawable/ic_warning"></ImageView>
+
+
+                            <com.mg.shopping.textviewutil.TaglineTextview
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="?attr/colorTextQuinary"
+                                android:textSize="@dimen/sm_txt_size"
+                                android:layout_marginTop="8dp"
+                                android:text="@string/report"></com.mg.shopping.textviewutil.TaglineTextview>
+
+
+
+                        </LinearLayout>
+
+
+
+
+                    </LinearLayout>
+
+                </com.jcminarro.roundkornerlayout.RoundKornerLinearLayout>
+
+                <com.jcminarro.roundkornerlayout.RoundKornerLinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:background="?attr/colorBackgroundTertiary"
+                    android:gravity="center_vertical"
+                    android:paddingTop="13dp"
+                    android:paddingBottom="0dp"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    app:corner_radius="15dp"
+                    android:orientation="vertical">
+
+
+                    <com.mg.shopping.textviewutil.LabelTextview
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/lb_txt_size"
+                        android:layout_marginStart="5dp"
+                        android:textColor="?attr/colorTextQuinary"
+                        android:text="@string/orders"></com.mg.shopping.textviewutil.LabelTextview>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center">
+
+
+                        <LinearLayout
+                            android:id="@+id/layout_pending"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            android:layout_weight="1">
+
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:padding="2dp"
+                                android:src="@drawable/ic_pending"></ImageView>
+
+
+                            <com.mg.shopping.textviewutil.TaglineTextview
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="?attr/colorTextQuinary"
+                                android:textSize="@dimen/sm_txt_size"
+                                android:layout_marginTop="8dp"
+                                android:text="@string/pending"></com.mg.shopping.textviewutil.TaglineTextview>
+
+
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="1px"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:background="?attr/colorBackgroundQuaternary"></TextView>
+
+                        <LinearLayout
+                            android:id="@+id/layout_processed"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            android:layout_weight="1">
+
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:padding="2dp"
+                                android:src="@drawable/ic_processed"></ImageView>
+
+
+                            <com.mg.shopping.textviewutil.TaglineTextview
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="?attr/colorTextQuinary"
+                                android:textSize="@dimen/sm_txt_size"
+                                android:layout_marginTop="8dp"
+                                android:text="@string/processing"></com.mg.shopping.textviewutil.TaglineTextview>
+
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="1px"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:background="?attr/colorBackgroundQuaternary"></TextView>
+
+                        <LinearLayout
+                            android:id="@+id/layout_shipped"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            android:layout_weight="1">
+
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:padding="2dp"
+                                android:src="@drawable/ic_delivery_van"></ImageView>
+
+
+                            <com.mg.shopping.textviewutil.TaglineTextview
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="?attr/colorTextQuinary"
+                                android:textSize="@dimen/sm_txt_size"
+                                android:layout_marginTop="8dp"
+                                android:text="@string/shipped"></com.mg.shopping.textviewutil.TaglineTextview>
+
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            android:gravity="center"
+                            android:layout_weight="1"></LinearLayout>
+
+
+                    </LinearLayout>
+
+                </com.jcminarro.roundkornerlayout.RoundKornerLinearLayout>
+
+                <com.jcminarro.roundkornerlayout.RoundKornerLinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:background="?attr/colorBackgroundTertiary"
+                    android:gravity="center_vertical"
+                    android:paddingTop="13dp"
+                    android:paddingBottom="0dp"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    app:corner_radius="15dp"
+                    android:orientation="vertical">
+
+
+                    <com.mg.shopping.textviewutil.LabelTextview
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/lb_txt_size"
+                        android:layout_marginStart="5dp"
+                        android:textColor="?attr/colorTextQuinary"
+                        android:text="@string/services"></com.mg.shopping.textviewutil.LabelTextview>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center">
+
+
+                        <LinearLayout
+                            android:id="@+id/layout_address_book"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            android:layout_weight="1">
+
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:padding="2dp"
+                                android:src="@drawable/ic_address_book"></ImageView>
+
+
+                            <com.mg.shopping.textviewutil.TaglineTextview
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="?attr/colorTextQuinary"
+                                android:textSize="@dimen/sm_txt_size"
+                                android:layout_marginTop="8dp"
+                                android:text="@string/address_book"></com.mg.shopping.textviewutil.TaglineTextview>
+
+
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="1px"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:background="?attr/colorBackgroundQuaternary"></TextView>
+
+                        <LinearLayout
+                            android:id="@+id/layout_contact_us"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            android:layout_weight="1">
+
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:padding="2dp"
+                                android:src="@drawable/ic_call_center"></ImageView>
+
+
+                            <com.mg.shopping.textviewutil.TaglineTextview
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="?attr/colorTextQuinary"
+                                android:textSize="@dimen/sm_txt_size"
+                                android:layout_marginTop="8dp"
+                                android:text="@string/contact_us"></com.mg.shopping.textviewutil.TaglineTextview>
+
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="1px"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:background="?attr/colorBackgroundQuaternary"></TextView>
+
+                        <LinearLayout
+                            android:id="@+id/layout_my_review"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            android:layout_weight="1">
+
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:padding="2dp"
+                                android:src="@drawable/ic_review"></ImageView>
+
+
+                            <com.mg.shopping.textviewutil.TaglineTextview
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="?attr/colorTextQuinary"
+                                android:textSize="@dimen/sm_txt_size"
+                                android:layout_marginTop="8dp"
+                                android:text="@string/my_review"></com.mg.shopping.textviewutil.TaglineTextview>
+
+
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="1px"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:background="?attr/colorBackgroundQuaternary"></TextView>
+
+                        <LinearLayout
+                            android:id="@+id/layout_setting"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            android:layout_weight="1">
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:padding="2dp"
+                                android:src="@drawable/ic_setting"></ImageView>
+
+
+                            <com.mg.shopping.textviewutil.TaglineTextview
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="?attr/colorTextQuinary"
+                                android:textSize="@dimen/sm_txt_size"
+                                android:layout_marginTop="8dp"
+                                android:text="@string/setting"></com.mg.shopping.textviewutil.TaglineTextview>
+
+
+
+                        </LinearLayout>
+
+
+
+
+                    </LinearLayout>
+
+                </com.jcminarro.roundkornerlayout.RoundKornerLinearLayout>
+
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,62 @@
+
+Y	java:S125Ë"<This block of commented-out lines of code should be removed.(êà8ÖÆ Íè.
+^	java:S125°"<This block of commented-out lines of code should be removed.(Š€É¡ùÿÿÿÿ8ÖÆ Íè.
+V	java:S1101"<This class has 9 parents which is greater than 5 authorized.(ÓĞ…úıÿÿÿÿ
+j
+java:S1128#"TRemove this unused import 'com.jcminarro.roundkornerlayout.RoundKornerLinearLayout'.(ÄÁ“˜
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ßƒá»ÿÿÿÿÿ
+N
+java:S1128"3Remove this unused import 'android.graphics.Color'.(øãíòşÿÿÿÿ
+^	java:S125¤"<This block of commented-out lines of code should be removed.(½æ€Üıÿÿÿÿ8ÖÆ Íè.
+e
+java:S1128"ORemove this unused import 'com.haris.shopping.JsonUtil.AllCategoryUtil.Datum_'.(ºÚı¼
+K
+java:S1068;"0Remove this unused "categoryType" private field.(–›¶Óüÿÿÿÿ
+C
+java:S10688"-Remove this unused "txtSearch" private field.(ê˜Ë
+t
+java:S14506"YRemove the "dataObject" field and declare it as a local variable in the relevant methods.(ÖÓÙæşÿÿÿÿ
+`
+java:S1117"=Rename "txtSearch" which hides the field declared at line 56.(øì»èÿÿÿÿÿ8ÖÆ Íè.
+A
+java:S1068?"+Remove this unused "skipIds" private field.(‡µüë
+F
+java:S1068@"1Remove this unused "stringBuilder" private field.(ŸšÅ8
+n
+java:S14508"XRemove the "txtSearch" field and declare it as a local variable in the relevant methods.(ê˜Ë
+l
+java:S1128"VRemove this unused import 'com.haris.shopping.JsonUtil.SpecificProductUtil.Attribute'.(ÎİúÄ
+i
+java:S1871ê"MThis branch's code block is the same as the block for the branch on line 360.(àïÁšûÿÿÿÿ
+x
+java:S1450:"]Remove the "itemDecoration" field and declare it as a local variable in the relevant methods.(¯¼úÿÿÿÿ
+˜
+java:S1186ô"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(«û³±
+l
+java:S1192Ù"NDefine a constant instead of duplicating this literal "functionality" 3 times.(ÿÜŠå8ÖÆ Íè.
+_
+java:S1128"DRemove this unused import 'android.graphics.drawable.ColorDrawable'.(ÖŸÂ«øÿÿÿÿ
+l
+java:S1450>"VRemove the "loading" field and declare it as a local variable in the relevant methods.(ª¸¦•
+P
+java:S1128"5Remove this unused import 'android.widget.ImageView'.(ú¯ëàüÿÿÿÿ
+
+java:S1186ù"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ê¥¾àûÿÿÿÿ
+S
+java:S1144å"7Remove this unused private "getLastVisibleItem" method.(³£°œúÿÿÿÿ
+Q	java:S125s"<This block of commented-out lines of code should be removed.( À
+w
+java:S14502"\Remove the "layoutManager" field and declare it as a local variable in the relevant methods.(†ÊÇõÿÿÿÿÿ
+^	java:S125Û"<This block of commented-out lines of code should be removed.(“ÌĞŠùÿÿÿÿ8ÖÆ Íè.
+I
+java:S10686".Remove this unused "dataObject" private field.(ÖÓÙæşÿÿÿÿ
+l
+java:S1128"VRemove this unused import 'com.google.android.material.bottomsheet.BottomSheetDialog'.(ùÎœ
+^
+java:S1128"CRemove this unused import 'com.haris.shopping.CustomUtil.GlideApp'.(‹ˆÁ‰ÿÿÿÿÿ
+F
+java:S10689"+Remove this unused "txtType" private field.(¡È—–üÿÿÿÿ
+?
+java:S1185ß"(Remove this method to simply inherit it.(Ù«µ§
+U
+java:S1135Ä"2Complete the task associated to this TODO comment.(£´÷µùÿÿÿÿ8ÖÆ Íè.

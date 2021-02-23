@@ -1,0 +1,53 @@
+
+H
+java:S1481Ù"1Remove this unused "editQuestion" local variable.(¼«‡«
+u
+java:S2293€"YReplace the type specification in this constructor call with the diamond operator ("<>").(œç±ˆÿÿÿÿÿ
+l
+java:S14509"VRemove the "loading" field and declare it as a local variable in the relevant methods.(ª¸¦•
+N
+java:S1854ä"7Remove this useless assignment to local variable "pos".(ò´èý
+˜
+java:S1186«"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¡é††
+Y
+java:S1144Ï"=Remove this unused private "showAddReviewBottomSheet" method.(¯Ôëèùÿÿÿÿ
+R	java:S125Î"<This block of commented-out lines of code should be removed.(þˆ«”
+?
+java:S1481ä"(Remove this unused "pos" local variable.(ò´èý
+D
+java:S1068;".Remove this unused "prefObject" private field.(ôº¥ò
+W	java:S125æ"<This block of commented-out lines of code should be removed.(Š¡Ìºüÿÿÿÿ
+W	java:S125ê"<This block of commented-out lines of code should be removed.(Úö´›øÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÅÙ¯ž
+W
+java:S1854Ù"@Remove this useless assignment to local variable "editQuestion".(¼«‡«
+I
+java:S10688"4Remove this unused "visibleThreshold" private field.(£–Õy
+?
+java:S1481ˆ"(Remove this unused "pos" local variable.(Ð³‘¥
+S
+java:S1854ÿ"7Remove this useless assignment to local variable "pos".(Ã¶Íàøÿÿÿÿ
+N
+java:S1854ˆ"7Remove this useless assignment to local variable "pos".(Ð³‘¥
+u
+java:S2293Š"YReplace the type specification in this constructor call with the diamond operator ("<>").(™Ÿßìþÿÿÿÿ
+l
+java:S1128"VRemove this unused import 'com.haris.shopping.JsonUtil.ListOfCouponUtil.ListOfDatum_'.(Å‚ÑÄ
+I
+java:S1172Ï"-Remove this unused method parameter "rating".(¯Ôëèùÿÿÿÿ
+A
+java:S10689"+Remove this unused "loading" private field.(ª¸¦•
+D
+java:S1481ÿ"(Remove this unused "pos" local variable.(Ã¶Íàøÿÿÿÿ
+A
+java:S1068:"+Remove this unused "skipIds" private field.(‡µüë
+W	java:S125«"<This block of commented-out lines of code should be removed.(•”›âúÿÿÿÿ
+M
+java:S1874Ã"6Remove this use of "BitmapDrawable"; it is deprecated.(ÆŸîÚ
+–
+java:S1319¯"zThe type of the "objectArrayList" object should be an interface such as "List" rather than the implementation "ArrayList".(ú®ìÜûÿÿÿÿ
+W	java:S125Ù"<This block of commented-out lines of code should be removed.(·°Ð–þÿÿÿÿ
+˜
+java:S1186Ç"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ªÉã˜
+N
+java:S1135ä"2Complete the task associated to this TODO comment.(€ßÿüûÿÿÿÿ

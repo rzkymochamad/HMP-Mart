@@ -1,0 +1,35 @@
+
+W	java:S125Ù"<This block of commented-out lines of code should be removed.(•”›âúÿÿÿÿ
+P	java:S125a"<This block of commented-out lines of code should be removed.(·Æt
+W	java:S125³"<This block of commented-out lines of code should be removed.(˜ «Şÿÿÿÿÿ
+W	java:S125“"<This block of commented-out lines of code should be removed.(âæğèÿÿÿÿÿ
+˜
+java:S1186ë"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ªÉã˜
+Š
+java:S1319:"oThe type of the "list" object should be an interface such as "List" rather than the implementation "ArrayList".(¶¬ŒÔşÿÿÿÿ
+{
+java:S1450."`Remove the "viewPagerCategory" field and declare it as a local variable in the relevant methods.(¨¡øúÿÿÿÿ
+X
+java:S1854İ"<Remove this useless assignment to local variable "dtObject".(ÑºÕ±ıÿÿÿÿ
+I
+java:S1481İ"-Remove this unused "dtObject" local variable.(ÑºÕ±ıÿÿÿÿ
+J
+java:S3740:"/Provide the parametrized type for this generic.(¶¬ŒÔşÿÿÿÿ
+R	java:S125ß"<This block of commented-out lines of code should be removed.(—£é
+g	java:S117¼"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñ×ÓÆ
+g	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÌÅ²ã
+M
+java:S1874ç"6Remove this use of "BitmapDrawable"; it is deprecated.(ÆŸîÚ
+
+java:S1186Ó"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(™Î«şÿÿÿÿ
+
+java:S1186¯"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ø´´øÿÿÿÿ
+S
+java:S2589Æ"7Remove this expression which always evaluates to "true"(‚©Ëıÿÿÿÿ
+x
+java:S1450/"bRemove the "textualPagerAdapter" field and declare it as a local variable in the relevant methods.(óùÜã
+>
+java:S1185C"(Remove this method to simply inherit it.(«ÃÀ÷
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÅÙ¯
+A
+java:S1068*"+Remove this unused "txtMenu" private field.(êÄŞÖ

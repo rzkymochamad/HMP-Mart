@@ -1,0 +1,7 @@
+
+d
+java:S1192O"ODefine a constant instead of duplicating this literal "privacy_policy" 3 times.(‰—Æl
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ßƒá»ÿÿÿÿÿ
+V	java:S110"<This class has 9 parents which is greater than 5 authorized.(†ÇÝÄþÿÿÿÿ
+n
+java:S1450"SRemove the "type" field and declare it as a local variable in the relevant methods.(–î†ûÿÿÿÿ

@@ -1,0 +1,22 @@
+
+œ
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÖÖÒ‚úÿÿÿÿ
+N
+java:S1854?"8Remove this useless assignment to local variable "gson".(şëŒ
+?
+java:S1481?")Remove this unused "gson" local variable.(şëŒ
+M
+java:S2589F"7Remove this expression which always evaluates to "true"(êæ¥¤
+J
+java:S1481B"/Remove this unused "objectList" local variable.(¡©òüùÿÿÿÿ
+Y
+java:S1854B">Remove this useless assignment to local variable "objectList".(¡©òüùÿÿÿÿ
+1
+java:S3626G"Remove this redundant jump.(ûÁİ…
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¢šİüúÿÿÿÿ
+F
+java:S1481@"+Remove this unused "object" local variable.(¦Öİ“ûÿÿÿÿ
+M
+java:S2589*"7Remove this expression which always evaluates to "true"(£Î«‹
+¨
+java:S1845"…Rename field "tag" to prevent any misunderstanding/clash with field "TAG" defined in superclass "androidx.core.app.JobIntentService".(ôèõœøÿÿÿÿ8­™Ğè.

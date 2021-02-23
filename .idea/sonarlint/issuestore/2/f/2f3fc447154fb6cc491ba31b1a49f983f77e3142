@@ -1,0 +1,13 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¯Ú®­øÿÿÿÿ
+—
+java:S1319"|The type of the "fragmentArrayList" object should be an interface such as "List" rather than the implementation "ArrayList".(Žä€çÿÿÿÿÿ
+C
+java:S1185"(Remove this method to simply inherit it.(ëŒ³©øÿÿÿÿ
+Q	java:S125A"<This block of commented-out lines of code should be removed.(ýª¬
+>
+java:S11859"(Remove this method to simply inherit it.(Ë¯Âï
+H
+java:S1128"2Remove this unused import 'android.os.Parcelable'.(õÃÀ­
+P
+java:S1128"5Remove this unused import 'android.view.MotionEvent'.(˜šËÞúÿÿÿÿ

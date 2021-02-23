@@ -1,0 +1,19 @@
+
+b	java:S100i"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ä„û,
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(îÚè±ÿÿÿÿÿ
+d	java:S100Ë"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ı•è£
+;
+java:S2157"%Add a "clone()" method to this class.(òÛ½¸
+o	java:S116D"ZRename this field "related_product" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆôö–
+p	java:S116"VRename this field "cover_image" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬è¡”øÿÿÿÿ
+o	java:S116)"ZRename this field "processing_time" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜Èïí
+h	java:S100m"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…È‰šúÿÿÿÿ
+i	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ªŞâ¿ıÿÿÿÿ
+i	java:S100¾"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™Øğ¶úÿÿÿÿ
+k	java:S117m"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…È‰šúÿÿÿÿ
+l	java:S117Â"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Í•¢‡ùÿÿÿÿ
+i	java:S100Œ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ØôÀëÿÿÿÿÿ
+l	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ªŞâ¿ıÿÿÿÿ
+i	java:S100Â"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Í•¢‡ùÿÿÿÿ
+i	java:S100Ç"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŞÂÁúÿÿÿÿ
+g	java:S117Ë"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ı•è£
